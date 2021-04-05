@@ -33,6 +33,12 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 </div>
 
 -->
+- **Few-Shot Incremental Learning with Continually Evolved Classifiers**
+  <br>
+  **Chi Zhang**, Nan Song, Guosheng Lin, Yun Zheng, Pan Pan, Yinghui Xu
+  <br>
+  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2021**.
+  <br>
 
 
 - **DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers**
