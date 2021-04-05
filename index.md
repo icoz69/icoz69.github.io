@@ -29,7 +29,21 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf)] [[Code](https://git.io/DeepEMD)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
 
+- **Pyramid Graph Networks with Connection Attentions for Region-Based One-Shot Semantic Segmentation**
+  <br>
+  **Chi Zhang**, Guosheng Lin, Fayao Liu, Jiushuang Guo, Qingyao Wu, Rui Yao
+  <br>
+  IEEE International Conference on Computer Vision. **ICCV 2019**.
+  <br>
+  [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] 
 
+- **CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning**
+  <br>
+  **Chi Zhang**, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
+  <br>
+  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2019**.
+  <br>
+  [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] [[Code](https://github.com/icoz69/CaNet)] 
 
 
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
