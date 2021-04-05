@@ -20,19 +20,19 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 - **[Jan. 2018]** I begin my Ph.D study at NTU.
 
 ## Selected Publications
-
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 0 10px 10px 0;">< img src="images/teaser/deepemd.png"></div>
-<p><strong>DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers</strong>
-<br />
-<strong>Chi Zhang</strong>,Yujun Cai, Guosheng Lin, Chunhua Shen
-<br />
-<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.</em>
-<br /> 
-[< a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf">PDF</ a>] [< a href="https://git.io/DeepEMD">Code</ a>] 
-</script></p >
-</div>
-
+[^_^]:
+    <div class="paper">
+      <div class="teaser" style="float:left;width:20%;margin: 0 10px 10px 0;">< img src="images/teaser/deepemd.png"></div>
+    <p><strong>DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers</strong>
+    <br />
+    <strong>Chi Zhang</strong>,Yujun Cai, Guosheng Lin, Chunhua Shen
+    <br />
+    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.</em>
+    <br /> 
+    [< a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf">PDF</ a>] [< a href="https://git.io/DeepEMD">Code</ a>] 
+    </script></p >
+    </div>
+    
 
 - **DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers**
   <br>
