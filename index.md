@@ -35,7 +35,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   IEEE International Conference on Computer Vision. **ICCV 2019**.
   <br>
-  [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] 
+  [[PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Pyramid_Graph_Networks_With_Connection_Attentions_for_Region-Based_One-Shot_Semantic_ICCV_2019_paper.pdf)] 
 
 - **CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning**
   <br>
