@@ -38,7 +38,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   **Chi Zhang**, Nan Song, Guosheng Lin, Yun Zheng, Pan Pan, Yinghui Xu
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2021**.
+  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2021</i></strong>.
   <br>
 
 
@@ -54,7 +54,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   **Chi Zhang**, Guosheng Lin, Fayao Liu, Jiushuang Guo, Qingyao Wu, Rui Yao
   <br>
-  IEEE International Conference on Computer Vision. **ICCV 2019**.
+  IEEE International Conference on Computer Vision. <strong><i style="color:#1e90ff">ICCV 2019</i></strong>.
   <br>
   [[PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Pyramid_Graph_Networks_With_Connection_Attentions_for_Region-Based_One-Shot_Semantic_ICCV_2019_paper.pdf)] 
 
@@ -62,7 +62,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   **Chi Zhang**, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2019**.
+  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2019</i></strong>.
   <br>
   [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] [[Code](https://github.com/icoz69/CaNet)] 
 
