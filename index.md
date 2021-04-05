@@ -46,7 +46,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   <br>
   **Chi Zhang**, Yujun Cai, Guosheng Lin, Chunhua Shen
   <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
+  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.
   <br>
   [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf)] [[Code](https://git.io/DeepEMD)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
 
