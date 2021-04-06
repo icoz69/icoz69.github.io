@@ -11,7 +11,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 - **Computer Vision:** image recognition, image segmentation, and other visual understanding tasks.
 - **Machine Learning:** few-shot learning, meta-learning, incremental learning, 
 
-##Extracurricular Activities
+## Extracurricular Activities
 Besides research, I also participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of the Dribbling & Shooting test in CUMT. I am a fan of the Football Club of Barcelona.
 
 ## News
