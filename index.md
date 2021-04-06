@@ -22,6 +22,8 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 
 ## Selected Publications
 
+
+[comment]: <> (DEEPEMD.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers</strong>
@@ -35,6 +37,26 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 </div>
 
 
+[comment]: <> (CANET.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning</strong>
+<br />
+<strong>Chi Zhang</strong>, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2019</i></strong>.</em>
+<br /> 
+[<a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf">PDF</a>] [<a href="https://github.com/icoz69/CaNet">Code</a>]
+</p>
+</div>
+
+
+
+
+
+
+
+<!---
 
 
 
@@ -69,6 +91,10 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
   IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2019</i></strong>.
   <br>
   [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] [[Code](https://github.com/icoz69/CaNet)] 
+
+
+
+-->
 
 
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
