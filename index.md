@@ -21,17 +21,25 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 - **[Jan. 2018]** I begin my Ph.D study at NTU.
 
 ## Selected Publications
-<!---
 <div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 0 10px 10px 0;">< img src="images/teaser/deepemd.png"></div>
-<p><strong>DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers</strong>
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="90" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Adaptive Aggregation Networks for Class-Incremental Learning</strong>
 <br />
-<strong>Chi Zhang</strong>,Yujun Cai, Guosheng Lin, Chunhua Shen
+<strong>Yaoyao Liu</strong>, <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/">Bernt Schiele</a>, <a href="https://qianrusun1015.github.io/">Qianru Sun</a>
 <br />
-<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.</em>
+<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2021.</em>
 <br /> 
-[< a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf">PDF</ a>] [< a href="https://git.io/DeepEMD">Code</ a>] 
+[<a href="https://my-publications.yyliu.net/Adaptive-Aggregation-Networks-for-Class-Incremental-Learning.pdf">PDF</a>] [<a href="https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks">Code</a>] [<a href="https://class-il.mpi-inf.mpg.de/">Project</a>] [<a href="https://yyliu.net/BibTex/CVPR21.txt">BibTex</a>]
+  <a href="https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks" target="_blank" rel="noopener"><strong><i style="color:#e74d3c; font-weight:600" id="githubstars_manets"></i><i style="color:#e74d3c; font-weight:600"> Stars on GitHub</i></strong></a>
+  <script>
+  githubStars("yaoyao-liu/class-incremental-learning", function(stars) {
+  var startext = document.getElementById("githubstars_manets");
+        startext.innerHTML=stars;
+  });
+  </script>
+</p>
 </div>
+
 
 -->
 - **Few-Shot Incremental Learning with Continually Evolved Classifiers**
