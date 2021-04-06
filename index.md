@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer Science and Engineering, Nanyang Technological University, Singapore. I am currently a Research Intern at AI lab, ByteDance. I am open to positions in both industries or academia in the future. 
+I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore. I am currently a Research Intern at AI lab, ByteDance. I obtained my bachelor's degree from China University of Mining and Technology (CUMT). I am open to positions in both industries or academia in the future. 
 
 ## Research Interests
 
