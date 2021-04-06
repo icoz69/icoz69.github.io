@@ -17,10 +17,10 @@ Besides research, I also participate in many extracurricular activities. I was i
 ## News
 
 - **[Mar. 2021]** One paper is accepted to [CVPR 2021](http://cvpr2021.thecvf.com/).
-- **[Oct. 2020]** One papers is accepted to [ACM Multimedia 2020](https://2020.acmmm.org/).
+- **[Oct. 2020]** One paper is accepted to [ACM Multimedia 2020](https://2020.acmmm.org/).
 - **[Mar. 2020]** Three papers are accepted to [CVPR 2020](http://cvpr2020.thecvf.com/).
-- **[Nov. 2019]** One papers are accepted to [ICCV 2019](https://iccv2019.thecvf.com/).
-- **[Mar. 2019]** One papers is accepted to [CVPR 2019](https://cvpr2019.thecvf.com/).
+- **[Nov. 2019]** One paper is accepted to [ICCV 2019](https://iccv2019.thecvf.com/).
+- **[Mar. 2019]** One paper is accepted to [CVPR 2019](https://cvpr2019.thecvf.com/).
 - **[Jan. 2018]** I begin my Ph.D study at NTU.
 
 ## Selected Publications
