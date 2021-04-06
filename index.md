@@ -36,6 +36,19 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 </p>
 </div>
 
+[comment]: <> (pgnet.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/pgnet.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Pyramid Graph Networks with Connection Attentions for Region-Based One-Shot Semantic Segmentation</strong>
+<br />
+<strong>Chi Zhang</strong>, Guosheng Lin, Fayao Liu, Jiushuang Guo, Qingyao Wu, Rui Yao
+<br />
+<em>IEEE International Conference on Computer Vision. <strong><i style="color:#1e90ff">ICCV 2019</i></strong>.</em>
+<br /> 
+[<a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Pyramid_Graph_Networks_With_Connection_Attentions_for_Region-Based_One-Shot_Semantic_ICCV_2019_paper.pdf">PDF</a>]
+</p>
+</div>
+
 
 [comment]: <> (CANET.)
 <div class="paper">
