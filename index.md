@@ -23,7 +23,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 ## Selected Publications
 
 <div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="90" style="box-shadow:2px 2px 6px #888888"/></div>
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers</strong>
 <br />
 <strong>Chi Zhang</strong>,  Yujun Cai, Guosheng Lin, Chunhua Shen
