@@ -21,6 +21,18 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 - **[Jan. 2018]** I begin my Ph.D study at NTU.
 
 ## Selected Publications
+[comment]: <> (fscil.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/fscil.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Few-Shot Incremental Learning with Continually Evolved Classifiers</strong>
+<br />
+<strong>Chi Zhang</strong>,Nan Song, Guosheng Lin, Yun Zheng, Pan Pan, Yinghui Xu
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2021</i></strong>.</em>
+<br /> 
+</p>
+</div>
+
 
 
 [comment]: <> (DEEPEMD.)
