@@ -39,7 +39,7 @@ I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer 
 
 [comment]: <> (CANET.)
 <div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/deepemd.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/canet.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning</strong>
 <br />
 <strong>Chi Zhang</strong>, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
