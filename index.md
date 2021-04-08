@@ -128,7 +128,6 @@ Besides research, I also participate in many extracurricular activities. I was i
 
 
 -->
-<iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIwphYaYP2jERR0tVy0RM624&key=..."></iframe>
+
 
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
