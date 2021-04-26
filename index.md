@@ -97,7 +97,7 @@ Besides research, I also participate in many extracurricular activities. I was i
 <br />
 <em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.</em>
 <br /> 
-  [<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Conditional_Gaussian_Distribution_Learning_for_Open_Set_Recognition_CVPR_2020_paper.pdf">PDF</a>]
+  [<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Conditional_Gaussian_Distribution_Learning_for_Open_Set_Recognition_CVPR_2020_paper.pdf">PDF</a>] [<a href="https://github.com/mattolson93/CGDL-for-Open-Set-Recognition">Code</a>]
 </p>
  <br>
 </div>
