@@ -89,7 +89,7 @@ Besides research, I also participate in many extracurricular activities. I was i
 
 [comment]: <> (crnet.)
 <div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/crnet.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/crnet.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>CRNet: Cross-Reference Networks for Few-Shot Segmentation</strong>
 <br />
  Weide Liu, <strong>Chi Zhang</strong>, Guosheng Lin, Fayao Liu
