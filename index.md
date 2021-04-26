@@ -112,6 +112,8 @@ Besides research, I also participate in many extracurricular activities. I was i
 <p><strong>Weakly Supervised Segmentation with Maximum Bipartite Graph Matching</strong>
 <br />
  Weide Liu*, <strong>Chi Zhang*</strong>, Guosheng Lin, Tzu-Yi HUNG, Chunyan Miao 
+<br />
+  <br />
   (* indicates equal contributions )
 <br />
 <em>Proceedings of the 28th ACM International Conference on Multimedia. 
