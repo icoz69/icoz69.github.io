@@ -109,9 +109,11 @@ Besides research, I also participate in many extracurricular activities. I was i
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/acm2020.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>Weakly Supervised Segmentation with Maximum Bipartite Graph Matching</strong>
 <br />
- Weide Liu*, <strong>Chi Zhang*</strong>, Guosheng Lin, Tzu-Yi HUNG, Chunyan Miao  (* indicates equal contributions )
+ Weide Liu*, <strong>Chi Zhang*</strong>, Guosheng Lin, Tzu-Yi HUNG, Chunyan Miao 
+  (* indicates equal contributions )
 <br />
-<em>Proceedings of the 28th ACM International Conference on Multimedia. <strong><i style="color:#1e90ff">ACM MM 2020</i></strong>.</em>
+<em>Proceedings of the 28th ACM International Conference on Multimedia. 
+  <strong><i style="color:#1e90ff">ACM MM 2020</i></strong>.</em>
 <br /> 
   [<a href="https://dl.acm.org/doi/10.1145/3394171.3413652">PDF</a>]
 </p>
