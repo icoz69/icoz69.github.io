@@ -116,7 +116,7 @@ Besides research, I also participate in many extracurricular activities. I was i
 <br />
 
 <em>Proceedings of the 28th ACM International Conference on Multimedia. 
-  <strong><i style="color:#1e90ff"> &emsp; ACM MM 2020</i></strong>.</em>
+  <strong><i style="color:#1e90ff"> &emsp; &emsp;&emsp; ACM MM 2020</i></strong>.</em>
 <br /> 
   [<a href="https://dl.acm.org/doi/10.1145/3394171.3413652">PDF</a>]
 </p>
