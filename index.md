@@ -86,6 +86,39 @@ Besides research, I also participate in many extracurricular activities. I was i
 
 
 
+[comment]: <> (cgdl.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/CGDL.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Conditional Gaussian Distribution Learning for Open Set Recognition</strong>
+<br />
+  Xin Sun, Zhenning Yang,<strong>Chi Zhang</strong>, Guohao Peng, Keck-Voon Ling
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.</em>
+<br /> 
+  [<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Conditional_Gaussian_Distribution_Learning_for_Open_Set_Recognition_CVPR_2020_paper.pdf">PDF</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+
+[comment]: <> (acm2020.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/acm2020.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Weakly Supervised Segmentation with Maximum Bipartite Graph Matching</strong>
+<br />
+ Weide Liu*, <strong>Chi Zhang*</strong>, Guosheng Lin, Tzu-Yi HUNG, Chunyan Miao  (* indicates equal contributions )
+<br />
+<em>Proceedings of the 28th ACM International Conference on Multimedia. <strong><i style="color:#1e90ff">ACM MM 2020</i></strong>.</em>
+<br /> 
+  [<a href="https://dl.acm.org/doi/10.1145/3394171.3413652">PDF</a>]
+</p>
+ <br>
+</div>
+
+
 
 [comment]: <> (crnet.)
 <div class="paper">
@@ -100,26 +133,6 @@ Besides research, I also participate in many extracurricular activities. I was i
 </p>
  <br>
 </div>
-
-
-
-
-[comment]: <> (acm2020.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/acm2020.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>Weakly Supervised Segmentation with Maximum Bipartite Graph Matching</strong>
-<br />
- Weide Liu*, <strong>Chi Zhang*</strong>, Guosheng Lin, Tzu-Yi HUNG, Chunyan Miao  (* indicates equal contributions )
-<br />
-<em>Proceedings of the 28th ACM International Conference on Multimedia. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.</em>
-<br /> 
-  [<a href="https://dl.acm.org/doi/10.1145/3394171.3413652">PDF</a>]
-</p>
- <br>
-</div>
-
-
-
 
 
 <!---
