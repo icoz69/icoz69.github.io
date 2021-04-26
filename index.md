@@ -88,21 +88,6 @@ Besides research, I also participate in many extracurricular activities. I was i
 
 
 
-[comment]: <> (cgdl.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/CGDL.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>Conditional Gaussian Distribution Learning for Open Set Recognition</strong>
-<br />
-  Xin Sun, Zhenning Yang,<strong>Chi Zhang</strong>, Guohao Peng, Keck-Voon Ling
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.</em>
-<br /> 
-  [<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Conditional_Gaussian_Distribution_Learning_for_Open_Set_Recognition_CVPR_2020_paper.pdf">PDF</a>] [<a href="https://github.com/mattolson93/CGDL-for-Open-Set-Recognition">Code</a>]
-</p>
- <br>
-</div>
-
-
 
 
 
@@ -140,42 +125,32 @@ Besides research, I also participate in many extracurricular activities. I was i
 </div>
 
 
+
+[comment]: <> (cgdl.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/CGDL.jpg" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Conditional Gaussian Distribution Learning for Open Set Recognition</strong>
+<br />
+  Xin Sun, Zhenning Yang,<strong>Chi Zhang</strong>, Guohao Peng, Keck-Voon Ling
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.</em>
+<br /> 
+  [<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Conditional_Gaussian_Distribution_Learning_for_Open_Set_Recognition_CVPR_2020_paper.pdf">PDF</a>] [<a href="https://github.com/mattolson93/CGDL-for-Open-Set-Recognition">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+
+
+
+
+
 <!---
 
-
-
-- **Few-Shot Incremental Learning with Continually Evolved Classifiers**
-  <br>
-  **Chi Zhang**, Nan Song, Guosheng Lin, Yun Zheng, Pan Pan, Yinghui Xu
-  <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2021</i></strong>.
-  <br>
-
-
-- **DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers**
-  <br>
-  **Chi Zhang**, Yujun Cai, Guosheng Lin, Chunhua Shen
-  <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2020</i></strong>.
-  <br>
-  [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf)] [[Code](https://git.io/DeepEMD)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
-
-- **Pyramid Graph Networks with Connection Attentions for Region-Based One-Shot Semantic Segmentation**
-  <br>
-  **Chi Zhang**, Guosheng Lin, Fayao Liu, Jiushuang Guo, Qingyao Wu, Rui Yao
-  <br>
-  IEEE International Conference on Computer Vision. <strong><i style="color:#1e90ff">ICCV 2019</i></strong>.
-  <br>
-  [[PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Pyramid_Graph_Networks_With_Connection_Attentions_for_Region-Based_One-Shot_Semantic_ICCV_2019_paper.pdf)] 
-
-- **CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning**
-  <br>
-  **Chi Zhang**, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
-  <br>
-  IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2019</i></strong>.
-  <br>
-  [[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)] [[Code](https://github.com/icoz69/CaNet)] 
-
+comment
 
 
 -->
