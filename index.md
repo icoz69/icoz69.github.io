@@ -4,14 +4,14 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. candidate, supervised by Prof. Guosheng Lin, at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore. I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. I am currently a Research Intern at AI lab, ByteDance, Singapore, and work with Dr. Henghui Ding. I obtained my bachelor's degree from China University of Mining and Technology (CUMT).
+I am a Ph.D. candidate at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore. I am privileged to work under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. I am currently a Research Intern at AI lab, ByteDance, Singapore, and work with Dr. Henghui Ding. I obtained my bachelor's degree from China University of Mining and Technology (CUMT).
 
-I am open to positions in both industries or academia in the future. 
+I am open to positions in both industries or academia in the future. Feel free to drop me emails if you have interests.
 
 ## Research Interests
 I have wide interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
-- **Computer Vision:** image recognition, image segmentation, object detection
-- **Machine Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition
+- **Computer Vision:** image recognition, image segmentation, object detection, point cloud
+- **Machine Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, network architecture search
 
 ## Extracurricular Activities
 Besides research, I also participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of the Dribbling & Shooting test in CUMT. I am a fan of the Football Club of Barcelona. My favourite singers are Jacky Cheung and Freddie Mercury.
