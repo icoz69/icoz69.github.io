@@ -11,7 +11,7 @@ I am open to positions in both industries or academia in the future. Feel free t
 ## Research Interests
 I have wide interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
 - **Computer Vision:** image recognition, image segmentation, object detection, point cloud
-- **Machine Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, network architecture search
+- **Machine Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, network architecture search, knowledge distillation
 
 ## Extracurricular Activities
 Besides research, I also participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of the Dribbling & Shooting test in CUMT. I am a fan of the Football Club of Barcelona. My favourite singers are Jacky Cheung and Freddie Mercury.
