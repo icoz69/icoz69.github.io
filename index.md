@@ -87,6 +87,18 @@ Besides research, I also participate in many extracurricular activities. I was i
 </div>
 
 
+[comment]: <> (CANET.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/cycleseg.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>CycleSegNet: Object Co-segmentation with Cycle Refinement and Region Correspondence</strong>
+<br />
+<strong>Chi Zhang</strong>, Guankai Li, Guosheng Lin, Qingyao Wu, Rui Yao
+<br />
+<em>IEEE Transactions on Image Processing. <strong><i style="color:#1e90ff">TIP</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2101.01308">PDF</a>] 
+</p>
+</div>
 
 
 
