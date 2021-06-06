@@ -17,7 +17,7 @@ I have wide interests in computer vision and machine learning. Some specific top
 Besides research, I also participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of the Dribbling & Shooting test in CUMT. I am a fan of the Football Club of Barcelona. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
-
+- **[Jun. 2021]** One paper is accepted to [TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83).
 - **[Mar. 2021]** One paper is accepted to [CVPR 2021](http://cvpr2021.thecvf.com/).
 - **[Oct. 2020]** One paper is accepted to [ACM Multimedia 2020](https://2020.acmmm.org/).
 - **[Mar. 2020]** Three papers are accepted to [CVPR 2020](http://cvpr2020.thecvf.com/).
