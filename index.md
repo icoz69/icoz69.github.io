@@ -38,7 +38,7 @@ Besides research, I also participate in many extracurricular activities. I was i
 <br />
 <em>IEEE Conference on Computer Vision and Pattern Recognition. <strong><i style="color:#1e90ff">CVPR 2021</i></strong>.</em>
 <br /> 
-  [<a href="https://arxiv.org/abs/2104.03047">PDF</a>]
+  [<a href="https://arxiv.org/abs/2104.03047">PDF</a>][<a href="https://github.com/icoz69/CEC-CVPR2021">Code</a>]
 </p>
  <br>
 </div>
