@@ -28,6 +28,19 @@ Besides research, I also participate in many extracurricular activities. I was i
 - **[Jan. 2018]** I begin my Ph.D study at NTU.
 
 ## Selected Publications
+[comment]: <> (iccv2021.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/search_fsl.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Meta Navigator: Search for a Good Adaptation Policy for Few-shot Learning</strong>
+<br />
+<strong>Chi Zhang</strong>, Henghui Ding, Guosheng Lin, Ruibo Li, Changhu Wang, Chunhua Shen
+<br />
+<em>IEEE International Conference on Computer Vision. <strong><i style="color:#1e90ff">ICCV 2021</i></strong>.</em>
+<br /> 
+
+</p>
+</div>
+
 
 
 [comment]: <> (fscil.)
@@ -88,7 +101,7 @@ Besides research, I also participate in many extracurricular activities. I was i
 </div>
 
 
-[comment]: <> (CANET.)
+[comment]: <> (tip.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/cycleseg.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>CycleSegNet: Object Co-segmentation with Cycle Refinement and Region Correspondence</strong>
