@@ -14,7 +14,7 @@ I have wide interests in computer vision and machine learning. Some specific top
 - **Machine Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, AutoML, knowledge distillation
 
 ## Extracurricular Activities
-Besides research, I also actively participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of the <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
+Besides research, I also actively participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
 - **[Jul. 2021]** One preprint on long-tailed recognition is uploaded to [Arxiv](https://arxiv.org/abs/2108.12757).
