@@ -38,11 +38,10 @@ Besides research, I also actively participate in many extracurricular activities
 <br />
 <em>IEEE International Conference on Computer Vision. <strong><i style="color:#1e90ff">ICCV 2021</i></strong>.</em>
 <br /> 
+   [<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Meta_Navigator_Search_for_a_Good_Adaptation_Policy_for_Few-Shot_ICCV_2021_paper.pdf">PDF</a>]
 <br/>
 </p>
 </div>
-
-
 
 [comment]: <> (fscil.)
 <div class="paper">
