@@ -3,10 +3,8 @@ layout: homepage
 ---
 
 ## About Me
-
-I am a Ph.D. candidate at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore. I am privileged to work under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. I obtained my bachelor's degree from China University of Mining and Technology (CUMT).
-
-I am open to positions in both industries or academia in the future. Feel free to drop me emails if you have interests.
+I am a researcher at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
+Feel free to drop me emails if you have interests.
 
 ## Research Interests
 I have wide interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
