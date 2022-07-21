@@ -15,6 +15,7 @@ I have wide interests in computer vision and machine learning. Some specific top
 Besides research, I also actively participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
+- **[Jun. 2022]** One paper is accepted to [ACM MM 2022](https://2022.acmmm.org/).
 - **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
 - **[Dec. 2021]** I have successfully passed the Ph.D. Oral Defence. You may call me Dr.Zhang from now :)
 - **[Jul. 2021]** One preprint on long-tailed recognition is uploaded to [Arxiv](https://arxiv.org/abs/2108.12757).
