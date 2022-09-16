@@ -3,18 +3,18 @@ layout: homepage
 ---
 
 ## About Me
-I am a researcher scientist at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
-Feel free to drop me emails if you have interests.
+I am a researcher scientist (Level 10) at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. Feel free to drop me emails if you have interests.
 
 ## Research Interests
-I have wide interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
-- **Vision:** depth estimation, image recognition, image segmentation, object detection, point cloud
+I have wide research interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
+- **Vision:** depth estimation, image recognition, image segmentation, differentiable rendering, 3D Vision
 - **Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, AutoML, knowledge distillation
 
 ## Extracurricular Activities
-Besides research, I also actively participate in many extracurricular activities. I was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
+Besides research, I also actively participate in many extracurricular activities. I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
+- **[Sept. 2022]** One paper on monocular depth estimation is accepted to [NeurIPS 2022](https://nips.cc/).
 - **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
 - **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
 - **[Dec. 2021]** I have successfully passed the Ph.D. Oral Defence. You may call me Dr.Zhang from now :)
