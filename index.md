@@ -14,6 +14,7 @@ I have wide research interests in computer vision and machine learning. Some spe
 Besides research, I also actively participate in many extracurricular activities. I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
+- **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
 - **[Sept. 2022]** One paper on monocular depth estimation is accepted to [NeurIPS 2022](https://nips.cc/).
 - **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
 - **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
