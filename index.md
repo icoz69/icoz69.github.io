@@ -15,7 +15,7 @@ Besides research, I also actively participate in many extracurricular activities
 
 ## News
 - **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
-- **[Sept. 2022]** One paper on monocular depth estimation is accepted to [NeurIPS 2022](https://nips.cc/).
+- **[Sept. 2022]** One paper on  [monocular depth estimation](https://arxiv.org/abs/2210.09670) is accepted to [NeurIPS 2022](https://nips.cc/).
 - **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
 - **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
 - **[Dec. 2021]** I have successfully passed the Ph.D. Oral Defence. You may call me Dr.Zhang from now :)
