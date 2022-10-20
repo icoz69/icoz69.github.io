@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a researcher scientist (Level 10) at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. Feel free to drop me emails if you have interests.
+I am a researcher scientist at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
 
 ## Research Interests
 I have wide research interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
