@@ -3,11 +3,11 @@ layout: homepage
 ---
 
 ## About Me
-I am a researcher scientist at Tencent. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
+I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
 
 ## Research Interests
-I have wide research interests in computer vision and machine learning. Some specific topics that I have previously worked on are listed below:
-- **Vision:** depth estimation, image recognition, image segmentation, differentiable rendering, 3D Vision
+I have wide research interests in computer vision and machine learning. **Currently, I am working on large and universial models for 3D generation and depth estimations.** Some specific topics that I have previously worked on are listed below:
+- **Vision:**  Image segmentation, depth estimation, diffusion models, volume rendering, 3D reconstruction 
 - **Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, AutoML, knowledge distillation
 
 ## Hobbies
@@ -15,7 +15,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 ## News
 - **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
-- **[Sept. 2022]** One paper on  [monocular depth estimation](https://arxiv.org/abs/2210.09670) is accepted to [NeurIPS 2022](https://nips.cc/).
+- **[Sept. 2022]** [HDN](https://arxiv.org/abs/2210.09670) accepted to [NeurIPS 2022](https://nips.cc/), is a efficient training algorithms for large zero-shot depth estimation models.
 - **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
 - **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
 - **[Dec. 2021]** I have successfully passed the Ph.D. Oral Defence. You may call me Dr.Zhang from now :)
