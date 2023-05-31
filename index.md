@@ -14,6 +14,7 @@ I have wide research interests in vision and learning. **Currently, I am working
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a fan of  <del>Football Club of Barcelona</del> PSG. My favourite singers are Jacky Cheung and Freddie Mercury.
 
 ## News
+- **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
 - **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
 - **[Sept. 2022]** [Hierarchical Depth Norm (HDN)](https://github.com/icoz69/HDN) accepted by [NeurIPS 2022](https://nips.cc/), is a efficient training algorithms for large zero-shot depth estimation models.
 - **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
