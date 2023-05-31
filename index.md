@@ -6,7 +6,7 @@ layout: homepage
 I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
 
 ## Research Interests
-I have wide research interests in vision and learning. **Currently, I am working on large and universial models for 3D AIGC and zero-shot monocular depth estimations.** Some specific topics that I have previously worked on are listed below:
+I have wide research interests in vision and learning. **Currently, I am working on large multimodal models  and large 3D AIGC models.** Some specific topics that I have previously worked on are listed below:
 - **Vision:**  Image segmentation, depth estimation, generative models, volume rendering, 3D reconstruction 
 - **Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, AutoML, knowledge distillation
 
