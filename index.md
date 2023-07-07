@@ -8,12 +8,10 @@ I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.
 **I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
 
 ## Research Interests
-I have wide research interests in vision and learning. **Currently, I am working on  multimodal LLMs  and AIGC models.** Some specific topics that I have previously worked on are listed below:
-- **Vision:**  Image segmentation, depth estimation, generative models, volume rendering, 3D reconstruction 
-- **Learning:** few-shot learning, meta-learning, incremental learning, long-tailed recognition, open-set recognition, AutoML, knowledge distillation
+I have wide research interests in vision and learning. **Currently, I am working on AIGC, including  multimodal LLMs  and  2D/3D generative models.
 
 ## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favourite singers are Jacky Cheung and Freddie Mercury.
+I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favourite singers are 张学友 and Freddie Mercury.
 
 ## News
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
