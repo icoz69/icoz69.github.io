@@ -8,7 +8,7 @@ I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.
 **I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
 
 ## Research Interests
-I have wide research interests in vision and learning. **Currently, I am working on AIGC, including  multimodal LLMs  and  2D/3D generative models.
+I have wide research interests in vision and learning. **Currently, I am working on AIGC, including  multimodal LLMs  and  2D/3D generative models.**
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favourite singers are 张学友 and Freddie Mercury.
