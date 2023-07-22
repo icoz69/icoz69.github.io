@@ -14,7 +14,8 @@ I have wide research interests in vision and learning. **Currently, I am working
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favourite singers are 张学友 and Freddie Mercury.
 
 ## News
-- **[Jun. 2022]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/).
+- **[Jul. 2023]** Our work, [Metric3D](https://arxiv.org/abs/2307.10984), accpeted by [ICCV 2023](https://iccv2023.thecvf.com/),  won first place in the  [2nd Monocular Depth Estimation Competition at CVPR](https://jspenmar.github.io/MDEC/) .
+- **[Jul. 2023]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
 - **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
 - **[Sept. 2022]** [Hierarchical Depth Norm (HDN)](https://github.com/icoz69/HDN) accepted by [NeurIPS 2022](https://nips.cc/), is a efficient training algorithms for large zero-shot depth estimation models.
