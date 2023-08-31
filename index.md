@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.D. degree at School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
+I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
 
 **I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
 
@@ -11,27 +11,15 @@ I am a researcher scientist at Tencent, working with Dr. Gang Yu. I obtained Ph.
 I have wide research interests in vision and learning. **Currently, I am working on AIGC, including  multimodal LLMs  and  2D/3D generative models.**
 
 ## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly and keep a record of  Dribbling & Shooting  in CUMT. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favourite singers are 张学友 and Freddie Mercury.
+I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[Aug 2023]** We presented [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), a plug-and-play to improve the results of 3D AIGC models.
+- **[Aug 2023]** We have released [StableLLaVA](https://icoz69.github.io/stablellava-official/), a clever strategy for collecting datasets to train multimodal LLMs.
 - **[Jul. 2023]** Our work, [Metric3D](https://arxiv.org/abs/2307.10984), accpeted by [ICCV 2023](https://iccv2023.thecvf.com/),  won first place in the  [2nd Monocular Depth Estimation Competition at CVPR](https://jspenmar.github.io/MDEC/) .
 - **[Jul. 2023]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
-- **[Oct. 2022]** [DeepEMD v2](https://arxiv.org/abs/2003.06777) is accepted to [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
-- **[Sept. 2022]** [Hierarchical Depth Norm (HDN)](https://github.com/icoz69/HDN) accepted by [NeurIPS 2022](https://nips.cc/), is a efficient training algorithms for large zero-shot depth estimation models.
-- **[Jun. 2022]** One paper is accepted to [ACM Multimedia 2022](https://2022.acmmm.org/).
-- **[Jun. 2022]** One paper is accepted to [CVPR 2022](https://cvpr2022.thecvf.com/).
-- **[Dec. 2021]** I have successfully passed the Ph.D. Oral Defence. You may call me Dr.Zhang from now :)
-- **[Jul. 2021]** One preprint on long-tailed recognition is uploaded to [Arxiv](https://arxiv.org/abs/2108.12757).
-- **[Jul. 2021]** One paper is accepted to [ICCV 2021](http://iccv2021.thecvf.com/).
-- **[Jun. 2021]** One paper is accepted to [TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83).
-- **[Mar. 2021]** One paper is accepted to [CVPR 2021](http://cvpr2021.thecvf.com/).
-- **[Oct. 2020]** One paper is accepted to [ACM Multimedia 2020](https://2020.acmmm.org/).
-- **[Mar. 2020]** Three papers are accepted to [CVPR 2020](http://cvpr2020.thecvf.com/).
-- **[May. 2020]** [DeepEMD V2](https://arxiv.org/pdf/2003.06777.pdf) is released! Outperform SOTA by up to **7.4%** on benchmarks.
-- **[Nov. 2019]** One paper is accepted to [ICCV 2019](https://iccv2019.thecvf.com/).
-- **[Mar. 2019]** One paper is accepted to [CVPR 2019](https://cvpr2019.thecvf.com/).
-- **[Jan. 2018]** I begin my Ph.D study at NTU.
+
 
 ## Selected Publications
 [comment]: <> (iccv2021.)
