@@ -8,7 +8,9 @@ I am a scientist at Tencent, working with Dr. Gang Yu. I obtained my Ph.D. degre
 **I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
 
 ## Research Interests
-I have wide research interests in vision and learning. **Currently, I am working on AIGC, including  LLMs  and  2D/3D generative models.**
+My research primarily revolves around vision and learning.
+
+**At present, I am focusing on the development of large models. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([StableLLaVA](https://icoz69.github.io/stablellava-official/)), and  3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012) and [IT3D](https://github.com/buaacyw/IT3D-text-to-3D)).**
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
