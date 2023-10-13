@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a scientist at Tencent, working with Dr. Gang Yu. I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin.  I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
+I am a scientist at Tencent, working with Dr. Gang Yu. I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin. After graduation, I joined Tencent（through 腾讯技术大咖 program）. I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. 
 
 **I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
 
