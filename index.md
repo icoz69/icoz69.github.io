@@ -10,12 +10,13 @@ I am a scientist at Tencent, working with Dr. Gang Yu. I obtained my Ph.D. degre
 ## Research Interests
 My research primarily revolves around vision and learning.
 
-**At present, I am focusing on the development of large models. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU), [Robust Depth](https://arxiv.org/abs/2309.09724) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([StableLLaVA](https://icoz69.github.io/stablellava-official/)), and  3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012), [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), and [GaussianEditor](https://buaacyw.github.io/gaussian-editor/)).**
+**At present, I am focusing on the development of large models. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU), [Robust Depth](https://arxiv.org/abs/2309.09724) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([StableLLaVA](https://icoz69.github.io/stablellava-official/),[ChartLlama](https://tingxueronghua.github.io/ChartLlama/)), and  3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012), [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), and [GaussianEditor](https://buaacyw.github.io/gaussian-editor/)).**
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[Nov 2023]** [ChartLlama](https://tingxueronghua.github.io/ChartLlama/) is released!  It is a powerful LLM for chart understanding and generation.
 - **[Nov 2023]** We presented [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), a powerful 3D editing algorithm.
 - **[Sept 2023]** We presented [Robust Depth](https://arxiv.org/abs/2309.09724) for robust geometry-preserving zero-shot depth estimation, which is accepted by [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[Aug 2023]** We presented [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), a plug-and-play to improve the results of 3D AIGC models.
