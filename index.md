@@ -16,6 +16,7 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
 - **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
 - **[Nov 2023]** We presented [ShapeGPT](https://shapegpt.github.io/), a multimodal LLM for 3D shape generation.
 - **[Nov 2023]** [ChartLlama](https://tingxueronghua.github.io/ChartLlama/) is released!  It is a powerful LLM for chart understanding and generation.
