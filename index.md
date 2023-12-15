@@ -150,6 +150,22 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 </div>
 
 
+[comment]: <> (robust.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/robust.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering</strong>
+<br />
+<strong>Chi Zhang</strong>, Wei Yin, Gang Yu, Zhibin Wang, Tao Chen, Bin Fu, Joey Tianyi Zhou, Chunhua Shen
+<br />
+<em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2309.09724">PDF</a>]
+</p>
+ <br>
+</div>
+
+
+
 
 [comment]: <> (ShapeGPT.)
 <div class="paper">
