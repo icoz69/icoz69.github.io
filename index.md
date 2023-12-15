@@ -29,7 +29,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
 
 
-## Selected Publications
+## Recent Projects
 [comment]: <> (chartllama.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/chartllama.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
@@ -43,6 +43,25 @@ Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang 
 </p>
  <br>
 </div>
+
+
+[comment]: <> (stablellava.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
+<br />
+Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://icoz69.github.io/stablellava-official/">Homepage</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
 
 
 
