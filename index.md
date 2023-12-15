@@ -30,6 +30,24 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 
 ## Selected Publications
+[comment]: <> (chartllama.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/chartllama.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>ChartLlama: A Multimodal LLM for Chart Understanding and Generation</strong>
+<br />
+Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang Yu, Bin Fu, Hanwang Zhang
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://tingxueronghua.github.io/ChartLlama/">Homepage</a>][<a href="https://arxiv.org/abs/2311.16483">PDF</a>][<a href="https://github.com/tingxueronghua/ChartLlama-code">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+
 [comment]: <> (iccv2021.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/search_fsl.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
