@@ -133,7 +133,7 @@ Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, L
 
 [comment]: <> (gaussianeditor.)
 <div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/styleavatar.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/gaussianeditor.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</strong>
 <br />
 Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin
@@ -183,6 +183,19 @@ Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan 
 
 
 
+[comment]: <> (LL3DA.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/ll3da.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</strong>
+<br />
+Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+[<a href="https://ll3da.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.18651">PDF</a>][<a href="https://github.com/Open3DA/LL3DA">Code</a>]
+</p>
+ <br>
+</div>
 
 
 
