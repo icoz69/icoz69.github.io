@@ -39,7 +39,7 @@ Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang 
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://tingxueronghua.github.io/ChartLlama/">Homepage</a>][<a href="https://arxiv.org/abs/2311.16483">PDF</a>][<a href="https://github.com/tingxueronghua/ChartLlama-code">Code</a>]
+  [<a href="https://tingxueronghua.github.io/ChartLlama/">Project Page</a>][<a href="https://arxiv.org/abs/2311.16483">PDF</a>][<a href="https://github.com/tingxueronghua/ChartLlama-code">Code</a>]
 </p>
  <br>
 </div>
@@ -54,7 +54,7 @@ Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng L
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://icoz69.github.io/stablellava-official/">Homepage</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
+  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
 </p>
  <br>
 </div>
@@ -87,7 +87,7 @@ Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://icoz69.github.io/facestudio/">Homepage</a>][<a href="https://arxiv.org/abs/2312.02663">PDF</a>][<a href="https://github.com/xyynafc/FaceStudio">Code</a>]
+  [<a href="https://icoz69.github.io/facestudio/">Project Page</a>][<a href="https://arxiv.org/abs/2312.02663">PDF</a>][<a href="https://github.com/xyynafc/FaceStudio">Code</a>]
 </p>
  <br>
 </div>
@@ -140,7 +140,7 @@ Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Y
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-[<a href="https://buaacyw.github.io/gaussian-editor/">Homepage</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]
+[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]
 </p>
  <br>
 </div>
@@ -163,6 +163,24 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 </p>
  <br>
 </div>
+
+
+
+[comment]: <> (ShapeGPT.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/shapegpt.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</strong>
+<br />
+Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan Fan, Gang Yu, Taihao Li, Tao Chen
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+[<a href="https://shapegpt.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.17618">PDF</a>][<a href="https://github.com/OpenShapeLab/ShapeGPT">Code</a>]
+</p>
+ <br>
+</div>
+
+
 
 
 
