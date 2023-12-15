@@ -113,21 +113,6 @@ Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, L
 
 
 
-[comment]: <> (styleavatar.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/styleavatar.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</strong>
-<br />
-<strong>Chi Zhang</strong>, Yiwen Chen, Yijun Fu, Zhenglin Zhou, Gang YU, Billzb Wang, Bin Fu, Tao Chen, Guosheng Lin, Chunhua Shen
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2305.19012">PDF</a>][<a href="https://github.com/icoz69/StyleAvatar3D">Code</a>]
-</p>
- <br>
-</div>
-
-
 
 
 
