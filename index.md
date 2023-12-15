@@ -61,6 +61,59 @@ Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng L
 
 
 
+[comment]: <> (facestudio.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/facestudio.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>FaceStudio: Put Your Face Everywhere in Seconds</strong>
+<br />
+Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei Cheng, Bin Fu, Gang Yu
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://icoz69.github.io/facestudio/">Homepage</a>][<a href="https://arxiv.org/abs/2312.02663">PDF</a>][<a href="https://github.com/xyynafc/FaceStudio">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+[comment]: <> (styleavatar.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/styleavatar.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</strong>
+<br />
+<strong>Chi Zhang</strong>, Yiwen Chen, Yijun Fu, Zhenglin Zhou, Gang YU, Billzb Wang, Bin Fu, Tao Chen, Guosheng Lin, Chunhua Shen
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2305.19012">PDF</a>][<a href="https://github.com/icoz69/StyleAvatar3D">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+[comment]: <> (it3d.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/it3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</strong>
+<br />
+Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2308.11473">PDF</a>][<a href="https://github.com/buaacyw/IT3D-text-to-3D">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+
+
 
 
 
