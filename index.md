@@ -39,7 +39,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://appagent-official.github.io/">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>]
+  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>]
 </p>
  <br>
 </div>
