@@ -40,13 +40,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe 
-src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true&size=small" frameborder="0"
-scrolling="0"
-width="170"
-height="30"
-title="GitHub">
-</iframe>
+  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
  <br>
 </div>
