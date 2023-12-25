@@ -16,7 +16,7 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
-- **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
+- **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.<iframe src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 - **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
 - **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
 - **[Nov 2023]** We presented [ShapeGPT](https://shapegpt.github.io/), a multimodal LLM for 3D shape generation.
@@ -40,7 +40,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
-  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] 
 </p>
  <br>
 </div>
