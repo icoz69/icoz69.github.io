@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). After graduation, I joined Tencent as a T10 scientist. I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. 
 
-**I currently have internship positions available with the goal of conducting cutting-edge research in artificial intelligence. If you are interested, please send me an email.**
+I welcome discussions from academia and industry, especially regarding technology implementation and real-world impact. Feel free to reach out via email.
 
 ## Research Interests   
 My research primarily revolves around vision and learning.
