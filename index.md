@@ -16,7 +16,7 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
-- **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) ) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
+- **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
 - **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
 - **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
 - **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
@@ -46,6 +46,61 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 </p>
  <br>
 </div>
+
+
+
+[comment]: <> (gaussianeditor.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/gaussianeditor.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</strong>
+<br />
+Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
+<br /> 
+[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+[comment]: <> (LL3DA.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/ll3da.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</strong>
+<br />
+Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen
+<br />
+<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
+<br /> 
+[<a href="https://ll3da.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.18651">PDF</a>][<a href="https://github.com/Open3DA/LL3DA">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+[comment]: <> (it3d.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/it3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</strong>
+<br />
+Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin
+<br />
+<em>AAAI Conference on Artificial Intelligence  <strong><i style="color:#1e90ff"> AAAI2024</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2308.11473">PDF</a>][<a href="https://github.com/buaacyw/IT3D-text-to-3D">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
+
+
+
+
 
 [comment]: <> (chartllama.)
 <div class="paper">
@@ -113,39 +168,6 @@ Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei
 
 
 
-[comment]: <> (it3d.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/it3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</strong>
-<br />
-Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin
-<br />
-<em>AAAI Conference on Artificial Intelligence  <strong><i style="color:#1e90ff"> AAAI2024</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2308.11473">PDF</a>][<a href="https://github.com/buaacyw/IT3D-text-to-3D">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-
-
-[comment]: <> (gaussianeditor.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/gaussianeditor.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</strong>
-<br />
-Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
-<br /> 
-[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]
-</p>
- <br>
-</div>
 
 
 
@@ -201,19 +223,6 @@ Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan 
 
 
 
-[comment]: <> (LL3DA.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/ll3da.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</strong>
-<br />
-Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
-<br /> 
-[<a href="https://ll3da.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.18651">PDF</a>][<a href="https://github.com/Open3DA/LL3DA">Code</a>]
-</p>
- <br>
-</div>
 
 
 
