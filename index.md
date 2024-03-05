@@ -10,13 +10,14 @@ I welcome discussions from academia and industry, especially regarding technolog
 ## Research Interests   
 My research primarily revolves around vision and learning.
 
-**At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU), [Robust Depth](https://arxiv.org/abs/2309.09724) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([AppAgent](https://appagent-official.github.io/), [StableLLaVA](https://icoz69.github.io/stablellava-official/),[ChartLlama](https://tingxueronghua.github.io/ChartLlama/),[ShapeGPT](https://shapegpt.github.io/), [LL3DA](https://arxiv.org/abs/2311.18651) ), and  2D/3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012), [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), [FaceStudio](https://icoz69.github.io/facestudio/)).**
+**At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU), [Robust Depth](https://arxiv.org/abs/2309.09724) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([AppAgent](https://appagent-official.github.io/),[MovieLLM](https://deaddawn.github.io/MovieLLM/), [StableLLaVA](https://icoz69.github.io/stablellava-official/),[ChartLlama](https://tingxueronghua.github.io/ChartLlama/),[ShapeGPT](https://shapegpt.github.io/), [LL3DA](https://arxiv.org/abs/2311.18651) ), and  2D/3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012), [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), [FaceStudio](https://icoz69.github.io/facestudio/)).**
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
 - **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
+- **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
 - **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
 - **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
 - **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
