@@ -16,15 +16,15 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
-- **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
 - **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
+- **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
 - **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
 - **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
 - **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
 - **[Nov 2023]** We presented [ShapeGPT](https://shapegpt.github.io/), a multimodal LLM for 3D shape generation.
 - **[Nov 2023]** [ChartLlama](https://tingxueronghua.github.io/ChartLlama/) is released!  It is a powerful LLM for chart understanding and generation.
 - **[Nov 2023]** We presented [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), a powerful 3D editing algorithm.
-- **[Oct 2023]** Pleased to be Recognized Among [2023 Top 2% Scientists](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6) by Stanford University.
+- **[Oct 2023]** Pleased to be Recognized Among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 - **[Sept 2023]** We presented [Robust Depth](https://arxiv.org/abs/2309.09724) for robust geometry-preserving zero-shot depth estimation, which is accepted by [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[Aug 2023]** We presented [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), a plug-and-play to improve the results of 3D AIGC models.
 - **[Aug 2023]** We have released [StableLLaVA](https://icoz69.github.io/stablellava-official/), a clever strategy for collecting datasets to train multimodal LLMs.
