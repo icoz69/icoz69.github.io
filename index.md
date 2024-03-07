@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). After graduation, I joined Tencent through Tencent's 技术大咖 program. I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. 
+I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). After graduation, I joined Tencent through Tencent's 技术大咖 program. I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 
 I welcome discussions from academia and industry, especially regarding technology implementation and real-world impact. Feel free to reach out via email.
 
@@ -24,7 +24,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 - **[Nov 2023]** We presented [ShapeGPT](https://shapegpt.github.io/), a multimodal LLM for 3D shape generation.
 - **[Nov 2023]** [ChartLlama](https://tingxueronghua.github.io/ChartLlama/) is released!  It is a powerful LLM for chart understanding and generation.
 - **[Nov 2023]** We presented [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), a powerful 3D editing algorithm.
-- **[Oct 2023]** Pleased to be Recognized Among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
+- **[Oct 2023]** Pleased to be recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 - **[Sept 2023]** We presented [Robust Depth](https://arxiv.org/abs/2309.09724) for robust geometry-preserving zero-shot depth estimation, which is accepted by [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[Aug 2023]** We presented [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), a plug-and-play to improve the results of 3D AIGC models.
 - **[Aug 2023]** We have released [StableLLaVA](https://icoz69.github.io/stablellava-official/), a clever strategy for collecting datasets to train multimodal LLMs.
