@@ -16,6 +16,7 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
 - **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
 - **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
 - **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
