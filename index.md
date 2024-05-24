@@ -16,6 +16,7 @@ My research primarily revolves around vision and learning.
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[May 2024]** [StableLLaVA](https://icoz69.github.io/stablellava-official/) is accpeted by ACL 2024.
 - **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
 - **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
 - **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
@@ -35,6 +36,23 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 
 ## Recent Projects
+
+[comment]: <> (stablellava.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
+<br />
+Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
+<br />
+<em>Findings of the Association for Computational Linguistics (ACL) <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
+<br /> 
+  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
 [comment]: <> (appagent.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/appagent.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
@@ -119,19 +137,6 @@ Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang 
 </div>
 
 
-[comment]: <> (stablellava.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
-<br />
-Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
-</p>
- <br>
-</div>
 
 
 
