@@ -44,7 +44,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
 <br />
-<em>Findings of the Association for Computational Linguistics (ACL) <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
+<em>Findings of the Association for Computational Linguistics <strong><i style="color:#1e90ff"> ACL 2024</i></strong>.</em>
 <br /> 
   [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
 </p>
