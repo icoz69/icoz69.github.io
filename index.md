@@ -5,17 +5,17 @@ layout: homepage
 ## About Me
 I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). After graduation, I joined Tencent through Tencent's 技术大咖 program. I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 
-I will be joining [Westlake University](https://en.westlake.edu.cn/) as an Assistant Professor (Principal Investigator) in Fall 2024. We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.
+I will be joining [Westlake University](https://en.westlake.edu.cn/) as an Assistant Professor (Principal Investigator) and establish AGI lab in Fall 2024. 
+**We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.**
 
 ## Research Interests   
-My research primarily revolves around vision and learning.
-
-**At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large zero-shot depth estimation models ([HDN](https://openreview.net/pdf?id=BNqRpzwyOFU), [Robust Depth](https://arxiv.org/abs/2309.09724) and [Metric3D](https://arxiv.org/abs/2307.10984)), multimodal large language models ([AppAgent](https://appagent-official.github.io/),[MovieLLM](https://deaddawn.github.io/MovieLLM/), [StableLLaVA](https://icoz69.github.io/stablellava-official/),[ChartLlama](https://tingxueronghua.github.io/ChartLlama/),[ShapeGPT](https://shapegpt.github.io/), [LL3DA](https://arxiv.org/abs/2311.18651) ), and  2D/3D generative models ([StyleAvatar3D](https://arxiv.org/abs/2305.19012), [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), [FaceStudio](https://icoz69.github.io/facestudio/)).**
+My research primarily revolves around vision and learning. At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large vision foundation models, multimodal models, and  generative AI models.
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+- **[June 2024]** We present [MeshAnything](https://buaacyw.github.io/mesh-anything/), a study on high-quality mesh generation with autoregressive transformers.
 - **[May 2024]** [StableLLaVA](https://icoz69.github.io/stablellava-official/) is accpeted by ACL 2024.
 - **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
 - **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
@@ -36,6 +36,23 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 
 ## Recent Projects
+
+[comment]: <> (meshanything.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/images/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers</strong>
+<br />
+Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, **Chi Zhang**
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://buaacyw.github.io/mesh-anything/">Project Page</a>][<a href="https://arxiv.org/abs/2406.10163">PDF</a>][<a href="https://github.com/buaacyw/MeshAnything">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
 
 [comment]: <> (stablellava.)
 <div class="paper">
