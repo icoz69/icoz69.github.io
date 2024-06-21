@@ -3,8 +3,9 @@
 
 @import "minimal-light";
 
-.scrollable-news {
-  height: 300px; // Adjust this value to set the desired fixed height
+// Custom styles
+.news-section {
+  max-height: 400px; /* Adjust the height as needed */
   overflow-y: auto;
-  padding-right: 10px;
+  padding-right: 15px; /* Optional: add padding to avoid hiding text behind the scrollbar */
 }
