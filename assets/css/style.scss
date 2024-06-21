@@ -6,5 +6,5 @@
 // Custom styles
 .news-section {
   max-height: 300px; /* Adjust the height as needed */
-  overflow-y: auto;
+  overflow-y: scroll; /* Ensure the scroll bar is always visible */
 }
