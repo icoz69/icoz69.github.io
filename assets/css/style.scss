@@ -2,3 +2,9 @@
 ---
 
 @import "minimal-light";
+
+.scrollable-news {
+  height: 300px; // Adjust this value to set the desired fixed height
+  overflow-y: auto;
+  padding-right: 10px;
+}

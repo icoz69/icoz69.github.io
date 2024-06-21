@@ -15,6 +15,9 @@ My research primarily revolves around vision and learning. At present, I am focu
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
+
+<div class="scrollable-news">
+
 - **[June 2024]** 🔥We present [MeshAnything](https://buaacyw.github.io/mesh-anything/), a study on high-quality mesh generation with autoregressive transformers.
 - **[May 2024]** [StableLLaVA](https://icoz69.github.io/stablellava-official/) is accpeted by ACL 2024.
 - **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
@@ -34,6 +37,8 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 - **[Jul. 2023]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
 
+
+</div>
 
 ## Recent Projects
 
