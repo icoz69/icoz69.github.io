@@ -17,7 +17,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 
 <div class="news-section">
-
+{{ """
 - **[June 2024]** 🔥We present [MeshAnything](https://buaacyw.github.io/mesh-anything/), a study on high-quality mesh generation with autoregressive transformers.
 - **[May 2024]** [StableLLaVA](https://icoz69.github.io/stablellava-official/) is accpeted by ACL 2024.
 - **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
@@ -36,8 +36,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 - **[Jul. 2023]** Our work, [Metric3D](https://arxiv.org/abs/2307.10984), accpeted by [ICCV 2023](https://iccv2023.thecvf.com/),  won first place in the  [2nd Monocular Depth Estimation Competition at CVPR](https://jspenmar.github.io/MDEC/) .
 - **[Jul. 2023]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/). 
 - **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
-
-
+""" | markdownify }}
 </div>
 
 ## Recent Projects
