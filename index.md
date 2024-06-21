@@ -3,20 +3,21 @@ layout: homepage
 ---
 
 ## About Me
-I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). After graduation, I joined Tencent through Tencent's 技术大咖 program. I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
+I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 
-I will be joining [Westlake University](https://en.westlake.edu.cn/) as an Assistant Professor (Principal Investigator) and establish AGI lab in Fall 2024. 
+I will be joining [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html) as an Assistant Professor (PI) and establish AGI lab in Fall 2024. 
 **We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.**
 
 ## Research Interests   
 My research primarily revolves around vision and learning. At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large vision foundation models, multimodal models, and  generative AI models.
 
 ## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
+I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami for years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
 
 ## News
 <div class="news-section">
 <ul>
+    <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by TPAMI.</li>
   <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
   <li><strong>[May 2024]</strong> <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a> is accepted by ACL 2024.</li>
   <li><strong>[April 2024]</strong> 🚀We introduce <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a>, the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!</li>
