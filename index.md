@@ -15,29 +15,29 @@ My research primarily revolves around vision and learning. At present, I am focu
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami. My favorite singers are 张学友 and Freddie Mercury.
 
 ## News
-
 <div class="news-section">
-{{ """
-- **[June 2024]** 🔥We present [MeshAnything](https://buaacyw.github.io/mesh-anything/), a study on high-quality mesh generation with autoregressive transformers.
-- **[May 2024]** [StableLLaVA](https://icoz69.github.io/stablellava-official/) is accpeted by ACL 2024.
-- **[April 2024]** 🚀We introduce [Metric3D V2](https://github.com/YvanYin/Metric3D), the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!
-- **[Mar 2024]** 🚀We introduce [MovieLLM](https://deaddawn.github.io/MovieLLM/), a long-video understanding multimodal LLM.
-- **[Feb 2024]** [GaussianEditor](https://buaacyw.github.io/gaussian-editor/) and [LL3DA](https://arxiv.org/abs/2311.18651) are accepted by [CVPR2024](https://cvpr.thecvf.com/).
-- **[Dec 2023]** 🚀🚀🚀We introduce [AppAgent](https://appagent-official.github.io/), a multimodal agent for operating smparphone apps.
-- **[Dec 2023]** [IT3D](https://github.com/buaacyw/IT3D-text-to-3D) is accepted by [AAAI 2024](https://aaai.org/aaai-conference/).
-- **[Dec 2023]** We presented [FaceStudio](https://icoz69.github.io/facestudio/), a powerful identity-preserving image synthesis model.
-- **[Nov 2023]** We presented [ShapeGPT](https://shapegpt.github.io/), a multimodal LLM for 3D shape generation.
-- **[Nov 2023]** [ChartLlama](https://tingxueronghua.github.io/ChartLlama/) is released!  It is a powerful LLM for chart understanding and generation.
-- **[Nov 2023]** We presented [GaussianEditor](https://buaacyw.github.io/gaussian-editor/), a powerful 3D editing algorithm.
-- **[Oct 2023]** Pleased to be recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
-- **[Sept 2023]** We presented [Robust Depth](https://arxiv.org/abs/2309.09724) for robust geometry-preserving zero-shot depth estimation, which is accepted by [ICCV 2023](https://iccv2023.thecvf.com/). 
-- **[Aug 2023]** We presented [IT3D](https://github.com/buaacyw/IT3D-text-to-3D), a plug-and-play to improve the results of 3D AIGC models.
-- **[Aug 2023]** We have released [StableLLaVA](https://icoz69.github.io/stablellava-official/), a clever strategy for collecting datasets to train multimodal LLMs.
-- **[Jul. 2023]** Our work, [Metric3D](https://arxiv.org/abs/2307.10984), accpeted by [ICCV 2023](https://iccv2023.thecvf.com/),  won first place in the  [2nd Monocular Depth Estimation Competition at CVPR](https://jspenmar.github.io/MDEC/) .
-- **[Jul. 2023]** Three papers are accepted to [ICCV 2023](https://iccv2023.thecvf.com/). 
-- **[May 2023]** We have released [StyleAvatar3D](https://arxiv.org/abs/2305.19012), a work for 3D stylized avatar generation.
-""" | markdownify }}
+<ul>
+  <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
+  <li><strong>[May 2024]</strong> <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a> is accepted by ACL 2024.</li>
+  <li><strong>[April 2024]</strong> 🚀We introduce <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a>, the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!</li>
+  <li><strong>[Mar 2024]</strong> 🚀We introduce <a href="https://deaddawn.github.io/MovieLLM/">MovieLLM</a>, a long-video understanding multimodal LLM.</li>
+  <li><strong>[Feb 2024]</strong> <a href="https://buaacyw.github.io/gaussian-editor/">GaussianEditor</a> and <a href="https://arxiv.org/abs/2311.18651">LL3DA</a> are accepted by CVPR2024.</li>
+  <li><strong>[Dec 2023]</strong> 🚀🚀🚀We introduce <a href="https://appagent-official.github.io/">AppAgent</a>, a multimodal agent for operating smartphone apps.</li>
+  <li><strong>[Dec 2023]</strong> <a href="https://github.com/buaacyw/IT3D-text-to-3D">IT3D</a> is accepted by AAAI 2024.</li>
+  <li><strong>[Dec 2023]</strong> We presented <a href="https://icoz69.github.io/facestudio/">FaceStudio</a>, a powerful identity-preserving image synthesis model.</li>
+  <li><strong>[Nov 2023]</strong> We presented <a href="https://shapegpt.github.io/">ShapeGPT</a>, a multimodal LLM for 3D shape generation.</li>
+  <li><strong>[Nov 2023]</strong> <a href="https://tingxueronghua.github.io/ChartLlama/">ChartLlama</a> is released! It is a powerful LLM for chart understanding and generation.</li>
+  <li><strong>[Nov 2023]</strong> We presented <a href="https://buaacyw.github.io/gaussian-editor/">GaussianEditor</a>, a powerful 3D editing algorithm.</li>
+  <li><strong>[Oct 2023]</strong> Pleased to be recognized among <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6">2023 Top 2% Scientists by Stanford University</a>.</li>
+  <li><strong>[Sept 2023]</strong> We presented <a href="https://arxiv.org/abs/2309.09724">Robust Depth</a> for robust geometry-preserving zero-shot depth estimation, which is accepted by ICCV 2023.</li>
+  <li><strong>[Aug 2023]</strong> We presented <a href="https://github.com/buaacyw/IT3D-text-to-3D">IT3D</a>, a plug-and-play to improve the results of 3D AIGC models.</li>
+  <li><strong>[Aug 2023]</strong> We have released <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a>, a clever strategy for collecting datasets to train multimodal LLMs.</li>
+  <li><strong>[Jul. 2023]</strong> Our work, <a href="https://arxiv.org/abs/2307.10984">Metric3D</a>, accepted by ICCV 2023, won first place in the <a href="https://jspenmar.github.io/MDEC/">2nd Monocular Depth Estimation Competition at CVPR</a>.</li>
+  <li><strong>[Jul. 2023]</strong> Three papers are accepted to ICCV 2023.</li>
+  <li><strong>[May 2023]</strong> We have released <a href="https://arxiv.org/abs/2305.19012">StyleAvatar3D</a>, a work for 3D stylized avatar generation.</li>
+</ul>
 </div>
+
 
 ## Recent Projects
 
