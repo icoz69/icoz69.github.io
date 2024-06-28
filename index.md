@@ -102,7 +102,7 @@ Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Y
 <br />
 <em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
 <br /> 
-[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=gaussian-editor&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=GaussianEditor&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
  <br>
 </div>
