@@ -102,7 +102,22 @@ Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Y
 <br />
 <em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
 <br /> 
-[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]
+[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=gaussian-editor&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
+
+
+[comment]: <> (metric3d.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/metric3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image</strong>
+<br />
+Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen
+<br />
+<em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
+<br /> 
+[<a href="https://arxiv.org/abs/2307.10984">PDF</a>][<a href="https://github.com/YvanYin/Metric3D">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=YvanYin&repo=Metric3D&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
  <br>
 </div>
@@ -205,19 +220,6 @@ Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei
 
 
 
-[comment]: <> (metric3d.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/metric3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image</strong>
-<br />
-Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen
-<br />
-<em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2307.10984">PDF</a>][<a href="https://github.com/YvanYin/Metric3D">Code</a>]
-</p>
- <br>
-</div>
 
 
 [comment]: <> (robust.)
