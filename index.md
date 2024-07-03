@@ -125,6 +125,22 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 
 
 
+[comment]: <> (motionchain.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/motionchain.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>MotionChain: Conversational Motion Controllers via Multimodal Prompts</strong>
+<br />
+Biao Jiang, Xin Chen, <strong>Chi Zhang</strong>, Fukun Yin, Zhuoyuan Li, Gang YU, Jiayuan Fan
+<br />
+<em>The European Conference on Computer Vision <strong><i style="color:#1e90ff"> ECCV 2024</i></strong>.</em>
+<br /> 
+[<a href="https://github.com/OpenMotionLab/MotionChain">Project Page</a>][<a href="https://arxiv.org/abs/2404.01700">PDF</a>][<a href="https://github.com/OpenMotionLab/MotionChain">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
 [comment]: <> (LL3DA.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/ll3da.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
