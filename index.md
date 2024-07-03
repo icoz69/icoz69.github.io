@@ -17,7 +17,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
-  <li><strong>[Jul. 2024]</strong> Three papers are accepted to ECCV 2024.</li>
+  <li><strong>[Jul. 2024]</strong> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2024</a>.</li>  
     <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by TPAMI.</li>
   <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
   <li><strong>[May 2024]</strong> <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a> is accepted by ACL 2024.</li>
@@ -122,6 +122,27 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 </p>
  <br>
 </div>
+
+
+
+
+
+
+
+[comment]: <> (m3dbench.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/m3dbench.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</strong>
+<br />
+Mingsheng Li, Xin Chen, <strong>Chi Zhang</strong>, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen
+<br />
+<em>The European Conference on Computer Vision <strong><i style="color:#1e90ff"> ECCV 2024</i></strong>.</em>
+<br /> 
+[<a href="https://m3dbench.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.10763">PDF</a>][<a href="https://github.com/OpenM3D/M3DBench">Code</a>]
+</p>
+ <br>
+</div>
+
 
 
 
