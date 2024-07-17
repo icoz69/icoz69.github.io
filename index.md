@@ -3,9 +3,10 @@ layout: homepage
 ---
 
 ## About Me
-I am a scientist at Tencent (Shanghai), working with [Dr. Gang Yu](https://www.skicyyu.org/). I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
+I am a tenure-track Assistant Professor and Principal Investigator at  [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html), where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
+I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 
-I will be joining [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html) as an Assistant Professor (PI) and establish AGI lab in Fall 2024. 
+
 **We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.**
 
 ## Research Interests   
@@ -17,6 +18,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
+    <li><strong>[Jul. 2024]</strong> 🎉🎉🎉I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</li>  
   <li><strong>[Jul. 2024]</strong> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2024</a>.</li>  
     <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by TPAMI.</li>
   <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
