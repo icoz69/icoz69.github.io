@@ -79,19 +79,6 @@ Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin F
 </div>
 
 
-[comment]: <> (stablellava.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
-<br />
-Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
-<br />
-<em>Findings of the Association for Computational Linguistics <strong><i style="color:#1e90ff"> ACL 2024</i></strong>.</em>
-<br /> 
-  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
-</p>
- <br>
-</div>
 
 
 
@@ -108,6 +95,7 @@ Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng L
 </p>
  <br>
 </div>
+
 
 
 
@@ -136,6 +124,20 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 <em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
 <br /> 
 [<a href="https://arxiv.org/abs/2307.10984">PDF</a>][<a href="https://github.com/YvanYin/Metric3D">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=YvanYin&repo=Metric3D&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
+
+[comment]: <> (stablellava.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
+<br />
+Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
+<br />
+<em>Findings of the Association for Computational Linguistics <strong><i style="color:#1e90ff"> ACL 2024</i></strong>.</em>
+<br /> 
+  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
 </p>
  <br>
 </div>
