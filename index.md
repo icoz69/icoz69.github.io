@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a tenure-track Assistant Professor and Principal Investigator at  [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html), where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
+I am a tenure-track Assistant Professor and PI at  [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html), where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
 I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
 
 
