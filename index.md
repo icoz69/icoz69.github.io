@@ -91,7 +91,7 @@ Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Z
 <br />
 Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang
 <br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
 <br /> 
   [<a href="https://tencentqqgylab.github.io/EMMA/">Project Page</a>][<a href="https://arxiv.org/abs/2406.09162">PDF</a>][<a href="https://github.com/TencentQQGYLab/ELLA">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
