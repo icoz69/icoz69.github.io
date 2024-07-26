@@ -18,6 +18,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
+      <li><strong>[Jul 2024]</strong> 🔥We present <a href="https://tencentqqgylab.github.io/EMMA/">EMMA</a>, showing that text-to-image diffusion model can secretly accept multi-Modal prompts.</li>
     <li><strong>[Jul. 2024]</strong> 🎉🎉🎉I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</li>  
   <li><strong>[Jul. 2024]</strong> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2024</a>.</li>  
     <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by TPAMI.</li>
@@ -62,6 +63,20 @@ Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Z
 </div>
 
 
+
+[comment]: <> (emma.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/emma.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</strong>
+<br />
+Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://tencentqqgylab.github.io/EMMA/">Project Page</a>][<a href="https://arxiv.org/abs/2406.09162">PDF</a>][<a href="https://github.com/TencentQQGYLab/ELLA">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
 
 
 [comment]: <> (stablellava.)
