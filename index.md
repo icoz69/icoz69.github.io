@@ -48,6 +48,26 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 ## Recent Projects
 
+
+
+[comment]: <> (appagent.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/appagent.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>AppAgent: Multimodal Agents as Smartphone Users</strong>
+<br />
+<strong>Chi Zhang*</strong>, Zhao Yang*, Jiaxuan Liu*, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<br /> 
+  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
+
+
+
+
+
 [comment]: <> (meshanything.)
 <div class="paper">
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/images/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
@@ -78,23 +98,6 @@ Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin F
  <br>
 </div>
 
-
-
-
-
-[comment]: <> (appagent.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/appagent.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>AppAgent: Multimodal Agents as Smartphone Users</strong>
-<br />
-<strong>Chi Zhang*</strong>, Zhao Yang*, Jiaxuan Liu*, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=mnotgod96&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
 
 
 
