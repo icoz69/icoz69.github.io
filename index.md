@@ -18,12 +18,12 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
-    <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by TPAMI.</li>
+    <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI V2</a>.</li>   
   <li><strong>[Aug 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/meshanything-v2/">MeshAnything V2</a>, an improved method on high-quality mesh generation with autoregressive transformers.</li>
       <li><strong>[Jul 2024]</strong> 🔥We present <a href="https://tencentqqgylab.github.io/EMMA/">EMMA</a>, showing that text-to-image diffusion model can secretly accept multi-Modal prompts.</li>
     <li><strong>[Jul. 2024]</strong> 🎉🎉🎉I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</li>  
   <li><strong>[Jul. 2024]</strong> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2024</a>.</li>  
-    <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by TPAMI.</li>
+    <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI V2</a>.</li>
   <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
   <li><strong>[May 2024]</strong> <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a> is accepted by ACL 2024.</li>
   <li><strong>[April 2024]</strong> 🚀We introduce <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a>, the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!</li>
