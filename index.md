@@ -18,7 +18,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
-    <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI V2</a>.</li>   
+    <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>.</li>   
   <li><strong>[Aug 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/meshanything-v2/">MeshAnything V2</a>, an improved method on high-quality mesh generation with autoregressive transformers.</li>
       <li><strong>[Jul 2024]</strong> 🔥We present <a href="https://tencentqqgylab.github.io/EMMA/">EMMA</a>, showing that text-to-image diffusion model can secretly accept multi-Modal prompts.</li>
     <li><strong>[Jul. 2024]</strong> 🎉🎉🎉I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</li>  
