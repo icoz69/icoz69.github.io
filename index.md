@@ -7,7 +7,9 @@ I am a tenure-track Assistant Professor and PI at  [Westlake University](https:/
 I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among World's Top 2% Scientists by Stanford University  in [2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6) and [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7).
 
 
-**We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.**
+**We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.** See [招生信息](https://zhuanlan.zhihu.com/p/718028557).
+
+
 
 ## Research Interests   
 My research primarily revolves around vision and learning. At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large vision foundation models, multimodal models, and  generative AI models.
