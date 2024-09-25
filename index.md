@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 I am a tenure-track Assistant Professor and PI at  [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html), where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
-I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among [2023 Top 2% Scientists by Stanford University](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6).
+I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among Top 2% Scientists by Stanford University  in [2023]((https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6)) and [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7).
 
 
 **We have numerous positions available for PhD students, postdoctoral researchers, visiting students, and research assistants. Interested candidates are welcome to email me for inquiries.**
@@ -18,6 +18,10 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
+
+
+
+  <li><strong>[Sept 2024]</strong> I was listed among the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7"> 2024 Top 2% Scientists by Stanford University</a> for the second consecutive year.</li>
     <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>.</li>   
   <li><strong>[Aug 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/meshanything-v2/">MeshAnything V2</a>, an improved method on high-quality mesh generation with autoregressive transformers.</li>
       <li><strong>[Jul 2024]</strong> 🔥We present <a href="https://tencentqqgylab.github.io/EMMA/">EMMA</a>, showing that text-to-image diffusion model can secretly accept multi-Modal prompts.</li>
