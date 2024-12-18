@@ -156,6 +156,22 @@ Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>
 
 
 
+[comment]: <> (stylestudio.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stylestudio.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements</strong>
+<br />
+Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, <strong>Chi Zhang*</strong>
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
+<br /> 
+  [<a href="https://stylestudio-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2412.08503">PDF</a>][<a href="https://github.com/Westlake-AGI-Lab/StyleStudio">Code</a>]
+</p>
+ <br>
+</div>
+
+
+
 
 
 [comment]: <> (stablellava.)
