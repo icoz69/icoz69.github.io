@@ -21,7 +21,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <div class="news-section">
 <ul>
 
-
+  <li><strong>[Dec 2024]</strong> Excited to join the Editorial Board of IEEE T-CSVT as an Associate Editor!</li>
   <li><strong>[Nov 2024]</strong> 🔥We present <a href="https://stylestudio-official.github.io/">StyleStudio</a>, setting new SOTA for text-driven image style transfer tasks.</li>
   <li><strong>[Sept 2024]</strong>🎉 I was listed among the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7"> 2024 World's Top 2% Scientists by Stanford University</a>.</li>
     <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>.</li>   
