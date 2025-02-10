@@ -87,7 +87,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang*</strong>
 <br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
+<em>ICLR <strong><i style="color:#1e90ff"> 2025</i></strong>.</em>
 <br /> 
   [<a href="https://buaacyw.github.io/mesh-anything/">Project Page</a>][<a href="https://arxiv.org/abs/2406.10163">PDF</a>][<a href="https://github.com/buaacyw/MeshAnything">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnything&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
