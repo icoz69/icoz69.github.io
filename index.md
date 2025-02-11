@@ -67,7 +67,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/appagent.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>AppAgent: Multimodal Agents as Smartphone Users</strong>
 <br />
-<strong>Chi Zhang*</strong>, Zhao Yang*, Jiaxuan Liu*, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
+<strong>Chi Zhang</strong>, Zhao Yang, Jiaxuan Liu, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
 <br />
 <em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
 <br /> 
@@ -85,7 +85,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
   <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/images/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
 <p><strong>MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers</strong>
 <br />
-Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang*</strong>
+Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang</strong>
 <br />
 <em>International Conference on Learning Representations <strong><i style="color:#1e90ff"> ICLR 2025</i></strong>.</em>
 <br /> 
