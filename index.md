@@ -21,8 +21,8 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <div class="news-section">
 <ul>
 
-
-  <li><strong>[Feb 2025]</strong> 🔥🔥We present <a href="https://distill-any-depth-official.github.io/">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</li>
+<li><strong>[Mar 2025]</strong> 🔥🔥🔥 <a href="https://appagentx.github.io/">AppAgentX</a> is released! The next generation of <a href="https://appagent-official.github.io/">AppAgent</a> supports self-evolution.</li>
+  <li><strong>[Feb 2025]</strong> 🔥We present <a href="https://distill-any-depth-official.github.io/">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</li>
 <li><strong>[Feb 2025]</strong> 🎉5 papers are accepted by  <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.</li>
 
   <li><strong>[Feb 2025]</strong> 🎉<a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a> is accepted by <a href="https://iclr.cc/">ICLR 2025</a> .</li>
