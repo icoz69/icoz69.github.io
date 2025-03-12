@@ -70,7 +70,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 <br />
 <strong>Chi Zhang</strong>, Zhao Yang, Jiaxuan Liu, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
 <br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
+<em>2025 Conference on Human Factors in Computing Systems<strong><i style="color:#1e90ff"> CHI 2025</i></strong>.</em>
 <br /> 
   [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
