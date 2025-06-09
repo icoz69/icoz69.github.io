@@ -20,7 +20,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
-
+<li><strong>[June 2025]</strong> 🎬 We present <a href="https://flowdirector-edit.github.io/">FlowDirector</a>, a training-free video editing model with SOTA performance. </li>
 <li><strong>[Mar 2025]</strong> Serving as Area Chair for <a href="https://acmmm2025.org/">ACM MM 2025</a> and <a href="https://2025.ijcnn.org/">IJCNN 2025</a> .</li>
 <li><strong>[Mar 2025]</strong> 🔥🔥🔥 <a href="https://appagentx.github.io/">AppAgentX</a> is released! The next generation of <a href="https://appagent-official.github.io/">AppAgent</a> supports self-evolution.</li>
   <li><strong>[Feb 2025]</strong> 🔥We present <a href="https://distill-any-depth-official.github.io/">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</li>
