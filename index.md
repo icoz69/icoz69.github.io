@@ -96,6 +96,20 @@ Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Z
  <br>
 </div>
 
+[comment]: <> (meshanything v2.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/meshanything-v2/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization</strong>
+<br />
+Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*
+<br />
+<em>ICCV <strong><i style="color:#1e90ff"> 2025</i></strong>.</em>
+<br /> 
+  [<a href="https://buaacyw.github.io/meshanything-v2/">Project Page</a>][<a href="https://arxiv.org/abs/2408.02555">PDF</a>][<a href="https://github.com/buaacyw/MeshAnythingV2">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
+
 
 
 [comment]: <> (emma.)
@@ -146,19 +160,6 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
 </div>
 
 
-[comment]: <> (meshanything v2.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/meshanything-v2/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization</strong>
-<br />
-Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
-<br /> 
-  [<a href="https://buaacyw.github.io/meshanything-v2/">Project Page</a>][<a href="https://arxiv.org/abs/2408.02555">PDF</a>][<a href="https://github.com/buaacyw/MeshAnythingV2">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
 
 
 
