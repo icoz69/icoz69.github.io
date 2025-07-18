@@ -15,11 +15,12 @@ I obtained my Ph.D. degree at the School of Computer Science and Engineering, Na
 My research primarily revolves around vision and learning. At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large vision foundation models, multimodal models, and  generative AI models.
 
 ## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami for years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
+I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami for many years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
 
 ## News
 <div class="news-section">
 <ul>
+<li><strong>[July 2025]</strong> 🎉3 papers are accepted by  <a href="https://iccv.thecvf.com/">ICCV 2025</a>. See you guys in Hawaii!</li>
 <li><strong>[June 2025]</strong> 🎉5 papers are accepted by  <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.</li>
 <li><strong>[June 2025]</strong> 🎬 We present <a href="https://flowdirector-edit.github.io/">FlowDirector</a>, a training-free video editing model with SOTA performance. </li>
 <li><strong>[Mar 2025]</strong> Serving as Area Chair for <a href="https://acmmm2025.org/">ACM MM 2025</a> and <a href="https://2025.ijcnn.org/">IJCNN 2025</a> .</li>
