@@ -103,7 +103,7 @@ Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Z
 <br />
 Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*
 <br />
-<em>ICCV <strong><i style="color:#1e90ff"> 2025</i></strong>.</em>
+<em>  International Conference on Computer Vision  <strong><i style="color:#1e90ff">ICCV 2025</i></strong>.</em>
 <br /> 
   [<a href="https://buaacyw.github.io/meshanything-v2/">Project Page</a>][<a href="https://arxiv.org/abs/2408.02555">PDF</a>][<a href="https://github.com/buaacyw/MeshAnythingV2">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
