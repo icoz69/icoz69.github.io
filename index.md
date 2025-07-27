@@ -12,7 +12,9 @@ I obtained my Ph.D. degree at the School of Computer Science and Engineering, Na
 
 
 ## Research Interests   
-My research primarily revolves around vision and learning. At present, I am focusing on the development of large models to solve AI problems. Recent endeavors include  large vision foundation models, multimodal models, and  generative AI models.
+My current research focuses on Generative AI, including theoretical foundations of generative models, multimodal generative modeling, and multimodal intelligent agents. In the past, my work has also spanned broader areas in machine learning and computer vision.
+
+
 
 ## Hobbies
 I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of  <del>Football Club of Barcelona</del>  <del> PSG </del> Inter Miami for many years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
@@ -114,21 +116,6 @@ Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>
 
 
 
-[comment]: <> (emma.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/emma.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</strong>
-<br />
-Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
-<br /> 
-  [<a href="https://tencentqqgylab.github.io/EMMA/">Project Page</a>][<a href="https://arxiv.org/abs/2406.09162">PDF</a>][<a href="https://github.com/TencentQQGYLab/ELLA">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
 
 
 
@@ -161,6 +148,22 @@ Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan W
  <br>
 </div>
 
+
+
+
+[comment]: <> (emma.)
+<div class="paper">
+  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/emma.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
+<p><strong>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</strong>
+<br />
+Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang
+<br />
+<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
+<br /> 
+  [<a href="https://tencentqqgylab.github.io/EMMA/">Project Page</a>][<a href="https://arxiv.org/abs/2406.09162">PDF</a>][<a href="https://github.com/TencentQQGYLab/ELLA">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+</p>
+ <br>
+</div>
 
 
 
