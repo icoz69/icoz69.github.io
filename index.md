@@ -18,7 +18,7 @@ My current research focuses on Generative AI, including theoretical foundations 
 
 
 ## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of &nbsp; <del style="color:red">Football Club of Barcelona</del> &nbsp;&nbsp; <del style="color:red">PSG</del> &nbsp; Inter Miami for many years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
+I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of &nbsp; <del style="color:red">Football Club of Barcelona</del> &nbsp;&nbsp; <del style="color:red">PSG</del> &nbsp; <span style="color:green">Inter Miami</span> for many years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
 
 
 ## Academic Service
