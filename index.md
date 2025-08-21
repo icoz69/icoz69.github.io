@@ -23,7 +23,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 ## Academic Service
 - Associate Editor for [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) since 2024
-- Area Chair for [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
+- Area Chair for [ICLR 2026](https://iclr.cc/), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
 - Reviewer for recent AI conferences and journals, e.g. T-PAMI,ICLR, CVPR, NeurIPS, etc.
 
 
