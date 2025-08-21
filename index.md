@@ -30,8 +30,8 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
-
-<li><strong>[June 2025]</strong> 🚀We’ve launched <a href="https://buaacyw.github.io/ultra3d/"> Ultra3D</a>, enabling efficient high-resolution 3D generation. </li>
+<li><strong>[Aug 2025]</strong> Serving as Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</li>
+<li><strong>[July 2025]</strong> 🚀We’ve launched <a href="https://buaacyw.github.io/ultra3d/"> Ultra3D</a>, enabling efficient high-resolution 3D generation. </li>
 <li><strong>[July 2025]</strong> 🎉3 papers are accepted by  <a href="https://iccv.thecvf.com/">ICCV 2025</a>. See you guys in Hawaii!</li>
 <li><strong>[June 2025]</strong> 🎉5 papers are accepted by  <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.</li>
 <li><strong>[June 2025]</strong> 🎬 We present <a href="https://flowdirector-edit.github.io/">FlowDirector</a>, a training-free video editing model with SOTA performance. </li>
