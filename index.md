@@ -23,13 +23,14 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 ## Academic Service
 - Associate Editor for [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) since 2024
-- Area Chair for [ICLR 2026](https://iclr.cc/), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
+- Area Chair for [ICLR 2026](https://iclr.cc/), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
 - Reviewer for recent AI conferences and journals, e.g. T-PAMI,ICLR, CVPR, NeurIPS, etc.
 
 
 ## News
 <div class="news-section">
 <ul>
+<li><strong>[Sept 2025]</strong> Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a>.</li>
 <li><strong>[Aug 2025]</strong> Serving as Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li><strong>[July 2025]</strong> 🚀We’ve launched <a href="https://buaacyw.github.io/ultra3d/"> Ultra3D</a>, enabling efficient high-resolution 3D generation. </li>
 <li><strong>[July 2025]</strong> 🎉3 papers are accepted by  <a href="https://iccv.thecvf.com/">ICCV 2025</a>. See you guys in Hawaii!</li>
