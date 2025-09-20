@@ -30,6 +30,7 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 ## News
 <div class="news-section">
 <ul>
+<li><strong>[Sept 2025]</strong> 🚀We present <a href="https://worldforge-agi.github.io/"> WorldForge</a>, a training-free world model built on video diffusion. </li>
 <li><strong>[Sept 2025]</strong> Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a>.</li>
 <li><strong>[Aug 2025]</strong> Serving as Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li><strong>[July 2025]</strong> 🚀We’ve launched <a href="https://buaacyw.github.io/ultra3d/"> Ultra3D</a>, enabling efficient high-resolution 3D generation. </li>
