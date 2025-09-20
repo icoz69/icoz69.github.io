@@ -7,7 +7,7 @@ I am a tenure-track Assistant Professor and PI at  [Westlake University](https:/
 I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among World's Top 2% Scientists by Stanford University  in [2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6) and [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7).
 
 
-**[2025]📢We're hiring postdocs, visiting students, and research assistants!** See [招生信息](https://zhuanlan.zhihu.com/p/718028557).
+**[2025]📢We're hiring! Multiple positions for PhD students, postdocs, visiting students, and research assistants are available!** See [招生信息](https://zhuanlan.zhihu.com/p/718028557).
 
 
 
