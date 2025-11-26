@@ -23,13 +23,14 @@ I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I pl
 
 ## Academic Service
 - Associate Editor for [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) since 2024
-- Area Chair for [ICLR 2026](https://iclr.cc/), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
+- Area Chair for [ICML 2026](https://icml.cc/Conferences/2026), [ICLR 2026](https://iclr.cc/), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026), AC; ARR (2025), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
 - Reviewer for recent AI conferences and journals, e.g. T-PAMI,ICLR, CVPR, NeurIPS, etc.
 
 
 ## News
 <div class="news-section">
 <ul>
+<li><strong>[Nov 2025]</strong> Serving as Area Chair for <a href="https://icml.cc/Conferences/2026">ICML 2026</a>.</li>
 <li><strong>[Sept 2025]</strong> I will present a tutorial on <a href="https://wangywust.github.io/iccv-tutorial-reasoning-vlm"> reasoning in GUI agents</a> at ICCV 2025. </li>
 <li><strong>[Sept 2025]</strong> 🚀We present <a href="https://worldforge-agi.github.io/"> WorldForge</a>, a training-free world model built on video diffusion. </li>
 <li><strong>[Sept 2025]</strong> Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a>.</li>
