@@ -263,11 +263,13 @@
 
         footer { text-align: center; color: #94a3b8; font-size: 0.8rem; padding: 40px 0 80px 0; border-top: 1px solid #f1f5f9; margin-top: 40px;}
         /* --- 新增：Gallery 相册网格样式 --- */
+ /* --- 新增：Gallery 相册网格样式 --- */
         .gallery-grid {
             display: grid;
-            /* 自动填充列，最小宽度180px，自适应 */
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
-            gap: 16px;
+            /* 修改：强制分为6列 (repeat(6, 1fr)) */
+            grid-template-columns: repeat(6, 1fr); 
+            /* 修改：建议将间距从16px缩小到8px或10px，让图片显示区域更大一点 */
+            gap: 10px;
             margin-top: 20px;
         }
 
