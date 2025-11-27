@@ -1,402 +1,661 @@
----
-layout: homepage
----
-
-## About Me
-I am a tenure-track Assistant Professor and PI at  [Westlake University](https://en.westlake.edu.cn/faculty/chi-zhang.html), where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
-I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of [Prof. Guosheng Lin](https://guosheng.github.io/). I also work closely with [Prof. Chunhua Shen](https://cshen.github.io/) and [Prof. Rui Yao](http://faculty.cumt.edu.cn/ruiyao/en/index.htm) in research. I was recognized among World's Top 2% Scientists by Stanford University  in [2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6) and [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7).
-
-
-**[2025]📢We're hiring! Multiple positions for PhD students, postdocs, visiting students, and research assistants are available!** See [招生信息](https://zhuanlan.zhihu.com/p/718028557).
-
-
-
-
-## Research Interests   
-My current research focuses on Generative AI, including theoretical foundations of generative models, multimodal generative modeling, and multimodal intelligent agents. In the past, my work has also spanned broader areas in machine learning and computer vision.
-
-
-
-## Hobbies
-I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. I am a loyal fan of &nbsp; <del style="color:red">FC Barcelona</del> &nbsp;&nbsp; <del style="color:red">PSG</del> &nbsp; <span style="color:green">Inter Miami</span> for many years. My favorite singers are [张学友](https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B) and [Freddie Mercury](https://en.wikipedia.org/wiki/Freddie_Mercury).
-
-
-## Academic Service
-- Associate Editor for [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76) since 2024
-- Area Chair for [ICML 2026](https://icml.cc/Conferences/2026), [ICLR 2026](https://iclr.cc/), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026), ACL ARR (2025), [ACM Multimedia 2025](https://acmmm2025.org/) and [IJCNN 2025](https://2025.ijcnn.org/)  
-- Reviewer for recent AI conferences and journals, e.g. T-PAMI,ICLR, CVPR, NeurIPS, etc.
-
-
-## News
-<div class="news-section">
-<ul>
-<li><strong>[Nov 2025]</strong> Serving as Area Chair for <a href="https://icml.cc/Conferences/2026">ICML 2026</a>.</li>
-<li><strong>[Sept 2025]</strong> I will present a tutorial on <a href="https://wangywust.github.io/iccv-tutorial-reasoning-vlm"> reasoning in GUI agents</a> at ICCV 2025. </li>
-<li><strong>[Sept 2025]</strong> 🚀We present <a href="https://worldforge-agi.github.io/"> WorldForge</a>, a training-free world model built on video diffusion. </li>
-<li><strong>[Sept 2025]</strong> Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a>.</li>
-<li><strong>[Aug 2025]</strong> Serving as Area Chair for <a href="https://iclr.cc/">ICLR 2026</a>.</li>
-<li><strong>[July 2025]</strong> 🚀We’ve launched <a href="https://buaacyw.github.io/ultra3d/"> Ultra3D</a>, enabling efficient high-resolution 3D generation. </li>
-<li><strong>[July 2025]</strong> 🎉3 papers are accepted by  <a href="https://iccv.thecvf.com/">ICCV 2025</a>. See you guys in Hawaii!</li>
-<li><strong>[June 2025]</strong> 🎉5 papers are accepted by  <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.</li>
-<li><strong>[June 2025]</strong> 🎬 We present <a href="https://flowdirector-edit.github.io/">FlowDirector</a>, a training-free video editing model with SOTA performance. </li>
-<li><strong>[Mar 2025]</strong> Serving as Area Chair for <a href="https://acmmm2025.org/">ACM MM 2025</a> and <a href="https://2025.ijcnn.org/">IJCNN 2025</a> .</li>
-<li><strong>[Mar 2025]</strong> 🔥🔥🔥 <a href="https://appagentx.github.io/">AppAgentX</a> is released! The next generation of <a href="https://appagent-official.github.io/">AppAgent</a> supports self-evolution.</li>
-  <li><strong>[Feb 2025]</strong> 🔥We present <a href="https://distill-any-depth-official.github.io/">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</li>
-  <li><strong>[Feb 2025]</strong> 🎉<a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a> is accepted by <a href="https://iclr.cc/">ICLR 2025</a> .</li>
-  <li><strong>[Dec 2024]</strong> Excited to join the Editorial Board of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE T-CSVT</a> as an Associate Editor!</li>
-  <li><strong>[Nov 2024]</strong> 🔥We present <a href="https://stylestudio-official.github.io/">StyleStudio</a>, setting new SOTA for text-driven image style transfer tasks.</li>
-  <li><strong>[Sept 2024]</strong>🎉 I was listed among the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7"> 2024 World's Top 2% Scientists by Stanford University</a>.</li>
-    <li><strong>[Aug 2024]</strong>   <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>.</li>   
-  <li><strong>[Aug 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/meshanything-v2/">MeshAnything V2</a>, an improved method on high-quality mesh generation with autoregressive transformers.</li>
-      <li><strong>[Jul 2024]</strong> 🔥We present <a href="https://tencentqqgylab.github.io/EMMA/">EMMA</a>, showing that text-to-image diffusion model can secretly accept multi-Modal prompts.</li>
-    <li><strong>[Jul. 2024]</strong> 🎉🎉🎉I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</li>  
-  <li><strong>[Jul. 2024]</strong> Three papers are accepted to <a href="https://eccv.ecva.net/">ECCV 2024</a>.</li>  
-    <li><strong>[June 2024]</strong> Our work on  <a href="https://arxiv.org/abs/2310.11284">self-supervised 3D scene flow estimation</a> is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI V2</a>.</li>
-  <li><strong>[June 2024]</strong> 🔥We present <a href="https://buaacyw.github.io/mesh-anything/">MeshAnything</a>, a study on high-quality mesh generation with autoregressive transformers.</li>
-  <li><strong>[May 2024]</strong> <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a> is accepted by ACL 2024.</li>
-  <li><strong>[April 2024]</strong> 🚀We introduce <a href="https://github.com/YvanYin/Metric3D">Metric3D V2</a>, the most capable monocular geometry foundation model for depth and normals estimation. Training codes and demos are available!</li>
-  <li><strong>[Mar 2024]</strong> 🚀We introduce <a href="https://deaddawn.github.io/MovieLLM/">MovieLLM</a>, a long-video understanding multimodal LLM.</li>
-  <li><strong>[Feb 2024]</strong> <a href="https://buaacyw.github.io/gaussian-editor/">GaussianEditor</a> and <a href="https://arxiv.org/abs/2311.18651">LL3DA</a> are accepted by CVPR2024.</li>
-  <li><strong>[Dec 2023]</strong> 🚀🚀🚀We introduce <a href="https://appagent-official.github.io/">AppAgent</a>, a multimodal agent for operating smartphone apps.</li>
-  <li><strong>[Dec 2023]</strong> <a href="https://github.com/buaacyw/IT3D-text-to-3D">IT3D</a> is accepted by AAAI 2024.</li>
-  <li><strong>[Dec 2023]</strong> We presented <a href="https://icoz69.github.io/facestudio/">FaceStudio</a>, a powerful identity-preserving image synthesis model.</li>
-  <li><strong>[Nov 2023]</strong> We presented <a href="https://shapegpt.github.io/">ShapeGPT</a>, a multimodal LLM for 3D shape generation.</li>
-  <li><strong>[Nov 2023]</strong> <a href="https://tingxueronghua.github.io/ChartLlama/">ChartLlama</a> is released! It is a powerful LLM for chart understanding and generation.</li>
-  <li><strong>[Nov 2023]</strong> We presented <a href="https://buaacyw.github.io/gaussian-editor/">GaussianEditor</a>, a powerful 3D editing algorithm.</li>
-  <li><strong>[Oct 2023]</strong> Pleased to be recognized among <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6">2023 Top 2% Scientists by Stanford University</a>.</li>
-  <li><strong>[Sept 2023]</strong> We presented <a href="https://arxiv.org/abs/2309.09724">Robust Depth</a> for robust geometry-preserving zero-shot depth estimation, which is accepted by ICCV 2023.</li>
-  <li><strong>[Aug 2023]</strong> We presented <a href="https://github.com/buaacyw/IT3D-text-to-3D">IT3D</a>, a plug-and-play to improve the results of 3D AIGC models.</li>
-  <li><strong>[Aug 2023]</strong> We have released <a href="https://icoz69.github.io/stablellava-official/">StableLLaVA</a>, a clever strategy for collecting datasets to train multimodal LLMs.</li>
-  <li><strong>[Jul. 2023]</strong> Our work, <a href="https://arxiv.org/abs/2307.10984">Metric3D</a>, accepted by ICCV 2023, won first place in the <a href="https://jspenmar.github.io/MDEC/">2nd Monocular Depth Estimation Competition at CVPR</a>.</li>
-  <li><strong>[Jul. 2023]</strong> Three papers are accepted to ICCV 2023.</li>
-  <li><strong>[May 2023]</strong> We have released <a href="https://arxiv.org/abs/2305.19012">StyleAvatar3D</a>, a work for 3D stylized avatar generation.</li>
-</ul>
-</div>
-
-
-
-
-## Selected Projects
-
-
-
-[comment]: <> (appagent.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/appagent.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>AppAgent: Multimodal Agents as Smartphone Users</strong>
-<br />
-<strong>Chi Zhang</strong>, Zhao Yang, Jiaxuan Liu, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
-<br />
-<em>2025 Conference on Human Factors in Computing Systems<strong><i style="color:#1e90ff"> CHI 2025</i></strong>.</em>
-<br /> 
-  [<a href="https://appagent-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.13771">PDF</a>][<a href="https://github.com/mnotgod96/AppAgent">Code</a>] <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
-
-
-
-[comment]: <> (meshanything.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/images/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers</strong>
-<br />
-Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang</strong>
-<br />
-<em>International Conference on Learning Representations <strong><i style="color:#1e90ff"> ICLR 2025</i></strong>.</em>
-<br /> 
-  [<a href="https://buaacyw.github.io/mesh-anything/">Project Page</a>][<a href="https://arxiv.org/abs/2406.10163">PDF</a>][<a href="https://github.com/buaacyw/MeshAnything">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnything&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-[comment]: <> (meshanything v2.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="https://buaacyw.github.io/meshanything-v2/demo_video.gif" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization</strong>
-<br />
-Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*
-<br />
-<em>  International Conference on Computer Vision  <strong><i style="color:#1e90ff">ICCV 2025</i></strong>.</em>
-<br /> 
-  [<a href="https://buaacyw.github.io/meshanything-v2/">Project Page</a>][<a href="https://arxiv.org/abs/2408.02555">PDF</a>][<a href="https://github.com/buaacyw/MeshAnythingV2">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
-
-
-
-
-[comment]: <> (gaussianeditor.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/gaussianeditor.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</strong>
-<br />
-Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
-<br /> 
-[<a href="https://buaacyw.github.io/gaussian-editor/">Project Page</a>][<a href="https://arxiv.org/abs/2311.14521">PDF</a>][<a href="https://github.com/buaacyw/GaussianEditor">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=GaussianEditor&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
-[comment]: <> (metric3d.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/metric3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image</strong>
-<br />
-Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen
-<br />
-<em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2307.10984">PDF</a>][<a href="https://github.com/YvanYin/Metric3D">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=YvanYin&repo=Metric3D&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
-
-
-[comment]: <> (emma.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/emma.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</strong>
-<br />
-Yucheng Han, Rui Wang,  <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2024</i></strong>.</em>
-<br /> 
-  [<a href="https://tencentqqgylab.github.io/EMMA/">Project Page</a>][<a href="https://arxiv.org/abs/2406.09162">PDF</a>][<a href="https://github.com/TencentQQGYLab/ELLA">Code</a>]<iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-</p>
- <br>
-</div>
-
-
-
-
-[comment]: <> (stylestudio.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stylestudio.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements</strong>
-<br />
-Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, <strong>Chi Zhang</strong>
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2025</i></strong>.</em>
-<br /> 
-  [<a href="https://stylestudio-official.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2412.08503">PDF</a>][<a href="https://github.com/Westlake-AGI-Lab/StyleStudio">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-[comment]: <> (stablellava.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/stablellava.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</strong>
-<br />
-Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei
-<br />
-<em>Findings of the Association for Computational Linguistics <strong><i style="color:#1e90ff"> ACL 2024</i></strong>.</em>
-<br /> 
-  [<a href="https://icoz69.github.io/stablellava-official/">Project Page</a>][<a href="https://arxiv.org/abs/2308.10253">PDF</a>][<a href="https://github.com/icoz69/StableLLAVA">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-
-
-[comment]: <> (m3dbench.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/m3dbench.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</strong>
-<br />
-Mingsheng Li, Xin Chen, <strong>Chi Zhang</strong>, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen
-<br />
-<em>The European Conference on Computer Vision <strong><i style="color:#1e90ff"> ECCV 2024</i></strong>.</em>
-<br /> 
-[<a href="https://m3dbench.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2312.10763">PDF</a>][<a href="https://github.com/OpenM3D/M3DBench">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-[comment]: <> (motionchain.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/motionchain.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>MotionChain: Conversational Motion Controllers via Multimodal Prompts</strong>
-<br />
-Biao Jiang, Xin Chen, <strong>Chi Zhang</strong>, Fukun Yin, Zhuoyuan Li, Gang YU, Jiayuan Fan
-<br />
-<em>The European Conference on Computer Vision <strong><i style="color:#1e90ff"> ECCV 2024</i></strong>.</em>
-<br /> 
-[<a href="https://github.com/OpenMotionLab/MotionChain">Project Page</a>][<a href="https://arxiv.org/abs/2404.01700">PDF</a>][<a href="https://github.com/OpenMotionLab/MotionChain">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-[comment]: <> (LL3DA.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/ll3da.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</strong>
-<br />
-Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen
-<br />
-<em>IEEE Conference on Computer Vision and Pattern Recognition <strong><i style="color:#1e90ff"> CVPR 2024</i></strong>.</em>
-<br /> 
-[<a href="https://ll3da.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.18651">PDF</a>][<a href="https://github.com/Open3DA/LL3DA">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-[comment]: <> (it3d.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/it3d.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</strong>
-<br />
-Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin
-<br />
-<em>AAAI Conference on Artificial Intelligence  <strong><i style="color:#1e90ff"> AAAI2024</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2308.11473">PDF</a>][<a href="https://github.com/buaacyw/IT3D-text-to-3D">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-
-
-
-[comment]: <> (chartllama.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/chartllama.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>ChartLlama: A Multimodal LLM for Chart Understanding and Generation</strong>
-<br />
-Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang Yu, Bin Fu, Hanwang Zhang
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-  [<a href="https://tingxueronghua.github.io/ChartLlama/">Project Page</a>][<a href="https://arxiv.org/abs/2311.16483">PDF</a>][<a href="https://github.com/tingxueronghua/ChartLlama-code">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-[comment]: <> (styleavatar.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/styleavatar.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</strong>
-<br />
-<strong>Chi Zhang</strong>, Yiwen Chen, Yijun Fu, Zhenglin Zhou, Gang YU, Billzb Wang, Bin Fu, Tao Chen, Guosheng Lin, Chunhua Shen
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2305.19012">PDF</a>][<a href="https://github.com/icoz69/StyleAvatar3D">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-[comment]: <> (facestudio.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/facestudio.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>FaceStudio: Put Your Face Everywhere in Seconds</strong>
-<br />
-Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei Cheng, Bin Fu, Gang Yu
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-  [<a href="https://icoz69.github.io/facestudio/">Project Page</a>][<a href="https://arxiv.org/abs/2312.02663">PDF</a>][<a href="https://github.com/xyynafc/FaceStudio">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-[comment]: <> (robust.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/robust.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering</strong>
-<br />
-<strong>Chi Zhang</strong>, Wei Yin, Gang Yu, Zhibin Wang, Tao Chen, Bin Fu, Joey Tianyi Zhou, Chunhua Shen
-<br />
-<em>IEEE International Conference on Computer Vision  <strong><i style="color:#1e90ff"> ICCV 2023</i></strong>.</em>
-<br /> 
-[<a href="https://arxiv.org/abs/2309.09724">PDF</a>]
-</p>
- <br>
-</div>
-
-
-
-
-[comment]: <> (ShapeGPT.)
-<div class="paper">
-  <div class="teaser" style="float:left;width:20%;margin: 5px 10px 10px 0;"><img src="images/teaser/shapegpt.png" height="110" style="box-shadow:2px 2px 6px #888888"/></div>
-<p><strong>ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</strong>
-<br />
-Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan Fan, Gang Yu, Taihao Li, Tao Chen
-<br />
-<em>Arxiv Preprint <strong><i style="color:#1e90ff"> 2023</i></strong>.</em>
-<br /> 
-[<a href="https://shapegpt.github.io/">Project Page</a>][<a href="https://arxiv.org/abs/2311.17618">PDF</a>][<a href="https://github.com/OpenShapeLab/ShapeGPT">Code</a>]
-</p>
- <br>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!---
-
-comment
-
-
--->
-<br/>
-<br/>
-<br/>
-
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Zhang | Westlake University</title>
+    <style>
+        /* --- 核心基础样式 --- */
+        :root {
+            --primary-blue: #2563eb;
+            --text-main: #1e293b;
+            --text-secondary: #64748b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        a { text-decoration: none; color: inherit; transition: color 0.2s; }
+        a:hover { color: var(--primary-blue); }
+        
+        .text-link { color: var(--primary-blue); text-decoration: none; font-weight: 500; }
+        .text-link:hover { text-decoration: underline; }
+
+        /* --- 布局容器 --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 24px;
+            display: flex;
+            gap: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .container { flex-direction: column; gap: 40px; padding: 30px 20px; }
+            .sidebar { width: 100%; position: static !important; }
+            .project-card { flex-direction: column; }
+            .project-img { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
+        }
+
+        /* --- 左侧边栏 --- */
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 40px;
+            height: fit-content;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+            background-color: #e2e8f0;
+            margin-left: auto; margin-right: auto;
+        }
+
+        .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+        .sidebar-text-container {
+            text-align: left;
+            width: fit-content;
+            margin: 0 auto;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .name { font-size: 2rem; font-weight: 700; margin: 0 0 5px 0; color: #0f172a; line-height: 1.2; }
+        .title { font-size: 1.1rem; color: var(--primary-blue); margin: 0 0 4px 0; font-weight: 600; }
+        .lab { color: var(--text-secondary); margin: 0 0 15px 0; font-size: 0.95rem; }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+        .contact-info p { 
+            margin: 0; 
+            font-size: 0.85rem; 
+            color: var(--text-secondary); 
+            display: flex; 
+            align-items: center; 
+            gap: 8px;
+        }
+
+        /* 社交图标样式 (SVG) */
+        .social-icons {
+            display: flex;
+            gap: 14px;
+            margin-top: 5px;
+        }
+        .social-link svg {
+            width: 20px;
+            height: 20px;
+            fill: #64748b;
+            transition: fill 0.2s, transform 0.2s;
+        }
+        .social-link:hover svg {
+            fill: var(--primary-blue);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) { 
+            .sidebar-text-container { align-items: center; }
+            .social-icons { justify-content: center; }
+        }
+
+        .map-container { margin-top: 30px; opacity: 0.8; transition: opacity 0.3s; text-align: center;}
+        .map-container:hover { opacity: 1; }
+
+        /* --- 右侧内容区 --- */
+        .main-content { flex: 1; min-width: 0; }
+
+        section { margin-bottom: 50px; }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #94a3b8;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .scroll-hint {
+            font-size: 0.75rem;
+            color: #cbd5e1;
+            font-style: italic;
+        }
+
+        .prose p { margin-bottom: 16px; color: #334155; text-align: justify; }
+        
+        .highlight-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--primary-blue);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            color: #1e40af;
+            font-size: 0.95rem;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        /* --- News (可滚动) --- */
+        .news-container {
+            max-height: 400px;
+            overflow-y: auto;
+            background-color: #ffffff;
+            border: 1px solid #f1f5f9;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .news-list { display: flex; flex-direction: column; gap: 12px; }
+        .news-item { display: flex; gap: 16px; align-items: baseline; font-size: 0.95rem; }
+        .news-date { 
+            font-family: monospace; 
+            font-weight: bold; 
+            color: #2563eb; 
+            width: 90px; 
+            flex-shrink: 0; 
+            font-size: 0.85rem; 
+            text-align: right;
+        }
+        .news-content { color: #334155; }
+        .news-content strong { color: #0f172a; }
+
+        /* 美化滚动条 */
+        .news-container::-webkit-scrollbar { width: 6px; }
+        .news-container::-webkit-scrollbar-track { background: #f8fafc; border-radius: 4px; }
+        .news-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .news-container::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+
+        /* Projects */
+        .project-card {
+            display: flex;
+            gap: 24px;
+            background: #ffffff;
+            padding: 24px;
+            margin: 0 0 24px 0;
+            border-radius: 12px;
+            border: 1px solid #f1f5f9;
+            transition: all 0.2s ease;
+        }
+        .project-card:hover {
+            border-color: #e2e8f0;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+        }
+        
+        .project-img {
+            width: 220px;
+            height: fit-content;
+            flex-shrink: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #f1f5f9;
+        }
+        .project-img img { width: 100%; height: auto; display: block; }
+
+        .project-info { flex: 1; }
+        .project-info h3 { margin: 0 0 8px 0; font-size: 1.15rem; color: #0f172a; line-height: 1.3; }
+        
+        .authors { font-size: 0.9rem; color: #475569; margin-bottom: 6px; line-height: 1.4; }
+        .authors strong { color: #0f172a; font-weight: 600; }
+        
+        .venue { font-style: italic; color: #2563eb; font-weight: 500; font-size: 0.9rem; margin-bottom: 12px; display: block;}
+        
+        .btn-group { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 12px; }
+        .btn-link { 
+            font-size: 0.85rem; 
+            font-weight: 600; 
+            color: #475569; 
+            background: #f1f5f9;
+            padding: 4px 10px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .btn-link:hover { background: #cbd5e1; color: #0f172a; }
+
+        ul.service-list { padding-left: 20px; margin: 0; }
+        ul.service-list li { margin-bottom: 8px; font-size: 0.95rem; color: #475569; }
+
+        footer { text-align: center; color: #94a3b8; font-size: 0.8rem; padding-bottom: 40px; margin-top: 60px;}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <aside class="sidebar">
+            <div class="avatar">
+                <img src="test/assets/img/Picture2.png" onerror="this.src='https://via.placeholder.com/400?text=Chi+Zhang'" alt="Chi Zhang">
+            </div>
+            
+            <div class="sidebar-text-container">
+                <h1 class="name">Chi Zhang</h1>
+                <p class="title">Assistant Professor & PI</p>
+                <p class="lab">AGI Lab, Westlake University</p>
+                
+                <div class="contact-info">
+                    <p>chizhang (at) westlake.edu.cn</p>
+                    <p>Hangzhou, China</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="mailto:chizhang@westlake.edu.cn" class="social-link" title="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+                    <a href="#" class="social-link" title="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="#" class="social-link" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                    <a href="#" class="social-link" title="Twitter"><svg viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+                </div>
+            </div>
+
+             <div class="map-container">
+                <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=tt&d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="prose">
+                    <p>
+                        I am a tenure-track Assistant Professor and PI at <a href="https://en.westlake.edu.cn/faculty/chi-zhang.html" class="text-link" target="_blank">Westlake University</a>, where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
+                    </p>
+                    <p>
+                        I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of <a href="https://guosheng.github.io/" class="text-link" target="_blank">Prof. Guosheng Lin</a>. I also work closely with <a href="https://cshen.github.io/" class="text-link" target="_blank">Prof. Chunhua Shen</a> and <a href="http://faculty.cumt.edu.cn/ruiyao/en/index.htm" class="text-link" target="_blank">Prof. Rui Yao</a> in research. I was recognized among World's Top 2% Scientists by Stanford University in <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6" class="text-link" target="_blank">2023</a> and <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" class="text-link" target="_blank">2024</a>.
+                    </p>
+                    
+                    <div class="highlight-box">
+                        <strong>[2025] 📢 We're hiring!</strong> Multiple positions for PhD students, postdocs, visiting students, and research assistants are available! <a href="https://zhuanlan.zhihu.com/p/718028557" class="text-link" target="_blank">See 招生信息 →</a>
+                    </div>
+                </div>
+            </section>
+
+             <section>
+                <div class="section-header">
+                    <h2 class="section-title">Research Interests</h2>
+                </div>
+                <div class="prose">
+                    <p>
+                        My current research focuses on Generative AI, including theoretical foundations of generative models, multimodal generative modeling, and multimodal intelligent agents. In the past, my work has also spanned broader areas in machine learning and computer vision.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">News</h2>
+                    <span class="scroll-hint">Scroll for more</span>
+                </div>
+                
+                <div class="news-container">
+                    <div class="news-list">
+                        <div class="news-item"><span class="news-date">Nov 2025</span><div class="news-content">Serving as Area Chair for <a href="https://icml.cc/Conferences/2026" class="text-link" target="_blank">ICML 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">Presenting a tutorial on <a href="https://wangywust.github.io/iccv-tutorial-reasoning-vlm" class="text-link" target="_blank">reasoning in GUI agents</a> at ICCV 2025.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">🚀 We present <a href="https://worldforge-agi.github.io/" class="text-link" target="_blank">WorldForge</a>, a training-free world model built on video diffusion.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026" class="text-link" target="_blank">CVPR 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Aug 2025</span><div class="news-content">Serving as Area Chair for <a href="https://iclr.cc/" class="text-link" target="_blank">ICLR 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jul 2025</span><div class="news-content">🚀 We’ve launched <a href="https://buaacyw.github.io/ultra3d/" class="text-link" target="_blank">Ultra3D</a>, enabling efficient high-resolution 3D generation.</div></div>
+                        <div class="news-item"><span class="news-date">Jul 2025</span><div class="news-content">🎉 3 papers are accepted by <a href="https://iccv.thecvf.com/" class="text-link" target="_blank">ICCV 2025</a>. See you guys in Hawaii!</div></div>
+                        <div class="news-item"><span class="news-date">Jun 2025</span><div class="news-content">🎉 5 papers are accepted by <a href="https://cvpr.thecvf.com/" class="text-link" target="_blank">CVPR 2025</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jun 2025</span><div class="news-content">🎬 We present <a href="https://flowdirector-edit.github.io/" class="text-link" target="_blank">FlowDirector</a>, a training-free video editing model with SOTA performance.</div></div>
+                        <div class="news-item"><span class="news-date">Mar 2025</span><div class="news-content">Serving as Area Chair for <a href="https://acmmm2025.org/" class="text-link" target="_blank">ACM MM 2025</a> and <a href="https://2025.ijcnn.org/" class="text-link" target="_blank">IJCNN 2025</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Mar 2025</span><div class="news-content">🔥🔥🔥 <a href="https://appagentx.github.io/" class="text-link" target="_blank">AppAgentX</a> is released! The next generation of AppAgent supports self-evolution.</div></div>
+                        <div class="news-item"><span class="news-date">Feb 2025</span><div class="news-content">🔥 We present <a href="https://distill-any-depth-official.github.io/" class="text-link" target="_blank">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</div></div>
+                        <div class="news-item"><span class="news-date">Feb 2025</span><div class="news-content">🎉 <a href="https://buaacyw.github.io/mesh-anything/" class="text-link" target="_blank">MeshAnything</a> is accepted by ICLR 2025.</div></div>
+                        <div class="news-item"><span class="news-date">Dec 2024</span><div class="news-content">Excited to join the Editorial Board of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76" class="text-link" target="_blank">IEEE T-CSVT</a> as an Associate Editor!</div></div>
+                        <div class="news-item"><span class="news-date">Nov 2024</span><div class="news-content">🔥 We present <a href="https://stylestudio-official.github.io/" class="text-link" target="_blank">StyleStudio</a>, setting new SOTA for text-driven image style transfer tasks.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2024</span><div class="news-content">🎉 Listed among the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" class="text-link" target="_blank">2024 World's Top 2% Scientists by Stanford University</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jul 2024</span><div class="news-content">🎉 I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</div></div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">Selected Projects</h2>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/appagent.png" alt="AppAgent">
+                    </div>
+                    <div class="project-info">
+                        <h3>AppAgent: Multimodal Agents as Smartphone Users</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Zhao Yang, Jiaxuan Liu, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu</div>
+                        <span class="venue">CHI 2025</span>
+                        <div class="btn-group">
+                            <a href="https://appagent-official.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.13771" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/mnotgod96/AppAgent" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://buaacyw.github.io/images/demo_video.gif" alt="MeshAnything">
+                    </div>
+                    <div class="project-info">
+                        <h3>MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers</h3>
+                        <div class="authors">Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICLR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/mesh-anything/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2406.10163" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/MeshAnything" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnything&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://buaacyw.github.io/meshanything-v2/demo_video.gif" alt="MeshAnything V2">
+                    </div>
+                    <div class="project-info">
+                        <h3>MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization</h3>
+                        <div class="authors">Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*</div>
+                        <span class="venue">ICCV 2025</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/meshanything-v2/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2408.02555" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/MeshAnythingV2" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/gaussianeditor.png" alt="GaussianEditor">
+                    </div>
+                    <div class="project-info">
+                        <h3>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</h3>
+                        <div class="authors">Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin</div>
+                        <span class="venue">CVPR 2024</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/gaussian-editor/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.14521" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/GaussianEditor" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=GaussianEditor&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/metric3d.png" alt="Metric3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image</h3>
+                        <div class="authors">Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen</div>
+                        <span class="venue">ICCV 2023</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2307.10984" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/YvanYin/Metric3D" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=YvanYin&repo=Metric3D&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/emma.png" alt="EMMA">
+                    </div>
+                    <div class="project-info">
+                        <h3>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</h3>
+                        <div class="authors">Yucheng Han, Rui Wang, <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang</div>
+                        <span class="venue">Arxiv 2024</span>
+                        <div class="btn-group">
+                            <a href="https://tencentqqgylab.github.io/EMMA/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2406.09162" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/TencentQQGYLab/ELLA" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/stylestudio.png" alt="StyleStudio">
+                    </div>
+                    <div class="project-info">
+                        <h3>StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements</h3>
+                        <div class="authors">Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://stylestudio-official.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2412.08503" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/StyleStudio" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/stablellava.png" alt="StableLLaVA">
+                    </div>
+                    <div class="project-info">
+                        <h3>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</h3>
+                        <div class="authors">Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei</div>
+                        <span class="venue">ACL 2024</span>
+                        <div class="btn-group">
+                            <a href="https://icoz69.github.io/stablellava-official/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2308.10253" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/icoz69/StableLLAVA" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/m3dbench.png" alt="M3DBench">
+                    </div>
+                    <div class="project-info">
+                        <h3>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</h3>
+                        <div class="authors">Mingsheng Li, Xin Chen, <strong>Chi Zhang</strong>, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen</div>
+                        <span class="venue">ECCV 2024</span>
+                        <div class="btn-group">
+                            <a href="https://m3dbench.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.10763" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenM3D/M3DBench" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/motionchain.png" alt="MotionChain">
+                    </div>
+                    <div class="project-info">
+                        <h3>MotionChain: Conversational Motion Controllers via Multimodal Prompts</h3>
+                        <div class="authors">Biao Jiang, Xin Chen, <strong>Chi Zhang</strong>, Fukun Yin, Zhuoyuan Li, Gang YU, Jiayuan Fan</div>
+                        <span class="venue">ECCV 2024</span>
+                        <div class="btn-group">
+                            <a href="https://github.com/OpenMotionLab/MotionChain" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2404.01700" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenMotionLab/MotionChain" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/ll3da.png" alt="LL3DA">
+                    </div>
+                    <div class="project-info">
+                        <h3>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</h3>
+                        <div class="authors">Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen</div>
+                        <span class="venue">CVPR 2024</span>
+                        <div class="btn-group">
+                            <a href="https://ll3da.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.18651" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Open3DA/LL3DA" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/it3d.png" alt="IT3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</h3>
+                        <div class="authors">Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin</div>
+                        <span class="venue">AAAI 2024</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2308.11473" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/IT3D-text-to-3D" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/chartllama.png" alt="ChartLlama">
+                    </div>
+                    <div class="project-info">
+                        <h3>ChartLlama: A Multimodal LLM for Chart Understanding and Generation</h3>
+                        <div class="authors">Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang Yu, Bin Fu, Hanwang Zhang</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://tingxueronghua.github.io/ChartLlama/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.16483" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/tingxueronghua/ChartLlama-code" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/styleavatar.png" alt="StyleAvatar3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Yiwen Chen, Yijun Fu, Zhenglin Zhou, Gang YU, Billzb Wang, Bin Fu, Tao Chen, Guosheng Lin, Chunhua Shen</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2305.19012" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/icoz69/StyleAvatar3D" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/facestudio.png" alt="FaceStudio">
+                    </div>
+                    <div class="project-info">
+                        <h3>FaceStudio: Put Your Face Everywhere in Seconds</h3>
+                        <div class="authors">Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei Cheng, Bin Fu, Gang Yu</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://icoz69.github.io/facestudio/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.02663" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/xyynafc/FaceStudio" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/robust.png" alt="Robust Depth">
+                    </div>
+                    <div class="project-info">
+                        <h3>Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Wei Yin, Gang Yu, Zhibin Wang, Tao Chen, Bin Fu, Joey Tianyi Zhou, Chunhua Shen</div>
+                        <span class="venue">ICCV 2023</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2309.09724" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/shapegpt.png" alt="ShapeGPT">
+                    </div>
+                    <div class="project-info">
+                        <h3>ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</h3>
+                        <div class="authors">Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan Fan, Gang Yu, Taihao Li, Tao Chen</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://shapegpt.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.17618" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenShapeLab/ShapeGPT" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">Academic Service</h2>
+                </div>
+                <ul class="service-list">
+                    <li><strong>Associate Editor</strong> for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76" class="text-link" target="_blank">TCSVT</a> since 2024</li>
+                    <li><strong>Area Chair</strong> for <a href="https://icml.cc/Conferences/2026" class="text-link" target="_blank">ICML 2026</a>, <a href="https://iclr.cc/" class="text-link" target="_blank">ICLR 2026</a>, <a href="https://cvpr.thecvf.com/Conferences/2026" class="text-link" target="_blank">CVPR 2026</a></li>
+                    <li><strong>Area Chair</strong> for ACL ARR (2025), <a href="https://acmmm2025.org/" class="text-link" target="_blank">ACM Multimedia 2025</a>, <a href="https://2025.ijcnn.org/" class="text-link" target="_blank">IJCNN 2025</a></li>
+                    <li><strong>Reviewer</strong> for T-PAMI, ICLR, CVPR, NeurIPS, etc.</li>
+                </ul>
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">Hobbies</h2>
+                </div>
+                <div class="prose">
+                    <p>
+                        I like singing and was in Top 8 of Good Voice of Universities 2015 in CUMT. I play football regularly. 
+                        I am a loyal fan of <span style="color: #10b981; font-weight: bold;">Inter Miami</span> (formerly <span style="text-decoration: line-through; opacity: 0.5;">FC Barcelona</span> & <span style="text-decoration: line-through; opacity: 0.5;">PSG</span>).
+                    </p>
+                    <p>
+                        My favorite singers are <a href="https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B" class="text-link" target="_blank">Jacky Cheung</a> and <a href="https://en.wikipedia.org/wiki/Freddie_Mercury" class="text-link" target="_blank">Freddie Mercury</a>.
+                    </p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2025 Chi Zhang. <br>
+        Built with Modern Minimalist Design.
+    </footer>
+
+</body>
+</html>
