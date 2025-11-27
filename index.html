@@ -228,6 +228,34 @@
             box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
         }
         
+
+        /* --- View More 按钮样式 --- */
+.view-more-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.view-more-btn {
+    background-color: #f1f5f9; /* 与原本的 btn-link 风格保持一致，或者是 var(--primary-blue) */
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.view-more-btn:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    transform: translateY(-2px);
+}
+
+
+
         .project-img {
             width: 220px;
             height: fit-content;
@@ -264,31 +292,41 @@
         footer { text-align: center; color: #94a3b8; font-size: 0.8rem; padding: 40px 0 80px 0; border-top: 1px solid #f1f5f9; margin-top: 40px;}
         /* --- 新增：Gallery 相册网格样式 --- */
  /* --- 新增：Gallery 相册网格样式 --- */
-        .gallery-grid {
-            display: grid;
-            /* 修改：强制分为6列 (repeat(6, 1fr)) */
-            grid-template-columns: repeat(6, 1fr); 
-            /* 修改：建议将间距从16px缩小到8px或10px，让图片显示区域更大一点 */
-            gap: 10px;
-            margin-top: 20px;
-        }
+/* --- 修复后的 Gallery 相册网格样式 --- */
+.gallery-grid {
+    display: grid !important; /* 强制启用网格布局 */
+    /* 强制一行显示 6 个 */
+    grid-template-columns: repeat(6, 1fr) !important; 
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%; /* 确保容器宽度正常 */
+}
 
-        .gallery-item {
-            position: relative;
-            cursor: pointer;
-            border-radius: 8px;
-            overflow: hidden;
-            aspect-ratio: 4/3; /* 统一图片比例 */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            background-color: #e2e8f0;
-        }
+/* 确保图片保持比例，不会被拉伸 */
+.gallery-item {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 4/3; /* 锁定 4:3 比例 */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background-color: #e2e8f0;
+}
 
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.4s ease;
-        }
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 确保图片填满格子且不变形 */
+    transition: transform 0.4s ease;
+}
+
+/* 为了防止在手机上太挤，加一个简单的媒体查询（可选） */
+@media (max-width: 768px) {
+    .gallery-grid {
+        /* 手机端一行显示 3 个，不然 6 个太小了 */
+        grid-template-columns: repeat(3, 1fr) !important; 
+    }
+}
 
         .gallery-item:hover img {
             transform: scale(1.1); /* 鼠标悬停放大 */
@@ -362,7 +400,61 @@
             from {transform:scale(0.9); opacity: 0;} 
             to {transform:scale(1); opacity: 1;}
         }
+/* --- View More 遮罩与按钮 --- */
+/* --- 修复后的 View More 遮罩与按钮 --- */
+.view-more-overlay {
+    margin-top: -220px; 
+    height: 250px; 
+    position: relative;
+    z-index: 20;
+    
+    /* 核心修复：强制占满容器宽度，确保 flex 居中生效 */
+    width: 100%; 
+    left: 0;
+    
+    background: linear-gradient(to bottom, 
+        rgba(248, 250, 252, 0) 0%, 
+        rgba(248, 250, 252, 0.8) 40%, 
+        rgba(248, 250, 252, 1) 100%
+    );
+    
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    pointer-events: none;
+}
 
+
+
+.view-more-btn {
+    pointer-events: auto; /* 恢复按钮的点击 */
+    background-color: #ffffff;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    padding: 10px 35px;
+    border-radius: 50px; /* 圆角更大，显得更现代 */
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    margin-top: 60px; /* 让按钮在渐变区域偏下的位置 */
+}
+
+.view-more-btn:hover {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* 那个“半透明”项目的样式 */
+.project-card.is-preview {
+    opacity: 0.4;         /* 透明度 */
+    filter: blur(1px) grayscale(50%); /* 稍微模糊一点+去色，增加“未激活”的感觉 */
+    pointer-events: none; /* 禁止点击预览项目的链接 */
+    user-select: none;
+}
     </style>
 </head>
 <body>
@@ -574,22 +666,7 @@
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/teaser/emma.png" alt="EMMA">
-                    </div>
-                    <div class="project-info">
-                        <h3>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</h3>
-                        <div class="authors">Yucheng Han, Rui Wang, <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang</div>
-                        <span class="venue">Arxiv 2024</span>
-                        <div class="btn-group">
-                            <a href="https://tencentqqgylab.github.io/EMMA/" target="_blank" class="btn-link">Project Page</a>
-                            <a href="https://arxiv.org/abs/2406.09162" target="_blank" class="btn-link">PDF</a>
-                            <a href="https://github.com/TencentQQGYLab/ELLA" target="_blank" class="btn-link">Code</a>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="project-card">
                     <div class="project-img">
@@ -603,6 +680,126 @@
                             <a href="https://stylestudio-official.github.io/" target="_blank" class="btn-link">Project Page</a>
                             <a href="https://arxiv.org/abs/2412.08503" target="_blank" class="btn-link">PDF</a>
                             <a href="https://github.com/Westlake-AGI-Lab/StyleStudio" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+<!-- 论文1: AdaSDE -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/adasde.png" alt="AdaSDE">
+                    </div>
+                    <div class="project-info">
+                        <h3>Adaptive Stochastic Coefficients for Accelerating Diffusion Sampling</h3>
+                        <div class="authors">Ruoyu Wang, Beier Zhu, Junzhi Li, Liangyu Yuan, <strong>Chi Zhang</strong></div>
+                        <span class="venue">NeurIPS 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2510.23285" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/AdaSDE" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 论文2: EPD -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/EPD.PNG" alt="EPD">
+                    </div>
+                    <div class="project-info">
+                        <h3>Distilling Parallel Gradients for Fast ODE Solvers of Diffusion Models</h3>
+                        <div class="authors">Beier Zhu, Ruoyu Wang, Tong Zhao, Hanwang Zhang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICCV 2025</span>
+                        <div class="btn-group">
+                            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_Distilling_Parallel_Gradients_for_Fast_ODE_Solvers_of_Diffusion_Models_ICCV_2025_paper.pdf" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/BeierZhu/EPD" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 论文7: Learning to Be A Doctor -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/doctor.png" alt="Learning to Be A Doctor">
+                    </div>
+                    <div class="project-info">
+                        <h3>Learning to Be A Doctor: Searching for Effective Medical Agent Architectures</h3>
+                        <div class="authors">Yangyang Zhuang, Wenjia Jiang, Jiayu Zhang, Ze Yang, Joey Tianyi Zhou, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ACM MM 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2504.11301" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 论文6: AppAgentX -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/appagentx.gif" alt="AppAgentX">
+                    </div>
+                    <div class="project-info">
+                        <h3>AppAgentX: Evolving GUI Agents as Proficient Smartphone Users</h3>
+                        <div class="authors">Wenjia Jiang, Yangyang Zhuang, Chenxi Song, Xu Yang, Joey Tianyi Zhou, <strong>Chi Zhang</strong></div>
+                        <span class="venue">Arxiv 2025</span>
+                        <div class="btn-group">
+                            <a href="https://appagentx.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2503.02268" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/AppAgentX" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 论文3: Ultra3D -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/utral3D.png" alt="Ultra3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>Ultra3D: Efficient and High-Fidelity 3D Generation with Part Attention</h3>
+                        <div class="authors">Yiwen Chen, Zhihao Li, Yikai Wang, Hu Zhang, Qin Li, <strong>Chi Zhang</strong>, Guosheng Lin</div>
+                        <span class="venue">Arxiv 2025</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/ultra3d/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2507.17745" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 论文4: WorldForge -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/worldforge.gif" alt="WorldForge">
+                    </div>
+                    <div class="project-info">
+                        <h3>WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance</h3>
+                        <div class="authors">Chenxi Song, Yanming Yang, Tong Zhao, Ruibo Li, <strong>Chi Zhang</strong></div>
+                        <span class="venue">Arxiv 2025</span>
+                        <div class="btn-group">
+                            <a href="https://worldforge-agi.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2509.15130" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/WorldForge" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- 论文5: FlowDirector -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/flowdirector.gif" alt="FlowDirector">
+                    </div>
+                    <div class="project-info">
+                        <h3>FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing</h3>
+                        <div class="authors">Guangzhao Li, Yanming Yang, Chenxi Song, <strong>Chi Zhang</strong></div>
+                        <span class="venue">Arxiv 2025</span>
+                        <div class="btn-group">
+                            <a href="https://flowdirector-edit.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2506.05046" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/FlowDirector" target="_blank" class="btn-link">Code</a>
                         </div>
                     </div>
                 </div>
@@ -702,6 +899,23 @@
                     </div>
                 </div>
 
+                                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/emma.png" alt="EMMA">
+                    </div>
+                    <div class="project-info">
+                        <h3>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</h3>
+                        <div class="authors">Yucheng Han, Rui Wang, <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang</div>
+                        <span class="venue">Arxiv 2024</span>
+                        <div class="btn-group">
+                            <a href="https://tencentqqgylab.github.io/EMMA/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2406.09162" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/TencentQQGYLab/ELLA" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+
                  <div class="project-card">
                     <div class="project-img">
                         <img src="images/teaser/styleavatar.png" alt="StyleAvatar3D">
@@ -763,7 +977,19 @@
                     </div>
                 </div>
 
-            </section>
+
+
+
+
+<div id="viewMoreOverlay" class="view-more-overlay">
+        <button id="viewMoreBtn" class="view-more-btn">View More Projects</button>
+    </div>
+
+
+
+</section>
+
+            <!-- </section> -->
             <section>
                 <div class="section-header">
                     <h2 class="section-title">Lab Gallery</h2>
@@ -864,6 +1090,63 @@
                 closeModal();
             }
         });
+
+
+
+// --- Projects 折叠/展开 (带半透明预览效果) ---
+    document.addEventListener("DOMContentLoaded", function() {
+        const projects = document.querySelectorAll('.project-card');
+        const viewMoreOverlay = document.getElementById('viewMoreOverlay');
+        const viewMoreBtn = document.getElementById('viewMoreBtn');
+        
+        // 这里的数字是你想要“完全清晰显示”的项目数量
+        // 比如设为 5，则第 1-5 个清晰，第 6 个半透明，后面的隐藏
+        const visibleCount = 9; 
+
+        function initProjects() {
+            if (projects.length <= visibleCount) {
+                viewMoreOverlay.style.display = 'none';
+                return;
+            }
+
+            // 遍历所有项目
+            projects.forEach((project, index) => {
+                if (index < visibleCount) {
+                    // 前 N 个：正常显示
+                    project.style.display = 'flex';
+                    project.classList.remove('is-preview');
+                } else if (index === visibleCount) {
+                    // 第 N+1 个：显示，但是是“预览半透明”状态
+                    project.style.display = 'flex';
+                    project.classList.add('is-preview');
+                } else {
+                    // 剩下的：隐藏
+                    project.style.display = 'none';
+                    project.classList.remove('is-preview');
+                }
+            });
+        }
+
+        // 初始化
+        initProjects();
+
+        // 点击事件
+        viewMoreBtn.addEventListener('click', function() {
+            projects.forEach((project) => {
+                project.style.display = 'flex'; // 显示所有
+                project.style.opacity = 0;      // 准备动画
+                project.classList.remove('is-preview'); // 移除半透明效果
+                
+                // 简单的淡入动画
+                setTimeout(() => { project.style.opacity = 1; }, 50);
+            });
+            
+            // 隐藏遮罩和按钮
+            viewMoreOverlay.style.display = 'none';
+        });
+    });
+
+
     </script>
 </body>
 </html>
