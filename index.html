@@ -262,6 +262,104 @@
         ul.service-list li { margin-bottom: 8px; font-size: 0.95rem; color: #475569; }
 
         footer { text-align: center; color: #94a3b8; font-size: 0.8rem; padding: 40px 0 80px 0; border-top: 1px solid #f1f5f9; margin-top: 40px;}
+        /* --- 新增：Gallery 相册网格样式 --- */
+        .gallery-grid {
+            display: grid;
+            /* 自动填充列，最小宽度180px，自适应 */
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            cursor: pointer;
+            border-radius: 8px;
+            overflow: hidden;
+            aspect-ratio: 4/3; /* 统一图片比例 */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            background-color: #e2e8f0;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1); /* 鼠标悬停放大 */
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            color: white;
+            padding: 20px 10px 10px;
+            font-size: 0.8rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .gallery-item:hover .gallery-caption { opacity: 1; }
+
+        /* --- 新增：点击查看大图 (Modal) 样式 --- */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.85); 
+            backdrop-filter: blur(5px);
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            border-radius: 4px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            animation: zoomIn 0.3s;
+        }
+
+        #caption {
+            margin: 15px auto;
+            display: block;
+            width: 80%;
+            text-align: center;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .close:hover { color: #bbb; text-decoration: none; }
+
+        @keyframes zoomIn {
+            from {transform:scale(0.9); opacity: 0;} 
+            to {transform:scale(1); opacity: 1;}
+        }
 
     </style>
 </head>
@@ -664,14 +762,109 @@
                 </div>
 
             </section>
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title">Lab Gallery</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/1.JPG" alt="Group Members">
+                        <div class="gallery-caption"> Group Members</div>
+                    </div>
+                    
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/2.JPG" alt="Group Members">
+                        <div class="gallery-caption">Group Members</div>
+                    </div>
 
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/3.JPG" alt="Group Members">
+                        <div class="gallery-caption">Group Members</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/4.JPG" alt="Lab Activity">
+                         <div class="gallery-caption">Lab Activity </div>
+                    </div>
+
+                                        <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/5.JPG" alt="Group Members">
+                         <div class="gallery-caption">Group Members</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/6.JPG" alt="Group Members">
+                         <div class="gallery-caption">Group Members</div>
+                    </div>
+
+
+                                        <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/7.JPG" alt="Group Members">
+                         <div class="gallery-caption">Group Members</div>
+                    </div>
+
+                                                            <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/8.JPG" alt="Lab ">
+                         <div class="gallery-caption">Lab </div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+            </section>
         </main>
     </div>
 
+    
     <footer>
         
         <p style="margin-top: 20px;">&copy; 2025 Chi Zhang. All rights reserved.</p>
     </footer>
+<div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
 
+    <script>
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("modalImg");
+        var captionText = document.getElementById("caption");
+
+        // 打开弹窗
+        function openModal(element) {
+            var img = element.querySelector('img');
+            var caption = element.querySelector('.gallery-caption');
+            
+            modal.style.display = "flex";
+            modalImg.src = img.src; 
+            if(caption) {
+                captionText.innerHTML = caption.innerHTML;
+            } else {
+                captionText.innerHTML = "";
+            }
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        // 点击背景关闭
+        modal.onclick = function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+        
+        // 按 ESC 键关闭
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                closeModal();
+            }
+        });
+    </script>
 </body>
 </html>
