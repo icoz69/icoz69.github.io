@@ -55,26 +55,26 @@
         }
 
         .avatar {
-            width: 200px;
-            height: 200px;
+            width: 180px; /* 稍微调小一点以适应左对齐 */
+            height: 180px;
             border-radius: 50%;
             overflow: hidden;
-            margin-bottom: 25px;
+            /* 关键修改：去掉 margin: 0 auto，改为左对齐，仅保留底部间距 */
+            margin: 0 0 20px 0; 
             box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
             background-color: #e2e8f0;
-            margin-left: auto; margin-right: auto;
         }
 
         .avatar img { width: 100%; height: 100%; object-fit: cover; }
 
         .sidebar-text-container {
             text-align: left;
-            width: 100%; /* 占满侧边栏宽度 */
-            margin: 0 auto;
+            width: 100%;
+            margin: 0; /* 移除 margin: 0 auto */
             padding-bottom: 20px;
             display: flex;
             flex-direction: column;
-            align-items: flex-start; /* 默认左对齐 */
+            align-items: flex-start; /* 强制左对齐 */
         }
 
         .name { font-size: 2rem; font-weight: 700; margin: 0 0 5px 0; color: #0f172a; line-height: 1.2; }
@@ -101,6 +101,8 @@
             display: flex;
             gap: 14px;
             margin-top: 5px;
+            /* 确保图标也是左对齐 */
+            justify-content: flex-start; 
         }
         .social-link svg {
             width: 20px;
@@ -118,17 +120,22 @@
             margin-top: 30px; 
             opacity: 0.9; 
             transition: opacity 0.3s; 
-            /* 确保在侧边栏内不溢出 */
             max-width: 100%; 
             overflow: hidden;
             border-radius: 8px;
+            /* 确保地图也是左对齐 */
+            text-align: left; 
+            display: block;
         }
         .map-container:hover { opacity: 1; }
 
         @media (max-width: 768px) { 
-            .sidebar-text-container { align-items: center; } /* 移动端居中 */
+            /* 移动端仍然保持居中，因为移动端是单列布局 */
+            .sidebar { text-align: center; display: flex; flex-direction: column; align-items: center; }
+            .avatar { margin: 0 auto 20px auto; }
+            .sidebar-text-container { align-items: center; text-align: center; }
             .social-icons { justify-content: center; }
-            .map-container { display: flex; justify-content: center; } /* 移动端地图居中 */
+            .map-container { display: flex; justify-content: center; }
         }
 
         /* --- 右侧内容区 --- */
@@ -264,7 +271,7 @@
         
         <aside class="sidebar">
             <div class="avatar">
-                <img src="assets/img/Picture2.png" onerror="this.src='https://via.placeholder.com/400?text=Chi+Zhang'" alt="Chi Zhang">
+                <img src="test/assets/img/Picture2.png" onerror="this.src='https://via.placeholder.com/400?text=Chi+Zhang'" alt="Chi Zhang">
             </div>
             
             <div class="sidebar-text-container">
@@ -662,6 +669,7 @@
     </div>
 
     <footer>
+        
         <p style="margin-top: 20px;">&copy; 2025 Chi Zhang. All rights reserved.</p>
     </footer>
 
