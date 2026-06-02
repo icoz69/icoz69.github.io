@@ -12,3 +12,8 @@ index5.html
 index6.html
 index6_副本.html
 index7.html
+
+# Local LaTeX resume preview artifacts
+.codex_tools/
+build/
+chi_zhang_resume_cn.tex
