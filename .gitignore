@@ -1,0 +1,19 @@
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.DS_Store
+.jekyll-cache
+git-update.sh
+index2.html
+index3.html
+index4.html
+index5.html
+index6.html
+index6_副本.html
+index7.html
+
+# Local LaTeX resume preview artifacts
+.codex_tools/
+build/
+chi_zhang_resume_cn.tex

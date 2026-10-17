@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Zhang | Westlake University</title>
+    <style>
+        /* --- 核心基础样式 --- */
+        :root {
+            --primary-blue: #2563eb;
+            --text-main: #1e293b;
+            --text-secondary: #64748b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        a { text-decoration: none; color: inherit; transition: color 0.2s; }
+        a:hover { color: var(--primary-blue); }
+        
+        .text-link { color: var(--primary-blue); text-decoration: none; font-weight: 500; }
+        .text-link:hover { text-decoration: underline; }
+
+        /* --- 布局容器 --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 24px;
+            display: flex;
+            gap: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .container { flex-direction: column; gap: 40px; padding: 30px 20px; }
+            .sidebar { width: 100%; position: static !important; }
+            .project-card { flex-direction: column; }
+            .project-img { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
+        }
+
+        /* --- 左侧边栏 --- */
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 40px;
+            height: fit-content;
+            max-height: calc(100dvh - 80px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .avatar {
+            flex-shrink: 0;
+            width: 180px; /* 稍微调小一点以适应左对齐 */
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            /* 关键修改：去掉 margin: 0 auto，改为左对齐，仅保留底部间距 */
+            margin: 0 0 20px 0; 
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+            background-color: #e2e8f0;
+        }
+
+        .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+        .sidebar-text-container {
+            flex-shrink: 0;
+            text-align: left;
+            width: 100%;
+            margin: 0; /* 移除 margin: 0 auto */
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* 强制左对齐 */
+        }
+
+        .name { font-size: 2rem; font-weight: 700; margin: 0 0 5px 0; color: #0f172a; line-height: 1.2; }
+        .title { font-size: 1.1rem; color: var(--primary-blue); margin: 0 0 4px 0; font-weight: 600; }
+        .lab { color: var(--text-secondary); margin: 0 0 15px 0; font-size: 0.95rem; }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 15px;
+        }
+        .contact-info p { 
+            margin: 0; 
+            font-size: 0.85rem; 
+            color: var(--text-secondary); 
+            display: flex; 
+            align-items: center; 
+            gap: 8px;
+        }
+
+        /* 社交图标样式 (SVG) */
+        .social-icons {
+            display: flex;
+            gap: 14px;
+            margin-top: 5px;
+            /* 确保图标也是左对齐 */
+            justify-content: flex-start; 
+        }
+        .social-link svg {
+            width: 20px;
+            height: 20px;
+            fill: #64748b;
+            transition: fill 0.2s, transform 0.2s;
+        }
+        .social-link:hover svg {
+            fill: var(--primary-blue);
+            transform: translateY(-2px);
+        }
+
+        /* 地图容器样式 */
+        .map-container { 
+            margin-top: 30px; 
+            opacity: 0.9; 
+            transition: opacity 0.3s; 
+            max-width: 100%; 
+            overflow: hidden;
+            border-radius: 8px;
+            /* 确保地图也是左对齐 */
+            text-align: left; 
+            display: block;
+        }
+        .map-container:hover { opacity: 1; }
+
+        @media (max-width: 768px) { 
+            /* 移动端仍然保持居中，因为移动端是单列布局 */
+            .sidebar { text-align: center; display: flex; flex-direction: column; align-items: center; }
+            .avatar { margin: 0 auto 20px auto; }
+            .sidebar-text-container { align-items: center; text-align: center; }
+            .social-icons { justify-content: center; }
+            .map-container { display: flex; justify-content: center; }
+        }
+
+        /* --- 右侧内容区 --- */
+        .main-content { flex: 1; min-width: 0; }
+
+        section { margin-bottom: 60px; }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #94a3b8;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .scroll-hint {
+            font-size: 0.75rem;
+            color: #cbd5e1;
+            font-style: italic;
+        }
+
+        .prose p { margin-bottom: 16px; color: #334155; text-align: justify; }
+        
+        .highlight-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--primary-blue);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            color: #1e40af;
+            font-size: 0.95rem;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        /* --- News (可滚动) --- */
+        .news-container {
+            max-height: 400px;
+            overflow-y: auto;
+            background-color: #ffffff;
+            border: 1px solid #f1f5f9;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .news-list { display: flex; flex-direction: column; gap: 12px; }
+        .news-item { display: flex; gap: 16px; align-items: baseline; font-size: 0.95rem; }
+        .news-date { 
+            font-family: monospace; 
+            font-weight: bold; 
+            color: #2563eb; 
+            width: 90px; 
+            flex-shrink: 0; 
+            font-size: 0.85rem; 
+            text-align: right;
+        }
+        .news-content { color: #334155; }
+        .news-content strong { color: #0f172a; }
+
+        .news-container::-webkit-scrollbar { width: 6px; }
+        .news-container::-webkit-scrollbar-track { background: #f8fafc; border-radius: 4px; }
+        .news-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .news-container::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        .sidebar-news {
+            width: 100%;
+            min-height: 0;
+            margin: 12px 0 0;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        .sidebar-news .section-header {
+            flex-shrink: 0;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        .sidebar-news .section-title { letter-spacing: 0; }
+        .sidebar-news .news-container {
+            min-height: 0;
+            max-height: 480px;
+            padding: 0 12px 0 0;
+            background: transparent;
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            overscroll-behavior-y: contain;
+        }
+        .sidebar-news .news-list { gap: 16px; }
+        .sidebar-news .news-item {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        .sidebar-news .news-date {
+            width: auto;
+            font-size: 0.75rem;
+            text-align: left;
+        }
+        .sidebar-news .news-content { overflow-wrap: anywhere; }
+
+        @media (min-width: 769px) and (max-height: 720px) {
+            .sidebar { position: static; max-height: none; }
+            .sidebar-news .news-container { max-height: 360px; }
+        }
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; max-height: none; }
+            .sidebar-news { margin-top: 20px; }
+            .sidebar-news .news-container { max-height: 320px; }
+        }
+
+        /* Projects */
+        .project-card {
+            display: flex;
+            gap: 24px;
+            background: #ffffff;
+            padding: 24px;
+            margin: 0 0 24px 0;
+            border-radius: 12px;
+            border: 1px solid #f1f5f9;
+            transition: all 0.2s ease;
+        }
+        .project-card[hidden] { display: none; }
+        .project-card:hover {
+            border-color: #e2e8f0;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+        }
+        
+
+        /* --- View More 按钮样式 --- */
+.view-more-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.view-more-btn {
+    background-color: #f1f5f9; /* 与原本的 btn-link 风格保持一致，或者是 var(--primary-blue) */
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.view-more-btn:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    transform: translateY(-2px);
+}
+
+
+
+        .project-img {
+            width: 220px;
+            height: fit-content;
+            flex-shrink: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #f1f5f9;
+        }
+        .project-img img { width: 100%; height: auto; display: block; }
+
+        .project-info { flex: 1; }
+        .project-info h3 { margin: 0 0 8px 0; font-size: 1.15rem; color: #0f172a; line-height: 1.3; }
+        
+        .authors { font-size: 0.9rem; color: #475569; margin-bottom: 6px; line-height: 1.4; }
+        .authors strong { color: #0f172a; font-weight: 600; }
+        
+        .venue { font-style: italic; color: #2563eb; font-weight: 500; font-size: 0.9rem; margin-bottom: 12px; display: block;}
+        
+        .btn-group { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 12px; }
+        .btn-link { 
+            font-size: 0.85rem; 
+            font-weight: 600; 
+            color: #475569; 
+            background: #f1f5f9;
+            padding: 4px 10px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .btn-link:hover { background: #cbd5e1; color: #0f172a; }
+
+        ul.service-list { padding-left: 20px; margin: 0; }
+        ul.service-list li { margin-bottom: 8px; font-size: 0.95rem; color: #475569; }
+
+        footer { text-align: center; color: #94a3b8; font-size: 0.8rem; padding: 40px 0 80px 0; border-top: 1px solid #f1f5f9; margin-top: 40px;}
+        .visitor-map {
+            display: flex;
+            justify-content: center;
+            margin: 28px auto 0;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        /* --- 新增：Gallery 相册网格样式 --- */
+ /* --- 新增：Gallery 相册网格样式 --- */
+/* --- 修复后的 Gallery 相册网格样式 --- */
+.gallery-grid {
+    display: grid !important; /* 强制启用网格布局 */
+    /* 强制一行显示 6 个 */
+    grid-template-columns: repeat(6, 1fr) !important; 
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%; /* 确保容器宽度正常 */
+}
+
+/* 确保图片保持比例，不会被拉伸 */
+.gallery-item {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 4/3; /* 锁定 4:3 比例 */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background-color: #e2e8f0;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 确保图片填满格子且不变形 */
+    transition: transform 0.4s ease;
+}
+
+/* 为了防止在手机上太挤，加一个简单的媒体查询（可选） */
+@media (max-width: 768px) {
+    .gallery-grid {
+        /* 手机端一行显示 3 个，不然 6 个太小了 */
+        grid-template-columns: repeat(3, 1fr) !important; 
+    }
+}
+
+        .gallery-item:hover img {
+            transform: scale(1.1); /* 鼠标悬停放大 */
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            color: white;
+            padding: 20px 10px 10px;
+            font-size: 0.8rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .gallery-item:hover .gallery-caption { opacity: 1; }
+
+        /* --- 新增：点击查看大图 (Modal) 样式 --- */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.85); 
+            backdrop-filter: blur(5px);
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            border-radius: 4px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            animation: zoomIn 0.3s;
+        }
+
+        #caption {
+            margin: 15px auto;
+            display: block;
+            width: 80%;
+            text-align: center;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .close:hover { color: #bbb; text-decoration: none; }
+
+        @keyframes zoomIn {
+            from {transform:scale(0.9); opacity: 0;} 
+            to {transform:scale(1); opacity: 1;}
+        }
+/* --- View More 遮罩与按钮 --- */
+/* --- 修复后的 View More 遮罩与按钮 --- */
+.view-more-overlay {
+    margin-top: -220px; 
+    height: 250px; 
+    position: relative;
+    z-index: 20;
+    
+    /* 核心修复：强制占满容器宽度，确保 flex 居中生效 */
+    width: 100%; 
+    left: 0;
+    
+    background: linear-gradient(to bottom, 
+        rgba(248, 250, 252, 0) 0%, 
+        rgba(248, 250, 252, 0.8) 40%, 
+        rgba(248, 250, 252, 1) 100%
+    );
+    
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    pointer-events: none;
+}
+
+
+
+.view-more-btn {
+    pointer-events: auto; /* 恢复按钮的点击 */
+    background-color: #ffffff;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    padding: 10px 35px;
+    border-radius: 50px; /* 圆角更大，显得更现代 */
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    margin-top: 60px; /* 让按钮在渐变区域偏下的位置 */
+}
+
+.view-more-btn:hover {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* 那个“半透明”项目的样式 */
+.project-card.is-preview {
+    opacity: 0.4;         /* 透明度 */
+    filter: blur(1px) grayscale(50%); /* 稍微模糊一点+去色，增加“未激活”的感觉 */
+    pointer-events: none; /* 禁止点击预览项目的链接 */
+    user-select: none;
+}
+
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    border: 1px solid #dbe3ef;
+    background: rgba(255, 255, 255, 0.92);
+    color: #334155;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+}
+
+.language-toggle:hover {
+    color: var(--primary-blue);
+    border-color: #bfdbfe;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .language-toggle {
+        top: 12px;
+        right: 12px;
+        padding: 7px 12px;
+    }
+}
+    </style>
+</head>
+<body>
+    <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language">中文</button>
+
+    <div class="container">
+        
+        <aside class="sidebar">
+            <div class="avatar">
+                <img src="assets/img/Picture2.png" onerror="this.src='https://via.placeholder.com/400?text=Chi+Zhang'" alt="Chi Zhang">
+            </div>
+            
+            <div class="sidebar-text-container">
+                <h1 class="name" data-i18n="sidebar.name">Chi Zhang</h1>
+                <p class="title" data-i18n="sidebar.title">Assistant Professor & PI</p>
+                <p class="lab" data-i18n="sidebar.lab">AGI Lab, Westlake University</p>
+                
+                <div class="contact-info">
+                    <p>chizhang (at) westlake.edu.cn</p>
+                    <p data-i18n="sidebar.location">Hangzhou, China</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="mailto:chizhang@westlake.edu.cn" class="social-link" title="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+                    <a href="https://scholar.google.com.sg/citations?user=J4s398EAAAAJ" target="_blank" class="social-link" title="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg></a>
+                    <a href="https://github.com/Westlake-AGI-Lab" target="_blank" class="social-link" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="https://www.linkedin.com/in/zhang-chi-835a20184/" target="_blank" class="social-link" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                    <a href="https://x.com/dr_chizhang" target="_blank" class="social-link" title="Twitter"><svg viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+                </div>
+            </div>
+            <section class="sidebar-news">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.news">News</h2>
+                    <span class="scroll-hint" data-i18n="news.scroll">Scroll for more</span>
+                </div>
+                
+                <div class="news-container">
+                    <div class="news-list">
+                        <div class="news-item"><span class="news-date">Sep 2026</span><div class="news-content">🚀 We released <a href="https://chenxi-song.github.io/worldinworld/" class="text-link" target="_blank">World in World</a>, exploring video worlds with world models.</div></div>
+                        <div class="news-item"><span class="news-date">Aug 2026</span><div class="news-content">🚀 We released <a href="https://buaacyw.github.io/cwm/" class="text-link" target="_blank">Code World Model</a>, a code-driven world model.</div></div>
+                        <div class="news-item"><span class="news-date">Jun 2026</span><div class="news-content">🎉 <a href="https://buaacyw.github.io/ultra3d/" class="text-link" target="_blank">Ultra3D</a> is accepted by <a href="https://eccv.ecva.net/Conferences/2026" class="text-link" target="_blank">ECCV 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jun 2026</span><div class="news-content">🎉 <a href="https://arxiv.org/abs/2606.13496" class="text-link" target="_blank">BudCache</a> is accepted by <a href="https://icml.cc/Conferences/2026" class="text-link" target="_blank">ICML 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">May 2026</span><div class="news-content">🎉 Selected as a <a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf" class="text-link" target="_blank">CVPR 2026 Outstanding Area Chair</a>.</div></div>
+                        <div class="news-item"><span class="news-date">May 2026</span><div class="news-content">🎉 <a href="https://arxiv.org/abs/2507.17853" class="text-link" target="_blank">Detail++</a> is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83" class="text-link" target="_blank">TIP</a>.</div></div>
+                        <div class="news-item"><span class="news-date">May 2026</span><div class="news-content">🎉 <a href="https://arxiv.org/pdf/2512.22796" class="text-link" target="_blank">EPD-solver v2</a> is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" class="text-link" target="_blank">T-PAMI</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jan 2026</span><div class="news-content">🎉 <a href="https://openreview.net/forum?id=QIEPzPzkaO" class="text-link" target="_blank">PMI</a> is accepted by <a href="https://iclr.cc/Conferences/2026" class="text-link" target="_blank">ICLR 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Dec 2025</span><div class="news-content">  <a href="https://epd-solver.github.io/" class="text-link" target="_blank">EPD-Solver V2</a> is released.</div></div>
+                        <div class="news-item"><span class="news-date">Dec 2025</span><div class="news-content"> 🎉<a href="https://arxiv.org/abs/2510.23285" class="text-link" target="_blank">AdaSDE</a> is accepted by <a href="https://neurips.cc/Conferences/2025" class="text-link" target="_blank">NeurIPS 2025</a> .</div></div>
+                        <div class="news-item"><span class="news-date">Nov 2025</span><div class="news-content">Serving as Area Chair for <a href="https://icml.cc/Conferences/2026" class="text-link" target="_blank">ICML 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">Presenting a tutorial on <a href="https://wangywust.github.io/iccv-tutorial-reasoning-vlm" class="text-link" target="_blank">reasoning in GUI agents</a> at ICCV 2025.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">🚀 We present <a href="https://worldforge-agi.github.io/" class="text-link" target="_blank">WorldForge</a>, a training-free world model built on video diffusion.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2025</span><div class="news-content">Serving as Area Chair for <a href="https://cvpr.thecvf.com/Conferences/2026" class="text-link" target="_blank">CVPR 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Aug 2025</span><div class="news-content">Serving as Area Chair for <a href="https://iclr.cc/" class="text-link" target="_blank">ICLR 2026</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jul 2025</span><div class="news-content">🚀 We’ve launched <a href="https://buaacyw.github.io/ultra3d/" class="text-link" target="_blank">Ultra3D</a>, enabling efficient high-resolution 3D generation.</div></div>
+                        <div class="news-item"><span class="news-date">Jun 2025</span><div class="news-content">🎬 We present <a href="https://flowdirector-edit.github.io/" class="text-link" target="_blank">FlowDirector</a>, a training-free video editing model with SOTA performance.</div></div>
+                        <div class="news-item"><span class="news-date">Mar 2025</span><div class="news-content">Serving as Area Chair for <a href="https://acmmm2025.org/" class="text-link" target="_blank">ACM MM 2025</a> and <a href="https://2025.ijcnn.org/" class="text-link" target="_blank">IJCNN 2025</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Mar 2025</span><div class="news-content">🔥🔥🔥 <a href="https://appagentx.github.io/" class="text-link" target="_blank">AppAgentX</a> is released! The next generation of AppAgent supports self-evolution.</div></div>
+                        <div class="news-item"><span class="news-date">Feb 2025</span><div class="news-content">🔥 We present <a href="https://distill-any-depth-official.github.io/" class="text-link" target="_blank">Distill Any Depth</a>, setting new SOTA for monocular depth estimation.</div></div>
+                        <div class="news-item"><span class="news-date">Feb 2025</span><div class="news-content">🎉 <a href="https://buaacyw.github.io/mesh-anything/" class="text-link" target="_blank">MeshAnything</a> is accepted by ICLR 2025.</div></div>
+                        <div class="news-item"><span class="news-date">Dec 2024</span><div class="news-content">Excited to join the Editorial Board of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76" class="text-link" target="_blank">IEEE T-CSVT</a> as an Associate Editor!</div></div>
+                        <div class="news-item"><span class="news-date">Nov 2024</span><div class="news-content">🔥 We present <a href="https://stylestudio-official.github.io/" class="text-link" target="_blank">StyleStudio</a>, setting new SOTA for text-driven image style transfer tasks.</div></div>
+                        <div class="news-item"><span class="news-date">Sep 2024</span><div class="news-content">🎉 Listed among the <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" class="text-link" target="_blank">2024 World's Top 2% Scientists by Stanford University</a>.</div></div>
+                        <div class="news-item"><span class="news-date">Jul 2024</span><div class="news-content">🎉 I joined Westlake University as an Assistant Professor (PI) and established AGI lab.</div></div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <main class="main-content">
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.about">About Me</h2>
+                </div>
+                <div class="prose">
+                    <p data-i18n="about.p1">
+                        I am a tenure-track Assistant Professor and PI at Westlake University, where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.
+                    </p>
+                    <p data-i18n="about.p2">
+                        I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin. I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. I was recognized among World's Top 2% Scientists by Stanford University in 2023 and 2024.
+                    </p>
+
+                    <div class="highlight-box" data-i18n-html="about.hiring">
+                        <strong>[2025] 📢 We're hiring!</strong> Multiple positions for PhD students, postdocs, visiting students, and research assistants are available! <a href="https://zhuanlan.zhihu.com/p/718028557" class="text-link" target="_blank">See 招生信息 →</a>
+<p>To learn more about our lab, feel free to contact me or any member of our team😊</p>
+
+                    </div>
+                </div>
+            </section>
+
+             <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.research">Research Interests</h2>
+                </div>
+                <div class="prose">
+                    <p data-i18n="research.p1">
+                        My current research focuses on Generative AI, including theoretical foundations of generative models, multimodal generative modeling, and multimodal intelligent agents. In the past, my work has also spanned broader areas in machine learning and computer vision.
+                    </p>
+                    <p data-i18n-html="research.p2">
+                        Recently, my group has developed several interesting research projects, including <a href="https://appagent-official.github.io/" class="text-link" target="_blank">AppAgent</a>, the first mobile GUI agent framework and <a href="https://www.semanticscholar.org/venue?name=International%20Conference%20on%20Human%20Factors%20in%20Computing%20Systems&year%5B0%5D=2023&year%5B1%5D=2025&sort=total-citations" class="text-link" target="_blank">the second most-cited CHI paper</a> over the past four years; <a href="https://buaacyw.github.io/gaussian-editor/" class="text-link" target="_blank">GaussianEditor</a>, the first work on Gaussian editing; and the <a href="https://buaacyw.github.io/mesh-anything/" class="text-link" target="_blank">MeshAnything</a> series, the first autoregressive approach for general 3D mesh extraction.
+                    </p>
+                </div>
+            </section>
+
+
+             <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.service">Academic Service</h2>
+                </div>
+                <ul class="service-list" data-i18n-html="service.list">
+                    <li><strong>Associate Editor</strong> for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76" class="text-link" target="_blank">TCSVT</a> since 2024</li>
+                    <li><strong>Area Chair</strong> for <a href="https://icml.cc/Conferences/2026" class="text-link" target="_blank">ICML 2026</a>, <a href="https://iclr.cc/" class="text-link" target="_blank">ICLR 2026</a>, <a href="https://cvpr.thecvf.com/Conferences/2026" class="text-link" target="_blank">CVPR 2026</a>, <a href="https://aclrollingreview.org/" class="text-link" target="_blank">ACL ARR 2025</a>, <a href="https://acmmm2025.org/" class="text-link" target="_blank">ACM Multimedia 2025</a>, <a href="https://2025.ijcnn.org/" class="text-link" target="_blank">IJCNN 2025</a></li>
+                    <li><strong>Reviewer</strong> for T-PAMI, ICLR, CVPR, NeurIPS, etc.</li>
+                </ul>
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.hobbies">Hobbies</h2>
+                </div>
+                <div class="prose">
+                    <p data-i18n-html="hobbies.p1">
+                        I like singing and playing football. 
+                        I am a loyal fan of  <span style="text-decoration: line-through; opacity: 0.5;">FC Barcelona</span>  <span style="text-decoration: line-through; opacity: 0.5;">PSG</span> <span style="color: #10b981; font-weight: bold;">Inter Miami</span> .
+                    </p>
+                    <p data-i18n-html="hobbies.p2">
+                        My favorite singers are <a href="https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B" class="text-link" target="_blank">Jacky Cheung</a> and <a href="https://en.wikipedia.org/wiki/Freddie_Mercury" class="text-link" target="_blank">Freddie Mercury</a>.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.projects">Selected Projects</h2>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/appagent.png" alt="AppAgent">
+                    </div>
+                    <div class="project-info">
+                        <h3>AppAgent: Multimodal Agents as Smartphone Users</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Zhao Yang, Jiaxuan Liu, Yuchen Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu</div>
+                        <span class="venue">CHI 2025</span>
+                        <div class="btn-group">
+                            <a href="https://appagent-official.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.13771" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/mnotgod96/AppAgent" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=AppAgent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://buaacyw.github.io/images/demo_video.gif" alt="MeshAnything">
+                    </div>
+                    <div class="project-info">
+                        <h3>MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers</h3>
+                        <div class="authors">Yiwen Chen, Tong He, Di Huang, Weicai Ye, Sijin Chen, Jiaxiang Tang, Xin Chen, Zhongang Cai, Lei Yang, Gang Yu, Guosheng Lin, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICLR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/mesh-anything/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2406.10163" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/MeshAnything" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnything&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://buaacyw.github.io/meshanything-v2/demo_video.gif" alt="MeshAnything V2">
+                    </div>
+                    <div class="project-info">
+                        <h3>MeshAnything V2: Artist-Created Mesh Generation with Adjacent Mesh Tokenization</h3>
+                        <div class="authors">Yiwen Chen, Yikai Wang*, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, <strong>Chi Zhang*</strong>, Guosheng Lin*</div>
+                        <span class="venue">ICCV 2025</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/meshanything-v2/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2408.02555" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/MeshAnythingV2" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=MeshAnythingV2&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/gaussianeditor.png" alt="GaussianEditor">
+                    </div>
+                    <div class="project-info">
+                        <h3>GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting</h3>
+                        <div class="authors">Yiwen Chen, Zilong Chen, <strong>Chi Zhang</strong>, Feng Wang, Xiaofeng Yang, Yikai Wang, Zhongang Cai, Lei Yang, Huaping Liu, Guosheng Lin</div>
+                        <span class="venue">CVPR 2024</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/gaussian-editor/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.14521" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/GaussianEditor" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=buaacyw&repo=GaussianEditor&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/metric3d.png" alt="Metric3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image</h3>
+                        <div class="authors">Wei Yin*, <strong>Chi Zhang*</strong>, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen</div>
+                        <span class="venue">ICCV 2023</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2307.10984" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/YvanYin/Metric3D" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=YvanYin&repo=Metric3D&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/worldinworld.jpg" alt="World in World">
+                    </div>
+                    <div class="project-info">
+                        <h3>World in World: Explore the World with World Models</h3>
+                        <div class="authors">Chenxi Song, Yanming Yang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">arXiv 2026</span>
+                        <div class="btn-group">
+                            <a href="https://chenxi-song.github.io/worldinworld/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2609.11548" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/WorldinWorld" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/code_world_model.webp" alt="Code World Model">
+                    </div>
+                    <div class="project-info">
+                        <h3>Code World Model: Coding Agent as World Brain</h3>
+                        <div class="authors">Yiwen Chen, Guosheng Lin, <strong>Chi Zhang</strong></div>
+                        <span class="venue">arXiv 2026</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/cwm/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2608.25927" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/code-world-model" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/budcache.png" alt="Budget-Constrained Step-Level Diffusion Caching">
+                    </div>
+                    <div class="project-info">
+                        <h3>Budget-Constrained Step-Level Diffusion Caching</h3>
+                        <div class="authors">Mingkun Lei, Tong Zhao, Liangyu Yuan, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICML 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2606.13496" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/BudCache" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/detailpp.png" alt="Detail++">
+                    </div>
+                    <div class="project-info">
+                        <h3>Detail++: Training-Free Detail Enhancer for Text-to-Image Diffusion Models</h3>
+                        <div class="authors">Lifeng Chen, Jiner Wang, Zihao Pan, Beier Zhu, Xiaofeng Yang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">IEEE TIP 2026</span>
+                        <div class="btn-group">
+                            <a href="https://detail-plus-plus.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2507.17853" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/clf28/Detail-plus-plus" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/epd_v2.png" alt="EPD-Solver">
+                    </div>
+                    <div class="project-info">
+                        <h3>Parallel Diffusion Solver via Residual Dirichlet Policy Optimization</h3>
+                        <div class="authors">Ruoyu Wang, Ziyu Li, Beier Zhu, Liangyu Yuan, Hanwang Zhang, Xun Yang, Xiaojun Chang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">IEEE TPAMI 2026</span>
+                        <div class="btn-group">
+                            <a href="https://epd-solver.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2512.22796" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/BeierZhu/EPD" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/styleavatar.png" alt="StyleAvatar3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Yiwen Chen, Yijun Fu, Zhenglin Zhou, Gang YU, Billzb Wang, Bin Fu, Tao Chen, Guosheng Lin, Chunhua Shen</div>
+                        <span class="venue">IEEE JSTSP 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2305.19012" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/icoz69/StyleAvatar3D" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/switchcraft.png" alt="SwitchCraft">
+                    </div>
+                    <div class="project-info">
+                        <h3>SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls</h3>
+                        <div class="authors">Qianxun Xu, Chenxi Song, Yujun Cai, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://switchcraft-project.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2602.23956" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/SwitchCraft" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/craft_lora.png" alt="CRAFT-LoRA">
+                    </div>
+                    <div class="project-info">
+                        <h3>CRAFT-LoRA: Content-Style Personalization via Rank-Constrained Adaptation and Training-Free Fusion</h3>
+                        <div class="authors">Yu Li, Yujun Cai, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2602.18936" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/free_inversion.png" alt="Free Lunch for Stabilizing Rectified Flow Inversion">
+                    </div>
+                    <div class="project-info">
+                        <h3>Free Lunch for Stabilizing Rectified Flow Inversion</h3>
+                        <div class="authors">Chenru Wang, Beier Zhu, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICLR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2602.11850" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/freeloc.png" alt="FreeLOC">
+                    </div>
+                    <div class="project-info">
+                        <h3>Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction</h3>
+                        <div class="authors">Jiahao Tian, Chenxi Song, Wei Cheng, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2603.25209" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/FreeLOC" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/indis.png" alt="Instance-Aware Discretizations">
+                    </div>
+                    <div class="project-info">
+                        <h3>Few-Step Diffusion Sampling Through Instance-Aware Discretizations</h3>
+                        <div class="authors">Liangyu Yuan, Ruoyu Wang, Tong Zhao, Dingwen Fu, Mingkun Lei, Beier Zhu, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2603.17671" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/851695e35/INDIS" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/weak_strong_guidance.png" alt="Weak-to-Strong Segmented Guidance">
+                    </div>
+                    <div class="project-info">
+                        <h3>Improving Diffusion Generalization with Weak-to-Strong Segmented Guidance</h3>
+                        <div class="authors">Liangyu Yuan, Yufei Huang, Mingkun Lei, Tong Zhao, Ruoyu Wang, Changxi Chi, Yiwei Wang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2603.20584" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/sqlagent.png" alt="SQLAgent">
+                    </div>
+                    <div class="project-info">
+                        <h3>SQLAgent: Learning to Explore Before Generating as a Data Engineer</h3>
+                        <div class="authors">Wenjia Jiang, Yiwei Wang, Boyan Han, Joey Tianyi Zhou, <strong>Chi Zhang</strong></div>
+                        <span class="venue">Findings of ACL 2026</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2602.01952" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/fast3dcache.png" alt="Fast3Dcache">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fast3Dcache: Training-Free 3D Geometry Synthesis Acceleration</h3>
+                        <div class="authors">Mengyu Yang, Yanming Yang, Chenyi Xu, Chenxi Song, Yufan Zuo, Tong Zhao, Ruibo Li, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://fast3dcache-agi.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2511.22533" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/Fast3Dcache" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/auto_slides.png" alt="Auto-Slides">
+                    </div>
+                    <div class="project-info">
+                        <h3>Auto-Slides: An Interactive Multi-Agent System for Creating and Customizing Research Presentations</h3>
+                        <div class="authors">Yuheng Yang, Wenjia Jiang, Yang Wang, Yi Song, Yiwei Wang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICME 2026</span>
+                        <div class="btn-group">
+                            <a href="https://auto-slides.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2509.11062" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/wzsyyh/Auto-Slides" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/vistorybench.png" alt="ViStoryBench">
+                    </div>
+                    <div class="project-info">
+                        <h3>ViStoryBench: Comprehensive Benchmark Suite for Story Visualization</h3>
+                        <div class="authors">Cailin Zhuang, Ailin Huang, Yaoqi Hu, Jingwei Wu, Wei Cheng, Jiaqi Liao, Hongyuan Wang, Xinyao Liao, Weiwei Cai, Hengyuan Xu, Xuanyang Zhang, Xianfang Zeng, Zhewei Huang, Gang Yu, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://vistorybench.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2505.24862" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/vistorybench/vistorybench" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/distill_any_depth.png" alt="Distill Any Depth">
+                    </div>
+                    <div class="project-info">
+                        <h3>Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator</h3>
+                        <div class="authors">Xiankang He, Dongyan Guo, Hongji Li, Ruibo Li, Ying Cui, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026 Findings</span>
+                        <div class="btn-group">
+                            <a href="https://distill-any-depth-official.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2502.19204" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/Distill-Any-Depth" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/worldforge.gif" alt="WorldForge">
+                    </div>
+                    <div class="project-info">
+                        <h3>Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control</h3>
+                        <div class="authors">Chenxi Song, Yanming Yang, Tong Zhao, Ruibo Li, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026 Highlight</span>
+                        <div class="btn-group">
+                            <a href="https://worldforge-agi.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2509.15130" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/WorldForge" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/flowdirector.gif" alt="FlowDirector">
+                    </div>
+                    <div class="project-info">
+                        <h3>FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing</h3>
+                        <div class="authors">Guangzhao Li, Yanming Yang, Chenxi Song, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2026</span>
+                        <div class="btn-group">
+                            <a href="https://flowdirector-edit.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2506.05046" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/FlowDirector" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/utral3D.png" alt="Ultra3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>Ultra3D: Efficient and High-Fidelity 3D Generation with Part Attention</h3>
+                        <div class="authors">Yiwen Chen, Zhihao Li, Yikai Wang, Hu Zhang, Qin Li, <strong>Chi Zhang</strong>, Guosheng Lin</div>
+                        <span class="venue">ECCV 2026</span>
+                        <div class="btn-group">
+                            <a href="https://buaacyw.github.io/ultra3d/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2507.17745" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/adasde.png" alt="AdaSDE">
+                    </div>
+                    <div class="project-info">
+                        <h3>Adaptive Stochastic Coefficients for Accelerating Diffusion Sampling</h3>
+                        <div class="authors">Ruoyu Wang, Beier Zhu, Junzhi Li, Liangyu Yuan, <strong>Chi Zhang</strong></div>
+                        <span class="venue">NeurIPS 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2510.23285" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/AdaSDE" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/EPD.PNG" alt="EPD">
+                    </div>
+                    <div class="project-info">
+                        <h3>Distilling Parallel Gradients for Fast ODE Solvers of Diffusion Models</h3>
+                        <div class="authors">Beier Zhu, Ruoyu Wang, Tong Zhao, Hanwang Zhang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICCV 2025</span>
+                        <div class="btn-group">
+                            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_Distilling_Parallel_Gradients_for_Fast_ODE_Solvers_of_Diffusion_Models_ICCV_2025_paper.pdf" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/BeierZhu/EPD" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/motionagent.png" alt="MotionAgent">
+                    </div>
+                    <div class="project-info">
+                        <h3>MotionAgent: Fine-grained Controllable Video Generation via Motion Field Agent</h3>
+                        <div class="authors">Xinyao Liao, Xianfang Zeng, Liao Wang, Gang Yu, Guosheng Lin, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ICCV 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/pdf/2502.03207" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/leoisufa/MotionAgent" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/doctor.png" alt="Learning to Be A Doctor">
+                    </div>
+                    <div class="project-info">
+                        <h3>Learning to Be A Doctor: Searching for Effective Medical Agent Architectures</h3>
+                        <div class="authors">Yangyang Zhuang, Wenjia Jiang, Jiayu Zhang, Ze Yang, Joey Tianyi Zhou, <strong>Chi Zhang</strong></div>
+                        <span class="venue">ACM MM 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2504.11301" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/videobench.png" alt="Video-Bench">
+                    </div>
+                    <div class="project-info">
+                        <h3>Video-Bench: Human-Aligned Video Generation Benchmark</h3>
+                        <div class="authors">Hui Han, Siyuan Li, Jiaqi Chen, Yiwen Yuan, Yuling Wu, Chak Tou Leong, Hanwen Du, Junchen Fu, Youhua Li, Jie Zhang, <strong>Chi Zhang</strong>, Li-jia Li, Yongxin Ni</div>
+                        <span class="venue">CVPR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://video-bench.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2504.04907" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Video-Bench/Video-Bench" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/ppa.png" alt="Project-Probe-Aggregate">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness</h3>
+                        <div class="authors">Beier Zhu, Jiequan Cui, Hanwang Zhang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2025 Highlight</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2503.09487" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/shapegpt.png" alt="ShapeGPT">
+                    </div>
+                    <div class="project-info">
+                        <h3>ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</h3>
+                        <div class="authors">Fukun Yin, Xin Chen, <strong>Chi Zhang</strong>, Biao Jiang, Zibo Zhao, Jiayuan Fan, Gang Yu, Taihao Li, Tao Chen</div>
+                        <span class="venue">IEEE Transactions on Multimedia 2025</span>
+                        <div class="btn-group">
+                            <a href="https://shapegpt.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.17618" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenShapeLab/ShapeGPT" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/dreamframe.png" alt="DreamFrame">
+                    </div>
+                    <div class="project-info">
+                        <h3>DreamFrame: Enhancing Video Understanding via Automatically Generated QA and Style-Consistent Keyframes</h3>
+                        <div class="authors">Zhende Song, Chenchen Wang, Jiamu Sheng, <strong>Chi Zhang</strong>, Shengji Tang, Jiayuan Fan, Tao Chen</div>
+                        <span class="venue">ACM MM 2025</span>
+                        <div class="btn-group">
+                            <a href="https://deaddawn.github.io/DreamFrame" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2403.01422" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Deaddawn/DreamFrame-code" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/cadcrafter.png" alt="CADCrafter">
+                    </div>
+                    <div class="project-info">
+                        <h3>CADCrafter: Generating Computer-Aided Design Models from Unconstrained Images</h3>
+                        <div class="authors">Cheng Chen, Jiacheng Wei, Tianrun Chen, <strong>Chi Zhang</strong>, Xiaofeng Yang, Shangzhan Zhang, Bingchen Yang, Chuan-Sheng Foo, Guosheng Lin, Qixing Huang, Fayao Liu</div>
+                        <span class="venue">CVPR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2504.04753" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/mvpaint.png" alt="MVPaint">
+                    </div>
+                    <div class="project-info">
+                        <h3>MVPaint: Synchronized Multi-View Diffusion for Painting Anything 3D</h3>
+                        <div class="authors">Wei Cheng, Juncheng Mu, Xianfang Zeng, Xin Chen, Anqi Pang, <strong>Chi Zhang</strong>, Zhibin Wang, Bin Fu, Gang Yu, Ziwei Liu, Liang Pan</div>
+                        <span class="venue">CVPR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://mvpaint.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2411.02336" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/3DTopia/MVPaint" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/stylestudio.png" alt="StyleStudio">
+                    </div>
+                    <div class="project-info">
+                        <h3>StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements</h3>
+                        <div class="authors">Mingkun Lei, Xue Song, Beier Zhu, Hao Wang, <strong>Chi Zhang</strong></div>
+                        <span class="venue">CVPR 2025</span>
+                        <div class="btn-group">
+                            <a href="https://stylestudio-official.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2412.08503" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/StyleStudio" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/appagentx.gif" alt="AppAgentX">
+                    </div>
+                    <div class="project-info">
+                        <h3>AppAgentX: Evolving GUI Agents as Proficient Smartphone Users</h3>
+                        <div class="authors">Wenjia Jiang, Yangyang Zhuang, Chenxi Song, Xu Yang, Joey Tianyi Zhou, <strong>Chi Zhang</strong></div>
+                        <span class="venue">Arxiv 2025</span>
+                        <div class="btn-group">
+                            <a href="https://appagentx.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2503.02268" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Westlake-AGI-Lab/AppAgentX" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/stablellava.png" alt="StableLLaVA">
+                    </div>
+                    <div class="project-info">
+                        <h3>StableLLaVA: Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data</h3>
+                        <div class="authors">Yanda Li*, <strong>Chi Zhang*</strong>, Gang Yu, Zhibin Wang, Bin Fu, Guosheng Lin, Chunhua Shen, Ling Chen, Yunchao Wei</div>
+                        <span class="venue">ACL 2024</span>
+                        <div class="btn-group">
+                            <a href="https://icoz69.github.io/stablellava-official/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2308.10253" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/icoz69/StableLLAVA" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/m3dbench.png" alt="M3DBench">
+                    </div>
+                    <div class="project-info">
+                        <h3>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</h3>
+                        <div class="authors">Mingsheng Li, Xin Chen, <strong>Chi Zhang</strong>, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen</div>
+                        <span class="venue">ECCV 2024</span>
+                        <div class="btn-group">
+                            <a href="https://m3dbench.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.10763" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenM3D/M3DBench" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/motionchain.png" alt="MotionChain">
+                    </div>
+                    <div class="project-info">
+                        <h3>MotionChain: Conversational Motion Controllers via Multimodal Prompts</h3>
+                        <div class="authors">Biao Jiang, Xin Chen, <strong>Chi Zhang</strong>, Fukun Yin, Zhuoyuan Li, Gang YU, Jiayuan Fan</div>
+                        <span class="venue">ECCV 2024</span>
+                        <div class="btn-group">
+                            <a href="https://github.com/OpenMotionLab/MotionChain" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2404.01700" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/OpenMotionLab/MotionChain" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/ll3da.png" alt="LL3DA">
+                    </div>
+                    <div class="project-info">
+                        <h3>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning.</h3>
+                        <div class="authors">Sijin Chen, Xin Chen, <strong>Chi Zhang</strong>, Mingsheng Li, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen</div>
+                        <span class="venue">CVPR 2024</span>
+                        <div class="btn-group">
+                            <a href="https://ll3da.github.io/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.18651" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/Open3DA/LL3DA" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/it3d.png" alt="IT3D">
+                    </div>
+                    <div class="project-info">
+                        <h3>IT3D: Improved Text-to-3D Generation with Explicit View Synthesis</h3>
+                        <div class="authors">Yiwen Chen, <strong>Chi Zhang*</strong>, Xiaofeng Yang, Zhongang Cai, Gang Yu, Lei Yang, Guosheng Lin</div>
+                        <span class="venue">AAAI 2024</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2308.11473" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/buaacyw/IT3D-text-to-3D" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/teaser/emma.png" alt="EMMA">
+                    </div>
+                    <div class="project-info">
+                        <h3>EMMA: Your Text-to-Image Diffusion Model Can Secretly Accept Multi-Modal Prompts</h3>
+                        <div class="authors">Yucheng Han, Rui Wang, <strong>Chi Zhang*</strong>, Juntao Hu, Pei Cheng, Bin Fu, Hanwang Zhang</div>
+                        <span class="venue">Arxiv 2024</span>
+                        <div class="btn-group">
+                            <a href="https://tencentqqgylab.github.io/EMMA/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2406.09162" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/TencentQQGYLab/ELLA" target="_blank" class="btn-link">Code</a>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=TencentQQGYLab&repo=ELLA&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" hidden>
+                    <div class="project-img">
+                        <img src="images/teaser/chartllama.png" alt="ChartLlama">
+                    </div>
+                    <div class="project-info">
+                        <h3>ChartLlama: A Multimodal LLM for Chart Understanding and Generation</h3>
+                        <div class="authors">Yucheng Han*, <strong>Chi Zhang*</strong>, Xin Chen, Xu Yang, Zhibin Wang, Gang Yu, Bin Fu, Hanwang Zhang</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://tingxueronghua.github.io/ChartLlama/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2311.16483" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/tingxueronghua/ChartLlama-code" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" hidden>
+                    <div class="project-img">
+                        <img src="images/teaser/facestudio.png" alt="FaceStudio">
+                    </div>
+                    <div class="project-info">
+                        <h3>FaceStudio: Put Your Face Everywhere in Seconds</h3>
+                        <div class="authors">Yuxuan Yan*, <strong>Chi Zhang*</strong>, Rui Wang, Yichao Zhou, Gege Zhang, Pei Cheng, Bin Fu, Gang Yu</div>
+                        <span class="venue">Arxiv 2023</span>
+                        <div class="btn-group">
+                            <a href="https://icoz69.github.io/facestudio/" target="_blank" class="btn-link">Project Page</a>
+                            <a href="https://arxiv.org/abs/2312.02663" target="_blank" class="btn-link">PDF</a>
+                            <a href="https://github.com/xyynafc/FaceStudio" target="_blank" class="btn-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" hidden>
+                    <div class="project-img">
+                        <img src="images/teaser/robust.png" alt="Robust Depth">
+                    </div>
+                    <div class="project-info">
+                        <h3>Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering</h3>
+                        <div class="authors"><strong>Chi Zhang</strong>, Wei Yin, Gang Yu, Zhibin Wang, Tao Chen, Bin Fu, Joey Tianyi Zhou, Chunhua Shen</div>
+                        <span class="venue">ICCV 2023</span>
+                        <div class="btn-group">
+                            <a href="https://arxiv.org/abs/2309.09724" target="_blank" class="btn-link">PDF</a>
+                        </div>
+                    </div>
+                </div>
+<div id="viewMoreOverlay" class="view-more-overlay">
+        <button id="viewMoreBtn" class="view-more-btn" data-i18n="projects.viewMore">View More Projects</button>
+    </div>
+
+
+
+</section>
+
+            <!-- </section> -->
+            <section>
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="section.gallery">Lab Gallery</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/1.JPG" alt="Group Members">
+                        <div class="gallery-caption" data-i18n="gallery.members"> Group Members</div>
+                    </div>
+                    
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/2.JPG" alt="Group Members">
+                        <div class="gallery-caption" data-i18n="gallery.members">Group Members</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/3.JPG" alt="Group Members">
+                        <div class="gallery-caption" data-i18n="gallery.members">Group Members</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/4.JPG" alt="Lab Activity">
+                         <div class="gallery-caption" data-i18n="gallery.activity">Lab Activity </div>
+                    </div>
+
+
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/6.JPG" alt="Group Members">
+                         <div class="gallery-caption" data-i18n="gallery.members">Group Members</div>
+                    </div>
+
+
+                                        <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/7.JPG" alt="DDL EVE">
+                         <div class="gallery-caption" data-i18n="gallery.ddl"> DDL EVE</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/8.JPG" alt="Lab ">
+                         <div class="gallery-caption" data-i18n="gallery.lab">Lab </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/9.jpeg" alt="Film and AI Dialogue">
+                        <div class="gallery-caption" data-i18n="gallery.filmAi">Film &amp; AI Dialogue</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/10.jpeg" alt="Film and AI Dialogue">
+                        <div class="gallery-caption" data-i18n="gallery.filmAi">Film &amp; AI Dialogue</div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openModal(this)">
+                        <img src="album/11.jpeg" alt="Film and AI Dialogue">
+                        <div class="gallery-caption" data-i18n="gallery.filmAi">Film &amp; AI Dialogue</div>
+                    </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    
+    <footer>
+        
+        <p style="margin-top: 20px;" data-i18n="footer.copyright">&copy; 2025 Chi Zhang. All rights reserved.</p>
+        <div class="visitor-map" aria-label="Visitor map">
+            <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=eAfKNKZsOgD_ZyKC7W_WdyQ46axPnNT9ipXZefdpcjU&cl=ffffff&w=400&t=tt&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
+        </div>
+    </footer>
+<div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        const translations = {
+            en: {
+                "sidebar.name": "Chi Zhang",
+                "sidebar.title": "Assistant Professor & PI",
+                "sidebar.lab": "AGI Lab, Westlake University",
+                "sidebar.location": "Hangzhou, China",
+                "section.about": "About Me",
+                "about.p1": "I am a tenure-track Assistant Professor and PI at Westlake University, where I lead the AGI Lab. Before joining Westlake University, I worked as a scientist at Tencent.",
+                "about.p2": "I obtained my Ph.D. degree at the School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore, where I worked under the supervision of Prof. Guosheng Lin. I also work closely with Prof. Chunhua Shen and Prof. Rui Yao in research. I was recognized among World's Top 2% Scientists by Stanford University in 2023 and 2024.",
+                "about.hiring": "<strong>[2025] 📢 We're hiring!</strong> Multiple positions for PhD students, postdocs, visiting students, and research assistants are available! <a href=\"https://zhuanlan.zhihu.com/p/718028557\" class=\"text-link\" target=\"_blank\">See 招生信息 →</a><p>To learn more about our lab, feel free to contact me or any member of our team😊</p>",
+                "section.research": "Research Interests",
+                "research.p1": "My current research focuses on Generative AI, including theoretical foundations of generative models, multimodal generative modeling, and multimodal intelligent agents. In the past, my work has also spanned broader areas in machine learning and computer vision.",
+                "research.p2": "Recently, my group has developed several interesting research projects, including <a href=\"https://appagent-official.github.io/\" class=\"text-link\" target=\"_blank\">AppAgent</a>, the first mobile GUI agent framework and <a href=\"https://www.semanticscholar.org/venue?name=International%20Conference%20on%20Human%20Factors%20in%20Computing%20Systems&year%5B0%5D=2023&year%5B1%5D=2025&sort=total-citations\" class=\"text-link\" target=\"_blank\">the second most-cited CHI paper</a> over the past four years; <a href=\"https://buaacyw.github.io/gaussian-editor/\" class=\"text-link\" target=\"_blank\">GaussianEditor</a>, the first work on Gaussian editing; and the <a href=\"https://buaacyw.github.io/mesh-anything/\" class=\"text-link\" target=\"_blank\">MeshAnything</a> series, the first autoregressive approach for general 3D mesh extraction.",
+                "section.news": "News",
+                "news.scroll": "Scroll for more",
+                "section.service": "Academic Service",
+                "service.list": "<li><strong>Associate Editor</strong> for <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76\" class=\"text-link\" target=\"_blank\">TCSVT</a> since 2024</li><li><strong>Area Chair</strong> for <a href=\"https://icml.cc/Conferences/2026\" class=\"text-link\" target=\"_blank\">ICML 2026</a>, <a href=\"https://iclr.cc/\" class=\"text-link\" target=\"_blank\">ICLR 2026</a>, <a href=\"https://cvpr.thecvf.com/Conferences/2026\" class=\"text-link\" target=\"_blank\">CVPR 2026</a>, <a href=\"https://aclrollingreview.org/\" class=\"text-link\" target=\"_blank\">ACL ARR 2025</a>, <a href=\"https://acmmm2025.org/\" class=\"text-link\" target=\"_blank\">ACM Multimedia 2025</a>, <a href=\"https://2025.ijcnn.org/\" class=\"text-link\" target=\"_blank\">IJCNN 2025</a></li><li><strong>Reviewer</strong> for T-PAMI, ICLR, CVPR, NeurIPS, etc.</li>",
+                "section.hobbies": "Hobbies",
+                "hobbies.p1": "I like singing and playing football. I am a loyal fan of <span style=\"text-decoration: line-through; opacity: 0.5;\">FC Barcelona</span> <span style=\"text-decoration: line-through; opacity: 0.5;\">PSG</span> <span style=\"color: #10b981; font-weight: bold;\">Inter Miami</span>.",
+                "hobbies.p2": "My favorite singers are <a href=\"https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B\" class=\"text-link\" target=\"_blank\">Jacky Cheung</a> and <a href=\"https://en.wikipedia.org/wiki/Freddie_Mercury\" class=\"text-link\" target=\"_blank\">Freddie Mercury</a>.",
+                "section.projects": "Selected Projects",
+                "projects.viewMore": "View More Projects",
+                "section.gallery": "Lab Gallery",
+                "gallery.members": "Group Members",
+                "gallery.activity": "Lab Activity",
+                "gallery.ddl": "DDL EVE",
+                "gallery.lab": "Lab",
+                "gallery.filmAi": "Film & AI Dialogue",
+                "footer.copyright": "© 2025 Chi Zhang. All rights reserved."
+            },
+            zh: {
+                "sidebar.name": "张驰",
+                "sidebar.title": "助理教授 / 博士生导师",
+                "sidebar.lab": "西湖大学 AGI Lab",
+                "sidebar.location": "中国杭州",
+                "section.about": "关于我",
+                "about.p1": "我是西湖大学长聘轨助理教授、独立 PI，负责 AGI Lab。在加入西湖大学之前，我曾在腾讯担任科学家。",
+                "about.p2": "我在新加坡南洋理工大学计算机科学与工程学院获得博士学位，师从林国省教授。我也与沈春华教授、姚睿教授保持密切科研合作。2023 年和 2024 年，我入选斯坦福大学发布的全球前 2% 顶尖科学家榜单。",
+                "about.hiring": "<strong>[2025] 📢 课题组招生中！</strong> 欢迎博士生、博士后、访问学生和科研助理加入。<a href=\"https://zhuanlan.zhihu.com/p/718028557\" class=\"text-link\" target=\"_blank\">查看招生信息 →</a><p>如果你想进一步了解课题组，欢迎联系我或团队成员😊</p>",
+                "section.research": "研究兴趣",
+                "research.p1": "我目前的研究聚焦于生成式 AI，包括生成模型的理论基础、多模态生成建模以及多模态智能体。此前，我的研究也覆盖机器学习和计算机视觉中的多个方向。",
+                "research.p2": "近期，我们也完成了一些有趣的研究项目，例如第一个手机 GUI Agent 框架 <a href=\"https://appagent-official.github.io/\" class=\"text-link\" target=\"_blank\">AppAgent</a>，它是过去四年里 <a href=\"https://www.semanticscholar.org/venue?name=International%20Conference%20on%20Human%20Factors%20in%20Computing%20Systems&year%5B0%5D=2023&year%5B1%5D=2025&sort=total-citations\" class=\"text-link\" target=\"_blank\">CHI 引用量第二高的论文</a>；第一个高斯编辑研究 <a href=\"https://buaacyw.github.io/gaussian-editor/\" class=\"text-link\" target=\"_blank\">GaussianEditor</a>；以及第一个基于自回归的通用 3D Mesh 抽取研究工作 <a href=\"https://buaacyw.github.io/mesh-anything/\" class=\"text-link\" target=\"_blank\">MeshAnything</a> 系列工作。",
+                "section.news": "最新动态",
+                "news.scroll": "滚动查看更多",
+                newsItems: [
+                    "🚀 我们发布了 <a href=\"https://chenxi-song.github.io/worldinworld/\" class=\"text-link\" target=\"_blank\">World in World</a>，用世界模型探索视频世界。",
+                    "🚀 我们发布了 <a href=\"https://buaacyw.github.io/cwm/\" class=\"text-link\" target=\"_blank\">Code World Model</a>，一个代码驱动的世界模型。",
+                    "🎉 <a href=\"https://buaacyw.github.io/ultra3d/\" class=\"text-link\" target=\"_blank\">Ultra3D</a> 被 <a href=\"https://eccv.ecva.net/Conferences/2026\" class=\"text-link\" target=\"_blank\">ECCV 2026</a> 接收。",
+                    "🎉 <a href=\"https://arxiv.org/abs/2606.13496\" class=\"text-link\" target=\"_blank\">BudCache</a> 被 <a href=\"https://icml.cc/Conferences/2026\" class=\"text-link\" target=\"_blank\">ICML 2026</a> 接收。",
+                    "🎉 入选 <a href=\"https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf\" class=\"text-link\" target=\"_blank\">CVPR 2026 杰出 Area Chair</a>。",
+                    "🎉 <a href=\"https://arxiv.org/abs/2507.17853\" class=\"text-link\" target=\"_blank\">Detail++</a> 被 <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83\" class=\"text-link\" target=\"_blank\">TIP</a> 接收。",
+                    "🎉 <a href=\"https://arxiv.org/pdf/2512.22796\" class=\"text-link\" target=\"_blank\">EPD-solver v2</a> 被 <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34\" class=\"text-link\" target=\"_blank\">T-PAMI</a> 接收。",
+                    "🎉 <a href=\"https://openreview.net/forum?id=QIEPzPzkaO\" class=\"text-link\" target=\"_blank\">PMI</a> 被 <a href=\"https://iclr.cc/Conferences/2026\" class=\"text-link\" target=\"_blank\">ICLR 2026</a> 接收。",
+                    "<a href=\"https://epd-solver.github.io/\" class=\"text-link\" target=\"_blank\">EPD-Solver V2</a> 发布。",
+                    "🎉 <a href=\"https://arxiv.org/abs/2510.23285\" class=\"text-link\" target=\"_blank\">AdaSDE</a> 被 <a href=\"https://neurips.cc/Conferences/2025\" class=\"text-link\" target=\"_blank\">NeurIPS 2025</a> 接收。",
+                    "担任 <a href=\"https://icml.cc/Conferences/2026\" class=\"text-link\" target=\"_blank\">ICML 2026</a> Area Chair。",
+                    "将在 ICCV 2025 做关于 <a href=\"https://wangywust.github.io/iccv-tutorial-reasoning-vlm\" class=\"text-link\" target=\"_blank\">GUI agents 中推理能力</a> 的 tutorial。",
+                    "🚀 发布 <a href=\"https://worldforge-agi.github.io/\" class=\"text-link\" target=\"_blank\">WorldForge</a>，一个基于视频扩散模型的 training-free world model。",
+                    "担任 <a href=\"https://cvpr.thecvf.com/Conferences/2026\" class=\"text-link\" target=\"_blank\">CVPR 2026</a> Area Chair。",
+                    "担任 <a href=\"https://iclr.cc/\" class=\"text-link\" target=\"_blank\">ICLR 2026</a> Area Chair。",
+                    "🚀 发布 <a href=\"https://buaacyw.github.io/ultra3d/\" class=\"text-link\" target=\"_blank\">Ultra3D</a>，支持高效高分辨率 3D 生成。",
+                    "🎬 发布 <a href=\"https://flowdirector-edit.github.io/\" class=\"text-link\" target=\"_blank\">FlowDirector</a>，一个具备 SOTA 性能的 training-free 视频编辑模型。",
+                    "担任 <a href=\"https://acmmm2025.org/\" class=\"text-link\" target=\"_blank\">ACM MM 2025</a> 和 <a href=\"https://2025.ijcnn.org/\" class=\"text-link\" target=\"_blank\">IJCNN 2025</a> Area Chair。",
+                    "🔥🔥🔥 <a href=\"https://appagentx.github.io/\" class=\"text-link\" target=\"_blank\">AppAgentX</a> 发布！新一代 AppAgent 支持自我进化。",
+                    "🔥 发布 <a href=\"https://distill-any-depth-official.github.io/\" class=\"text-link\" target=\"_blank\">Distill Any Depth</a>，在单目深度估计上达到新的 SOTA。",
+                    "🎉 <a href=\"https://buaacyw.github.io/mesh-anything/\" class=\"text-link\" target=\"_blank\">MeshAnything</a> 被 ICLR 2025 接收。",
+                    "很高兴加入 <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76\" class=\"text-link\" target=\"_blank\">IEEE T-CSVT</a> 编委会，担任 Associate Editor。",
+                    "🔥 发布 <a href=\"https://stylestudio-official.github.io/\" class=\"text-link\" target=\"_blank\">StyleStudio</a>，在 text-driven image style transfer 任务上达到新的 SOTA。",
+                    "🎉 入选斯坦福大学发布的 <a href=\"https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7\" class=\"text-link\" target=\"_blank\">2024 年全球前 2% 顶尖科学家榜单</a>。",
+                    "🎉 我加入西湖大学担任助理教授（PI），并成立 AGI Lab。"
+                ],
+                "section.service": "学术服务",
+                "service.list": "<li><strong>副主编</strong>：自 2024 年起担任 <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76\" class=\"text-link\" target=\"_blank\">TCSVT</a> Associate Editor</li><li><strong>领域主席</strong>：<a href=\"https://icml.cc/Conferences/2026\" class=\"text-link\" target=\"_blank\">ICML 2026</a>、<a href=\"https://iclr.cc/\" class=\"text-link\" target=\"_blank\">ICLR 2026</a>、<a href=\"https://cvpr.thecvf.com/Conferences/2026\" class=\"text-link\" target=\"_blank\">CVPR 2026</a>、<a href=\"https://aclrollingreview.org/\" class=\"text-link\" target=\"_blank\">ACL ARR 2025</a>、<a href=\"https://acmmm2025.org/\" class=\"text-link\" target=\"_blank\">ACM Multimedia 2025</a>、<a href=\"https://2025.ijcnn.org/\" class=\"text-link\" target=\"_blank\">IJCNN 2025</a></li><li><strong>审稿人</strong>：T-PAMI、ICLR、CVPR、NeurIPS 等</li>",
+                "section.hobbies": "兴趣爱好",
+                "hobbies.p1": "我喜欢唱歌和踢足球。我是 <span style=\"text-decoration: line-through; opacity: 0.5;\">巴塞罗那</span> <span style=\"text-decoration: line-through; opacity: 0.5;\">巴黎圣日耳曼</span> <span style=\"color: #10b981; font-weight: bold;\">迈阿密国际</span> 的忠实球迷。",
+                "hobbies.p2": "我最喜欢的歌手是 <a href=\"https://zh.wikipedia.org/wiki/%E5%BC%A0%E5%AD%A6%E5%8F%8B\" class=\"text-link\" target=\"_blank\">张学友</a> 和 <a href=\"https://en.wikipedia.org/wiki/Freddie_Mercury\" class=\"text-link\" target=\"_blank\">龅牙大叔</a>。",
+                "section.projects": "代表项目",
+                "projects.viewMore": "查看更多项目",
+                "section.gallery": "课题组相册",
+                "gallery.members": "课题组合影",
+                "gallery.activity": "课题组活动",
+                "gallery.ddl": "DDL 前夜",
+                "gallery.lab": "实验室",
+                "gallery.filmAi": "电影与 AI 对谈",
+                "footer.copyright": "© 2025 张驰。保留所有权利。"
+            }
+        };
+
+        function applyLanguage(lang) {
+            const dict = translations[lang] || translations.en;
+            document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+            document.title = lang === "zh" ? "张驰 | 西湖大学" : "Chi Zhang | Westlake University";
+
+            document.querySelectorAll("[data-i18n]").forEach((el) => {
+                const key = el.getAttribute("data-i18n");
+                if (dict[key]) el.textContent = dict[key];
+            });
+
+            document.querySelectorAll("[data-i18n-html]").forEach((el) => {
+                const key = el.getAttribute("data-i18n-html");
+                if (dict[key]) el.innerHTML = dict[key];
+            });
+
+            document.querySelectorAll(".news-content").forEach((el, index) => {
+                if (!el.dataset.enHtml) el.dataset.enHtml = el.innerHTML;
+                el.innerHTML = lang === "zh" && dict.newsItems && dict.newsItems[index]
+                    ? dict.newsItems[index]
+                    : el.dataset.enHtml;
+            });
+
+            const zhMonths = {
+                Jan: "1",
+                Feb: "2",
+                Mar: "3",
+                Apr: "4",
+                May: "5",
+                Jun: "6",
+                Jul: "7",
+                Aug: "8",
+                Sep: "9",
+                Oct: "10",
+                Nov: "11",
+                Dec: "12"
+            };
+            document.querySelectorAll(".news-date").forEach((el) => {
+                if (!el.dataset.enDate) el.dataset.enDate = el.textContent.trim();
+                const match = el.dataset.enDate.match(/^([A-Za-z]{3})\s+(\d{4})$/);
+                el.textContent = lang === "zh" && match && zhMonths[match[1]]
+                    ? `${match[2]}年${zhMonths[match[1]]}月`
+                    : el.dataset.enDate;
+            });
+
+            document.querySelectorAll(".btn-link").forEach((link) => {
+                const label = link.textContent.trim();
+                if (label === "Project Page" || label === "项目主页") link.textContent = lang === "zh" ? "项目主页" : "Project Page";
+                if (label === "Code" || label === "代码") link.textContent = lang === "zh" ? "代码" : "Code";
+            });
+
+            const toggle = document.getElementById("languageToggle");
+            if (toggle) {
+                toggle.textContent = lang === "zh" ? "EN" : "中文";
+                toggle.setAttribute("aria-label", lang === "zh" ? "Switch to English" : "切换到中文");
+            }
+
+            localStorage.setItem("preferredLanguage", lang);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
+            applyLanguage(savedLanguage);
+
+            const toggle = document.getElementById("languageToggle");
+            if (toggle) {
+                toggle.addEventListener("click", function() {
+                    const nextLanguage = document.documentElement.lang === "zh-CN" ? "en" : "zh";
+                    applyLanguage(nextLanguage);
+                });
+            }
+        });
+
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("modalImg");
+        var captionText = document.getElementById("caption");
+
+        // 打开弹窗
+        function openModal(element) {
+            var img = element.querySelector('img');
+            var caption = element.querySelector('.gallery-caption');
+            
+            modal.style.display = "flex";
+            modalImg.src = img.src; 
+            if(caption) {
+                captionText.innerHTML = caption.innerHTML;
+            } else {
+                captionText.innerHTML = "";
+            }
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        // 点击背景关闭
+        modal.onclick = function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+        
+        // 按 ESC 键关闭
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                closeModal();
+            }
+        });
+
+
+
+// --- Projects 折叠/展开 (带半透明预览效果) ---
+    document.addEventListener("DOMContentLoaded", function() {
+        const projects = document.querySelectorAll('.project-card:not([hidden])');
+        const viewMoreOverlay = document.getElementById('viewMoreOverlay');
+        const viewMoreBtn = document.getElementById('viewMoreBtn');
+        
+        // 这里的数字是你想要“完全清晰显示”的项目数量
+        // 比如设为 5，则第 1-5 个清晰，第 6 个半透明，后面的隐藏
+        const visibleCount = 9; 
+
+        function initProjects() {
+            if (projects.length <= visibleCount) {
+                viewMoreOverlay.style.display = 'none';
+                return;
+            }
+
+            // 遍历所有项目
+            projects.forEach((project, index) => {
+                if (index < visibleCount) {
+                    // 前 N 个：正常显示
+                    project.style.display = 'flex';
+                    project.classList.remove('is-preview');
+                } else if (index === visibleCount) {
+                    // 第 N+1 个：显示，但是是“预览半透明”状态
+                    project.style.display = 'flex';
+                    project.classList.add('is-preview');
+                } else {
+                    // 剩下的：隐藏
+                    project.style.display = 'none';
+                    project.classList.remove('is-preview');
+                }
+            });
+        }
+
+        // 初始化
+        initProjects();
+
+        // 点击事件
+        viewMoreBtn.addEventListener('click', function() {
+            projects.forEach((project) => {
+                project.style.display = 'flex'; // 显示所有
+                project.style.opacity = 0;      // 准备动画
+                project.classList.remove('is-preview'); // 移除半透明效果
+                
+                // 简单的淡入动画
+                setTimeout(() => { project.style.opacity = 1; }, 50);
+            });
+            
+            // 隐藏遮罩和按钮
+            viewMoreOverlay.style.display = 'none';
+        });
+    });
+
+
+    </script>
+</body>
+</html>
